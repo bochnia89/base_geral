@@ -300,6 +300,9 @@ p4iconeoedmp
 .p4iconeoedmp{}
 
 /* VISUAL BASEADO NO LT */
+.tb_mpg
+.tb_mpg2
+
 .p1tabelatit{}
 .p1tabelatitcoluna{}
 .p1tabelatexto{}
@@ -309,8 +312,11 @@ p4iconeoedmp
 .p1graficotit{}
 .p1mapatit{}
 
-.p1box1tit{}
-.p1box2tit{}
+.box_geral_mp > .p1box1tit{}
+.box_geral_mp >	.p1box2tit{}
+
+.box_professor_mp > .p1box1tit{}
+.box_professor_mp > .p1box2tit{}
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 
