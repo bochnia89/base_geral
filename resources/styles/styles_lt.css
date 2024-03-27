@@ -122,9 +122,11 @@ table p {
 .creditoimagemPage{}
 
 
-.orienta{ }
+.orienta{}
 .orientaTx{}
-
+.ocultatx{}
+.ocultamn{}
+.hifen_ano{}
 
 
 
@@ -654,6 +656,7 @@ table p {
 .c3idiomarespostaitalico {}
 
 /*👉C4: Estilos de Suporte👈*/
+.c4lacuna{}
 .c4ordinal{}
 .c4ordinalnegativo{}
 .c4ordinalresposta{}
@@ -721,7 +724,8 @@ table p {
 .o1fiocotapreto
 .o1setaroxo1
 .o1setaverde1
-.o1contornoimagem
+.o1contornoimagem /*👉 Cynthia: atualizar lista de stilos */
+
 
 /*👉O2: Gráficos e mapas👈*/
 .o2mapabox
