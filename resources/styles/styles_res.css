@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url(reset.css);
+/* CSS Document */
+/* Documento de CSS de RESOLUÇÕES */
+
+/*👉------- TÍTULOS -----------👈*/
+.p0tit1reso{}
+.p0tit2reso{}
+.p0tit3reso{}
+
+
+
+/*👉------- TABELA ------------👈*/
+.p1tabelatit{}
+.p1tabelatitcoluna{}
+.p1tabelatexto{}
+.p1tabelatextoitem{}
+.p1tabelatextoitemcont{}
+
+/*👉------- QUADRO ------------👈*/
+
+
+/*👉------- GRÁFICOS ----------👈*/
+.p1graficotit{}
+
+
+/*👉------- MAPA --------------👈*/
+.p1mapatit{}
+
+/*👉------- SEÇÕES ------------👈*/
+.p1sec1tit1{}
+.p1sec1tit2{}
+.p1sec1tit3{}
+
+.p1sec2tit1{}
+.p1sec2tit2{}
+.p1sec2tit3{}
+
+.p1sec3tit1{}
+.p1sec3tit2{}
+.p1sec3tit3{}
+
+.p1sec4tit1{}
+.p1sec4tit2{}
+.p1sec4tit3{}
+
+.p1sec5tit1{}
+.p1sec5tit2{}
+.p1sec5tit3{}
+
+.p1sec6tit1{}
+.p1sec6tit2{}
+.p1sec6tit3{}
+
+
+
+/*👉------- TEXTO PRINCIPAL ---👈*/
+.p2textoresosemrecuo{}
+
+.p2textoresosemrecuoitem{}
+.p2textoresosemrecuoitemcont{}
+
+.p2textoreso{}
+
+.p2textoresoitem{}
+.p2textoresoitemcont{}
+
+.p2textoresomarcador{}
+
+
+
+/*👉------- ATIVIDADES --------👈*/
+.p2atvreso{}
+.p2atvresocont{}
+
+.p2atvresoromano{}
+.p2atvresoromanocont{}
+
+.p2atvresoitem{}
+.p2atvresoitemcont{}
+
+.p2atvresosubitem{}
+
+.p2atvresoitemletra{}
+.p2atvresoitemletracont{}
+
+.p2atvresoletra{}
+.p2atvresoletracont{}
+
+.p2atvresoletraitembullet{}
+.p2atvresoletraitembulletcont{}
+
+.p2atvresoletraromano{}
+.p2atvresoletraromanocont{}
+
+.p2atvresonumitem{}
+
+.p2atvresonumletra{}
+.p2atvresonumletraitem{}
+
+.p2atvresoletraitem{}
+
+.p2atvresonumromano{}
+
+.p2atvresosomatoria{}
+.p2atvresosomatoriacont{}
+
+
+
+/*👉------- LEGENDA ------------👈*/
+.p4legenda{}
+
+/*👉------- CREDITO GERAL ------👈*/
+.p4credgeral{}
+
+/*👉------- COTAS --------------👈*/
+.p4cota{}
+
+/*👉RECADO IMAGEM E MEDIDA ANIMAL👈*/
+.p4recadoimagem{}
+
+
+/*👉---- ESTILOS DE CARACTERES ---👈*/
+
+.c0destaqueletramp
+.c0destaquenummp
+
+
+

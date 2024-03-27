@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url(reset.css);
+/* CSS Document */
+/* Documento de CSS do Gabarito */
+
+/*👉------- TÍTULO -------👈*/
+.p0tit1gab{}
+.p0tit1gabnegativo{}
+
+.p0tit2gab{}
+.p0tit2gabnegativo{}
+
+.p0tit3gab{}
+.p0tit3gabnegativo{}
+
+/*👉------- TABELA -------👈*/
+.p1tabelatit
+.p1tabelatitcoluna
+.p1tabelatexto
+.p1tabelatextoitem
+.p1tabelatextoitemcont
+
+/*👉------- QUADRO -------👈*/
+
+
+/*👉------- GRÁFICO -------👈*/ 
+.p1graficotit 
+/*👉------- MAPAS -------👈*/ 
+.p1mapatit
+
+/*👉------- SEÇÃO -------👈*/ 
+.p1sec1tit1{}
+.p1sec1tit2{}
+.p1sec1tit3{}
+
+.p1sec2tit1{}
+.p1sec2tit2{}
+.p1sec2tit3{}
+
+.p1sec3tit1{}
+.p1sec3tit2{}
+.p1sec3tit3{}
+
+.p1sec4tit1{}
+.p1sec4tit2{}
+.p1sec4tit3{}
+
+.p1sec5tit1{}
+.p1sec5tit2{}
+.p1sec5tit3{}
+
+.p1sec6tit1{}
+.p1sec6tit2{}
+.p1sec6tit3{}
+
+/*👉------- TEXTO PRINCIPAL  -------👈*/
+.p2textogabsemrecuo{}
+.p2textogabsemrecuoitem{}
+.p2textogabsemrecuoitemcont{}
+.p2textogab{}
+.p2textogabitem{}
+.p2textogabitemcont {}
+.p2textogabmarcador{}
+
+
+/*👉------- ATIVIDADE DO GABARITO  -------👈*/
+.p2atvgab{}
+.p2atvgabcont{}
+.p2atvgabromano{}
+.p2atvgabromanocont{}
+.p2atvgabitem{}
+.p2atvgabitemcont{}
+.p2atvgabsubitem{}
+.p2atvgabitemletra{}
+.p2atvgabitemletracont{}
+.p2atvgabletra{}
+.p2atvgabletracont{}
+.p2atvgabletraitembullet{}
+.p2atvgabletraitembulletcont{}
+.p2atvgabletraromano{}
+.p2atvgabletraromanocont{}
+.p2atvgabnumitem{}
+.p2atvgabnumletra{}
+.p2atvgabnumletraitem{}
+.p2atvgabletraitem{}
+.p2atvgabnumromano{}
+.p2atvgabsomatoria{}
+.p2atvgabsomatoriacont{}
+
+
+/*👉------- QUESTÃO DO GABARITO  -------👈*/
+.p2questaogab
+.p2questaogabcont
+.p2questaogabitem
+.p2questaogabitemcont
+.p2questaogabsubitem
+.p2questaogabletra
+.p2questaogabletracont
+.p2questaogabletraitem
+.p2questaogabletraitemcont
+
+/*👉------- TEXTO INTERMEDIÁRIO  -------👈*/
+.p3intermediariogabtit{}
+.p3intermediariogab{}
+.p3intermediariogabitem{}
+.p3intermediariogabitemcont{}
+.p3intermediariogabsemrecuo{}
+.p3intermediariogabsemrecuoitem{}
+.p3intermediariogabsemrecuoitemcont{}
+
+
+/* OBS.: Estas categorias estão presentes no styles_lt.css */
+/*👉------- LEGENDA -------👈*/ 
+/*👉------- CRÉDITO GERAL -------👈*/
+/*👉------- CRÉDITO IMAGEM  -------👈*/
+/*👉------- COTAS  -------👈*/
+/*👉------- RECADO IMAGEM E MEDIDA ANIMAL -------👈*/
+/*👉------- MARCADORES -------👈*/
+/*👉------- ESTILOS DE CARACTER -------👈*/
+

@@ -1,0 +1,205 @@
+/* CSS Document */
+/* Padrões de Fontes no projeto
+// Títulos: ;
+// Citações: 
+// Texto: 'Arial' ;
+// Ordinal / químico: 'Calibri' ;
+*/
+
+/*👉 -------------- TÍTULOS --------------👈*/
+@font-face {
+    font-family: '';
+    font-style: ;
+    font-weight: ;
+    src: url(../fonts/.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+/*👉 -------------- CITAÇÕES --------------👈*/
+@font-face {
+    font-family: '';
+    font-style: ;
+    font-weight: ;
+    src: url(../fonts/.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+/*👉 -------------- TEXTO --------------👈*/
+@font-face {
+    font-family: '';
+    font-style: ;
+    font-weight: ;
+    src: url(../fonts/.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+
+
+/*👉 -------------- ORDINAL --------------👈*/
+@font-face {
+    font-family: '';
+    font-style: ;
+    font-weight: ;
+    src: url(../fonts/.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+/*👉 -------------- QUIMICO --------------👈*/
+@font-face {
+    font-family: '';
+    font-style: ;
+    font-weight: ;
+    src: url(../fonts/.otf) format("opentype"),
+        url(../fonts/.ttf) format("truetype"),
+        url(../fonts/.woff2) format("woff2"),
+        url(../fonts/.woff) format("woff");
+    font-display: swap;
+}
+
+
+:root {
+    /* Fontes */
+    --titulo:  ;
+    --citacao: ;
+    --texto:   ;
+    --ordinal: ;
+    --quimico: ;
+
+    /* Tamanhos */
+    --peso1: 1.8em;
+    --peso2: 1.7em;
+    --peso3: 1.6em;
+    --peso4: 1.5em;
+    --peso5: 1.4em;
+    --peso6: 1.3em;
+    --peso6: 1.2em;
+    --peso7: 0.9em;
+    --pesoPadrao: 1em;
+    --pesoMenor: 0.8em;
+    --pesoIntermediario: 0.9em;
+
+    /* Cores */
+    --corprof: #8a014c;
+    --preto_: #2B2E34;
+    --preto:#000;
+    --branco: #fff;
+    --cinza: #ececec;
+    --link: #00649c;
+    --manualu: #E4F2E7;
+
+    
+    --azul1:#398CCB;
+    --azul2:#86C2EB;
+    --azul3:#BCDCF5;
+    --azul4:#DFEAF8;
+
+    --turquesa1:#00ACA9;
+    --turquesa2:#87CDD3;
+    --turquesa3:#BEE2E9;
+    --turquesa4:#E0F1F5;
+
+    --verde1:#4DB05B;
+    --verde2:#9BCEA4;
+    --verde3:#CCE4CE;
+    --verde4:#E1F0EB;
+
+    --citrico1:#94C23E;
+    --citrico2:#D0DE84;
+    --citrico3:#E4ECBC;
+    --citrico4:#ECF3DA;
+
+    --laranja1:#F07F3C;
+    --laranja2:#F7AE82;
+    --laranja3:#FCD7B8;
+    --laranja4:#FDE7DD;
+
+    --amarelo1:#FBB900;
+    --amarelo2:#FED27A;
+    --amarelo3:#FFE6AC;
+    --amarelo4:#FEEFDE;
+
+    --vermelho1:#ac2d31;
+    --vermelho2:#EDAAA0;
+    --vermelho3:#fce3df;
+    --vermelho4:#fff5f3;
+
+    --rosa1:#ED6D84;
+    --rosa2:#F39DB0;
+    --rosa3:#F8C7D0;
+    --rosa4:#FCE5E9;
+
+    --roxo1:#7263A9;
+    --roxo2:#A69DCD;
+    --roxo3:#D2CDE8;
+    --roxo4:#EDEBF7;
+
+    --lilas1:#7263A9;
+    --lilas2:#A69DCD;
+    --lilas3:#D2CDE8;
+    --lilas4:#EDEBF7;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 1em 0;
+}
+
+.gradiente_a1 {
+    background: linear-gradient(24deg,#94C23E, #7263A9);
+}
+.gradiente_a2 {
+    background: linear-gradient(24deg,#D0DE84, #A69DCD);
+}
+
+.gradiente_b1 {
+    background: linear-gradient(24deg,#87CDD3, #F7AE82);
+}
+.gradiente_b2 {
+    background: linear-gradient(24deg,#BEE2E9, #FCD7B8);
+}
+
+.gradiente_c1 {
+    background: linear-gradient(24deg,#FED27A, #F39DB0);
+}
+.gradiente_c2 {
+    background: linear-gradient(24deg,#FFE6AC, #F8C7D0);
+}
+
+.gradiente_d1 {
+    background: linear-gradient(24deg,#87CDD3, #A69DCD);
+}
+.gradiente_d2 {
+    background: linear-gradient(24deg,#BEE2E9, #D2CDE8);
+}
+
+
+.gradiente_e1 {
+    background: linear-gradient(24deg,#F39DB0, #86C2EB);
+}
+.gradiente_e2 {
+    background: linear-gradient(24deg,#F8C7D0, #BCDCF5);
+}
+
+
+.gradiente_h1 {
+    background: linear-gradient(24deg,#D0DE84, #9BCEA4, #87CDD3, #86C2EB);
+}
+.gradiente_h2 {
+    background: linear-gradient(24deg,#E4ECBC, #BEE2E9, #BEE2E9, #BCDCF5);
+}
+
+
+

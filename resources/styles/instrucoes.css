@@ -1,0 +1,170 @@
+/*👉INSTRUÇÃO DA PRODUÇÃO👈*/
+.instrucao{
+    box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
+    color: #FFF;
+    margin-top: 2em;
+    padding: 0.5em;
+    margin: 2.5em 0 1em 0;
+    background: rgb(49, 49, 49);
+    font-size: 1.3em;
+}
+
+.exemplo {
+    border-top: 2px dotted rgb(56, 56, 56);
+}
+
+.ti_instrucao {
+    background: rgb(56, 56, 56);
+    color: #fff;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.exemploAplicado {
+    border-top: 1px solid rgb(56, 56, 56);
+    margin-top: 3em;
+}
+.exemploAplicado::before{
+    content: 'Exemplo Aplicado';
+    position: absolute;
+    margin: -2em 0 0 0.5em;
+    color: #fff;
+    font-size: 1em;
+    background:  rgb(56, 56, 56) ;
+    border: 1px solid rgb(56, 56, 56) ;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.1em 0.5em  0 0.5em;
+    box-shadow: 3px 1px 3px rgb(56, 56, 56, 0.3);
+}
+
+
+.snippt{
+    background: rgb(255, 255, 255, 0.9);
+    color: rgb(56, 56, 56);
+    padding: 0.2em 0.4em;
+     border-radius: 0.5em;
+}
+.codigoExemplo {
+   display: block;
+
+    padding: 1em;
+    outline: none;
+   
+    margin-block-start: 4.5em;
+    margin-block-end: 1em;  
+    overflow: none;
+    overflow-wrap: ;
+    white-space:pre-wrap;
+    background: rgb(56, 56, 56);
+    color: #fff;
+    border-radius: 10px;
+
+
+  
+}
+.codigoExemplo::before{
+    content: 'Exemplo de Código Fonte';
+    position: absolute;
+    margin: -3em 0 0 0;
+    color: #000;
+    font-size: 1.1em;
+    border: 1px solid rgb(56, 56, 56) ;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.1em 0.5em  0 0.5em;
+    box-shadow: 3px 3px 3px rgb(56, 56, 56, 0.3);
+}
+
+.comentarioCode {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    text-align: justify;
+    padding:2em 1em 1em 1em;
+    background: rgb(220, 220, 220);
+    margin: 1em 0;
+}
+.comentarioCode::before{
+    content: 'Comentário:';
+    position:absolute;
+    margin: -20px 0 0 0;
+    font-weight: bold;
+    
+}
+
+.leituraNvda{
+     border-left: 1px solid #000;
+     padding:0 1em 0 1em;
+     margin: 3em 0 1em 1em ;
+    font-style: italic;
+     line-height: 1.5em;
+   
+}
+.leituraNvda::before{
+    content: 'Forma de leitura no NVDA (em modo de leitura contínua):';
+    position:absolute;
+    margin: -30px 0 0 -1em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.boxTeste{
+    border: 2px dotted #000;
+    padding:0.5em 1em 0.5em 1em;
+    margin: 3em 0 1em 0;
+
+}
+.numeroTeste{
+    font-weight: bold;
+   
+    position: absolute;
+    margin: -2.7em 0 0 -19px;
+    background: rgba(46, 46, 46, 0.2);
+    padding: 0.2em  0.5em ;
+    border-radius: 5px 5px 0 0;
+
+}
+
+.aplicar{
+    background: rgb(113, 173, 123) !important;
+}
+
+
+
+/*👉 TODO: ==================== início itens inseridos temporariamente somente para testes de leitor de tela👈*/
+
+.summary{
+    background-color: rgb(220, 220, 220);
+    width: max-content;
+    padding: 0.1em 1em;
+}
+
+.summary:hover{
+    background-color: rgb(49, 49, 49);
+    color: #fff;
+}
+
+.leitura{
+    font-weight: bold;
+    margin: 1em 0 1em 1em
+}
+
+.leiturablock {
+    border-left: 1px solid #000;
+    padding:0 1em 0 1em;
+    margin: 0.5em 0 1em 1em ;
+   font-style: italic;
+    line-height: 1.5em;
+  
+}
+
+.tabela_simples td, .tabela_simples th{
+    border: 1px solid #000;
+    padding: 0.5em;
+}
+.tabela_simples th{
+    font-weight: bold;
+}
+.caption_simples{
+    background-color: #ccc;
+}
+
+/*👉==================== fim de itens inseridos temporariamente somente para testes de leitor de tela👈*/

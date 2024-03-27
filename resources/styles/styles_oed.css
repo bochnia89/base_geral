@@ -1,0 +1,353 @@
+@charset "UTF-8";
+@import url(reset.css);
+/* CSS Document */
+
+/* CSS Document */
+/* Padrões de Fontes no projeto
+// Títulos: ;
+// Citações: 
+// Texto: 'Arial' ;
+// Ordinal / químico: 'Calibri' ;
+*/
+
+@font-face {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/CourierPrime-Regular.otf) format("opentype"),
+        url(../fonts/CourierPrime-Regular.ttf) format("truetype"),
+        url(../fonts/CourierPrime-Regular.woff2) format("woff2"),
+        url(../fonts/CourierPrime-Regular.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko';
+    font-style: normal;
+    font-weight: 300;
+    src:
+        url(../fonts/Teko-Regular.woff) format("woff"),
+        url(../fonts/Teko-Regular.otf) format("opentype"),
+        url(../fonts/Teko-Regular.ttf) format("truetype"),
+        url(../fonts/Teko-Regular.woff2) format("woff2");
+
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: var(--pesoPadrao);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    overflow-x: hidden;
+    hyphens: none;
+
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    box-sizing: border-box;
+    margin-bottom: 2.5em;
+    page-break-before: always;
+    page-break-after: avoid;
+}
+
+section header {
+    padding: 15px 0 0px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    font-size: 1em;
+    max-width: 100%;
+}
+
+figure {
+    margin: 1em 0.5em;
+    display: table;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+figcaption.p4legenda {
+    display: table-caption;
+    caption-side: bottom;
+    hyphens: none;
+}
+
+figcaption.legenda2 {
+    display: table-caption;
+    caption-side: top;
+    hyphens: none;
+}
+
+p,
+ul li {
+    hyphens: none;
+}
+
+p {
+    max-width: 100%;
+    line-height: 130%;
+    hyphens: none !important;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+strong em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*👉CLASSES PARA DIAGRAMAR👈*/
+/* COLUNAS E ALINHAMENTO */
+.col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col2c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.col2s {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 16px;
+}
+
+/* Alinhamento vertical */
+.colTop {
+    align-items: flex-start;
+}
+
+.colCenter {
+    align-items: center;
+}
+
+.colBottom {
+    align-items: flex-end;
+}
+
+/*👉Elementos gerais do OED👈*/
+
+.box_oed {
+    padding: 1em 0;
+}
+
+.topo_oed {
+    display: flex;
+    align-items: center;
+}
+
+.instrucao_oed {
+    font-family: 'Courier Prime';
+    padding: 1em;
+    font-size: 0.9em;
+    line-height: 1.1em;
+}
+
+.ti1_oed {
+    font-family: 'Teko';
+    font-size: 2.1em;
+    color: #007db8;
+    text-align: left;
+    border: 1px solid #f7f7f7;
+    border-radius: 0.5em 0.5em 0 0;
+    padding: 0.5em 1em;
+    width: max-content;
+    background: #f7f7f7;
+    line-height: 1em;
+
+}
+
+.ti2_oed {
+    font-size: 1.3em;
+    margin: 1em 0 0.5em 0;
+    text-align: center;
+}
+
+.tx_oed {
+    margin: 1em 0;
+    text-indent: 1.5em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.legenda_oed {
+    margin: 0.5em 0;
+}
+
+.tx_introducao_oed {
+    margin: 0.5em 0 1em 0;
+    text-align: left;
+    font-size: 1em;
+    text-indent: 1.5em;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.conteudo_oed {
+    /*👉 border: 1px solid #e2e2e2;👈*/
+    padding: 1em 2em;
+    background: rgb(247, 247, 247);
+}
+
+.panorama {}
+
+.objeto {}
+
+.credito {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*👉classes adicionadas para OED vídeo e áudio👈*/
+.oedVideo, .oedAudio{
+    margin: 1em 0;
+}
+
+.rubrica_transcricao{
+    font-weight: bold;
+}
+
+.tx_transcricao{
+
+}
+/*👉fim classes adicionadas para OED video👈*/
+
+.descricao_longaOED {
+    border: 1px;
+    border-style: dashed;
+    padding: 0.5em;
+    margin: 0 0 0.5em 0;
+    color: #005177;
+}
+
+.descricao_longaOED summary {
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0 0 0 2em;
+}
+
+.descricao_longaOED summary:hover {
+    background-color: #bedfee;
+}
+
+.descricao_longaOED summary::before {
+    background: url(../images/ico_acessibilidade.svg);
+    background-size: 100%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: -3px 0 0 -48px;
+    content: '';
+}
+
+.descricao_longaOED div {
+
+    text-align: justify;
+    padding: 1em;
+}
+
+.descricao_longaOED div p {
+    margin: 0.4em;
+    text-indent: 1em;
+}
+
+
+.creditoimagemOED {
+    font-size: 0.9em;
+}
+
+.btn_voltar_oed {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em 0;
+}
+
+.btn_voltar_oed a {
+    border: 1px solid #e2e2e2;
+    border-radius: 0.5em;
+    box-shadow: 4px 4px 4px rgba(182, 181, 181, 0.2);
+    padding: 0.5em 1em;
+    background: #015a83;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+.btn_voltar_oed a:hover,
+.btn_voltar_oed a:focus {
+    box-shadow: 2px 2px 4px rgba(182, 181, 181, 0.5);
+    animation: 3s ease-in-out;
+    animation-delay: 1000ms;
+    background: #012b3f;
+
+}
+
+
+.cor {
+    /*👉 color: #007db8;👈*/
+}
+
+/*MEDIA QUERY*/
+/*👉Versão Mobile Cel👈*/
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    main {
+        margin: 1em;
+    }
+
+    .topo_oed {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* POSICIONAMENTO - COLUNAS */
+    .col2, .col2c, .col2s {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+ 
+    }    
+}
+
+/*👉Versão Mobile tablet👈*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {}
+
+/*👉Versão Desktop👈*/
+@media screen and (min-width: 1200px) {}
+
+/*👉Versão IMPRESSÃO👈*/
+@media print and (max-height: 280mm) {}

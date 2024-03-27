@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="259" height="16" viewBox="0 0 259 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_1" data-name="Retângulo 1" width="259" height="16" transform="translate(360 300)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="linha_resposta" transform="translate(-360 -300)" clip-path="url(#clip-path)">
+    <line id="linha_resposta-2" data-name="linha_resposta" x2="267" transform="translate(358.5 308.5)" fill="none" stroke="#000" stroke-width="1"/>
+  </g>
+</svg>
