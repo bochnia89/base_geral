@@ -263,9 +263,29 @@ table p {
 
 /*👉 ================ SUMÁRIO / APRESENTAÇÃO E CONHEÇA LT ==================👈*/
 /* 
-.secsumario
-.sumariosecinicial
-.navsumario
+secsumario
+sumariosecinicial
+navsumario
+
+p1sumariopv
+
+p1seciniciaistit1
+p1seciniciaistit2
+p1sumariopeso1pv
+p1sumariopeso1
+p1sumariopeso2
+p1sumariopeso3
+p1sumariopeso4
+p1sumariopeso5
+p1sumarioextrapeso1
+p1sumarioextrapeso2
+p1sumarioextrapeso3
+p1sumariopeso1numero
+p1sumariopeso2numero
+p1sumariooedpv
+p1sumariooedpeso1
+p1sumariooedpeso2
+
 */
 
 .p1seciniciaistit1{}
@@ -283,7 +303,9 @@ table p {
 .p1sumariopeso1numero{}
 .p1sumariopeso2numero{}
 
-
+.p1sumariooedpv{}
+.p1sumariooedpeso1{}
+.p1sumariooedpeso2{}
 
 /*👉=================== ESTILOS MIOLO ================================👈*/
 /* TÍTULOS  */
@@ -712,6 +734,7 @@ table p {
 /*👉O1: Estilos para boxes genéricos, suportes e papeletas👈*/
 .o1boxfundobranco
 .o1boxfundoazul1
+.o1boxfundoazul2
 .o1boxfundoroxo1
 .o1boxfundoroxo2
 .o1boxfundoamarelo1
@@ -762,6 +785,9 @@ table p {
 .o4destaquepalavrabox
 .o4destaquepalavrafio
 
+.o4recadoimagemcinza
+.o4recadoimagembranco
+.o4recadoimagemvermelho
 
 
 /*👉O5: Papeletas e papelaria👈*/

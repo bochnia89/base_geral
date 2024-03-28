@@ -92,16 +92,20 @@ p2textompsemrecuonumromano
 p2textompsemrecuonumromanoitem
 */
 .p2textompsemrecuo{}
-.p2textompsemrecuoitem{}
+ul.p2textompsemrecuoitem{}
+p.p2textompsemrecuoitem{}
 .p2textompsemrecuoitemcont{}
 .p2textompsemrecuonum{} /* Caso de uso no eja */
 .p2textompsemrecuonumcont{} /* Caso de uso no eja */
 .p2textompnumsemrecuo{}  /* Caso de uso no ensino médio */
 .p2textompnumsemrecuocont{} /* Caso de uso no ensino médio */
 .p2textompsemrecuoletra{}
-.p2textompsemrecuoitem{}
-.p2textompsemrecuosubitem{}
+ul.p2textompsemrecuoitem{}
+p.p2textompsemrecuoitem{}
+ul.p2textompsemrecuosubitem{}
+li.p2textompsemrecuosubitem{}
 .p2textompsemrecuonumletra{}
+.p2textompsemrecuonumitem{}
 .p2textompsemrecuonumitem{}
 .p2textompsemrecuonumletraitem{}
 .p2textompsemrecuoromano{}
@@ -124,16 +128,20 @@ p2textompmarcadoritem
 p2textompmarcadorsemrecuo
 */
 .p2textomp{}
-.p2textompitem{}
+ul.p2textompitem{}
+p.p2textompitem{}
 .p2textompitemcont{}
-.p2textompsubitem{}
+ul.p2textompsubitem{}
+li.p2textompsubitem{}
 .p2textompsubitemcont{}
 .p2textompletra{}
 .p2textompletracont{}
-.p2textompletraitem{}
+ul.p2textompletraitem{}
+p.p2textompletraitem{}
 .p2textompletraitemcont{}
 .p2textompmarcador{}
-.p2textompmarcadoritem{}
+ul.p2textompmarcadoritem{}
+p.p2textompmarcadoritem{}
 .p2textompmarcadorsemrecuo{}
 
 
@@ -157,11 +165,14 @@ p2questaompnumletraitem
 .p2questaompcont{}
 .p2questaompletra{}
 .p2questaompletracont{}
-.p2questaompletraitem{}
+ul.p2questaompletraitem{}
+p.p2questaompletraitem{}
 .p2questaompletraitemcont{}
-.p2questaompitem{}
+ul.p2questaompitem{}
+p.p2questaompitem{}
 .p2questaompitemcont{}
-.p2questaompsubitem{}
+ul.p2questaompsubitem{}
+p.p2questaompsubitem{}
 .p2questaompsubitemcont{}
 .p2questaompnumitem{}
 .p2questaompnumletra{}
@@ -198,15 +209,18 @@ p2atvmpsomatoria
 .p2atvmpcont{}
 .p2atvmpromano{}
 .p2atvmpromanocont{}
-.p2atvmpitem{}
+ul.p2atvmpitem{}
+p.p2atvmpitem{}
 .p2atvmpitemcont{}
-.p2atvmpsubitem{}
+ul.p2atvmpsubitem{}
+p.p2atvmpsubitem{}
 .p2atvmpsubitemcont{}
 .p2atvmpitemletra{}
 .p2atvmpitemletracont{}
 .p2atvmpletra{}
 .p2atvmpletracont{}
-.p2atvmpletraitembullet{}
+ul.p2atvmpletraitembullet{}
+p.p2atvmpletraitembullet{}
 .p2atvmpletraitembulletcont{}
 .p2atvmpletraromano{}
 .p2atvmpletraromanocont{}
@@ -246,7 +260,8 @@ p3intermediariompsemrecuoitemcont
 */
 .p3intermediariomptit{}
 .p3intermediariomp{}
-.p3intermediariompitem{}
+ul.p3intermediariompitem{}
+p.p3intermediariompitem{}
 .p3intermediariompitemcont{}
 .p3intermediariompitemletra{}
 .p3intermediariompitemletracont{}
@@ -257,7 +272,8 @@ p3intermediariompsemrecuoitemcont
 .p3intermediariompmarcador{}
 .p3intermediariompmarcadorcont{}
 .p3intermediariompsemrecuo{}
-.p3intermediariompsemrecuoitem{}
+ul.p3intermediariompsemrecuoitem{}
+p.p3intermediariompsemrecuoitem{}
 .p3intermediariompsemrecuoitemcont{}
 
 /*👉CITAÇÃO👈*/
@@ -280,7 +296,8 @@ p3citacaompsemrecuoitem
 .p3citacaomptit2{}
 .p3citacaompolho{}
 .p3citacaomp{}
-.p3citacaompitem{}
+ul.p3citacaompitem{}
+blockquote.p3citacaompitem{}
 .p3citacaompitemcont{}
 .p3citacaompletra{}
 .p3citacaompletracont{} 
@@ -288,7 +305,8 @@ p3citacaompsemrecuoitem
 .p3citacaompnumerocont{}
 .p3citacaompsemrecuo{}
 .p3citacaompsemrecuoletra{}
-.p3citacaompsemrecuoitem{}
+ul.p3citacaompsemrecuoitem{}
+blockquote.p3citacaompsemrecuoitem{}
 
 
 /*👉RESPOSTAS DE ATIVIDADES PROPOSTAS NO MANUAL👈*/
@@ -321,13 +339,33 @@ p4iconeoedmp
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 
 c0destaqueletramp
+c0destaqueletracitacaomp
 c0destaquenumeromp
+c0destaquenumerocitacaomp
 c0destaqueromanomp
+c0destaquequestaonumeromp
+c0destaquesomatoriamp
+c0bulletnumitemmp
+c0bulletsubitemmp
 */
-.c0destaqueletramp{}
-.c0destaquenumeromp{}
-.c0destaqueromanomp{}
 
+.c0destaqueletramp{}
+.c0destaqueletracitacaomp{}
+.c0destaquenumeromp{}
+.c0destaquenumerocitacaomp{} 
+.c0destaqueromanomp{}
+.c0destaquequestaonumeromp{}
+
+
+.c0destaquesomatoriamp{}
+.c0bulletnumitemmp{}
+.c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
+
+.c0destquecapsummp{}
+
+
+.c0destquecapmp{} /* Especifico do resolução */
+.c0destaquesecaomp{}/* Especifico do resolução */
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/

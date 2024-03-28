@@ -1,3 +1,85 @@
+@charset "UTF-8";
+ /* fallback */
+ @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v37/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+  
+  s{
+    color: #7b7b7b;
+  }
+  #back-to-top{
+    position: fixed;
+    z-index: 20;
+    bottom: 0;
+    margin: 1em;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  .material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -moz-font-feature-settings: 'liga';
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+
+/*👉Navegação do cardápio 👈*/
+
+#myLinks {
+    display: none;
+  }
+
+.menuCardapio{
+position: fixed;
+left: 0;
+top: 0.5em;
+background: #131313;
+border-radius: 0 1em 1em 0em  ;
+box-shadow: 2px 2px 8px rgb(48, 48, 48, 0.5);
+font-weight: bold;
+padding: 1em;
+color:aliceblue;
+width: max-content;
+z-index: 25;
+}
+
+.menuCardapio h1 {
+    color: #0bd8df;
+    border-bottom: 1px solid #0bd8df;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+.menuCardapio ul li{
+    padding: 0.2em 0;
+    font-size: 14px;
+}
+.menuCardapio a {
+    color:aliceblue;
+}
+.menuCardapio a:hover{
+    color: #0bd8df;
+}
 /*👉INSTRUÇÃO DA PRODUÇÃO👈*/
 .instrucao{
     box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.4);
@@ -7,6 +89,12 @@
     margin: 2.5em 0 1em 0;
     background: rgb(49, 49, 49);
     font-size: 1.3em;
+}
+
+
+
+.markLaranja{
+    background: #ffa600;
 }
 
 .exemplo {

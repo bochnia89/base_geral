@@ -13,7 +13,7 @@
 <meta content="pt-br" name="language" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <!-- Scripts JS --><!-- Link CSS -->
-<link href="../resources/styles/styles_lt.css" rel="stylesheet" type="text/css" />
+<link href="../resources/styles/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body lang="pt-BR" xml:lang="pt-BR">
@@ -41,133 +41,380 @@
 <meta content="key_metadata_dc:publisher" itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization" /> <!--script vai trocar automaticamente-->
 </div>
 <main>
-    <!-- Título de instrução -->
-    <p class="instrucao">
-    MPG - EXEMPLO DE <mark>TEXTO PRINCIPAL SEM RECUO</mark> | <strong>snippet:</strong> <code></code>
-    </p>
-    p2textompsemrecuo
-    •p2textompsemrecuoitem
-    p2textompsemrecuoitemcont
-    1.	p2textompsemrecuonum /* Caso de uso no eja */
-    p2textompsemrecuonumcont /* Caso de uso no eja */
-    1.	p2textompnumsemrecuo  /* Caso de uso no ensino médio */
-    p2textompnumsemrecuocont /* Caso de uso no ensino médio */
-    a) p2textompsemrecuoletra
-    •  p2textompsemrecuoitem
-    •  p2textompsemrecuosubitem
-    1. a) p2textompsemrecuonumletra
-    1. •  p2textompsemrecuonumitem
-    1. a) • p2textompsemrecuonumletraitem
-    iii. p2textompsemrecuoromano
-    1. iii) p2textompsemrecuonumromano
-    1. iii) • p2textompsemrecuonumromanoitem
 
-    <!-- Título de instrução -->
-    <p class="instrucao">
-    MPG - EXEMPLO DE <mark>TEXTO PRINCIPAL</mark> | <strong>snippet:</strong> <code></code>
-    </p>
-    p2textomp
-    p2textompitem
-    p2textompitemcont
-    •	p2textompsubitem
-        p2textompsubitemcont
-    a	)	p2textompletra
-    p2textompletracont
-            •	p2textompletraitem
-    p2textompletraitemcont
-            p2textompmarcador
-    •p2textompmarcadoritem
-    p2textompmarcadorsemrecuo
+    <!-- Menu de Navegação do Projeto Gráfico -->
+    <nav class="box_card menuCardapio">
+        <a href="javascript:void(0);" onclick="myFunction()">
+            <i class="material-icons ico">menu</i> EJA MAT</a>
+        <ul class="card" id="myLinks">
+            <li>
+                <h2>GABARITO </h2>
+                <a href="instrucaoprojeto.xhtml" target="_blank"><mark>instruções do projeto</mark></a>
+            </li>
+            <li>
+                <strong>Index MP</strong>
+                <a href="../index_prof.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>Index LE</strong>
+                <a href="../index_aluno.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>MPG | Manual Geral </strong> -
+                <a href="#manualGeralcard">Snippet</a> |
+                <a href="manualgeral_prof.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>MPG | Resolução </strong> -
+                <a href="#resolucaoMgcard">Snippet</a> |
+                <a href="resolucao_prof.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <s>
+                    <strong>MPG | Páginas para reprodução </strong> -
+                    <!-- <a href="#">Snippet</a> |
+                    <a href="reproducao_prof.xhtml" target="_blank">Modelo</a> -->
+                </s>
+            </li>
+            <li>
+                <strong>MPG | Referências bibliográficas <br /> complementares comentadas</strong>
+                - <a href="#referenciasMP">Snippet</a> |
+                <a href="referenciascomencompl_prof.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>MPU | Manual em U </strong> -
+                <a href="#manualusnipCard">Snippet</a> |
+                <a href="#manualuCard">Modelo</a>
+            </li>
+            <li>
+                <strong>LE | Páginas inicias </strong>- <a href="#paginasiniciais">Snippet</a> |
+                <a href="paginasiniciais_aluno.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>LE | Abertura Capítulo </strong>- <a href="#aberturacap">Snippet</a> |
+                <a href="" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>LE | Livro Texto</strong> -
+                <a href="#livrotextoCard">Snippet</a> |
+                <a href="../content/unidade01.xhtml" target="_blank">Amostra</a>
+            </li>
+            <li>
+                <strong>LE | Livro Box/Img/Table</strong> -
+                <a href="#livroboximgtabela">Snippet</a>
+            </li>
+            <li>
+                <strong>LE | Livro Seções</strong> -
+                <a href="#livrosecoes">Snippet</a>
+            </li>
+            <li>
+                <strong>LE | Papelaria </strong> -
+                <a href="#papelariaCard">Snippet</a>
+            </li>
+            <li>
+                <strong>LE | Respostas </strong> -
+                <a href="#respostas">Snippet</a> |
+                <a href="respostas.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>LE | Referências Bibliograficas<br /> comentadas</strong> -
+                <a href="#referenciasLT">Snippet</a> |
+                <a href="referencias.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <s>
+                    <strong>LE | Glossário</strong>
+                    <!-- <a href="#">Snippet</a> |
+                    <a href="glossario.xhtml" target="_blank">Modelo</a> -->
+                </s>
+            </li>
+            <li>
+                <strong>Créditos de imagens </strong>
+                <a href="creditosdeimagens.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>URLs encurtadas </strong>
+                <a href="urlsencurtadas.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>Licenças </strong>
+                <a href="license.xhtml" target="_blank">Modelo</a>
+            </li>
+            <li>
+                <strong>OED </strong>
+                <a href="carrossel1.xhtml" target="_blank">Modelo Carrossel</a>
+            </li>
+            <li>
+                <strong>OED </strong>
+                <a href="infografico.xhtml" target="_blank">Modelo Infográfico</a>
+            </li>
+            <li>
+                <strong>OED </strong>
+                <a href="video.xhtml" target="_blank">Modelo Vídeo</a>
+            </li>
+            <li>
+                <strong>OED </strong>
+                <a href="audio.xhtml" target="_blank">Modelo Audio</a>
+            </li>
+            <li>
+                <strong>OED </strong>
+                <a href="zoom1.xhtml" target="_blank">Modelo Zoom</a>
+            </li>
 
-    <!-- Título de instrução -->
-    <p class="instrucao">
-    MPG - EXEMPLO DE <mark>QUESTÃO TEORIA</mark> | <strong>snippet:</strong> <code></code>
-    </p>
+            <li onclick="oculta()">Ocultar instrução</li>
+        </ul>
+    </nav>
 
-    1. p2questaomp
-    p2questaompcont
-    a	)	p2questaompletra
-    p2questaompletracont
-    •p2questaompletraitem
-    p2questaompletraitemcont
-    p2questaompitem
-    p2questaompitemcont
-    p2questaompsubitem
-    p2questaompsubitemcont
-    1. • p2questaompnumitem
-    1. a) p2questaompnumletra
-    1. a) • p2questaompnumletraitem
 
-    <!-- Título de instrução -->
-    <p class="instrucao">
-    MPG - EXEMPLO DE <mark>ATIVIDADES</mark> | <strong>snippet:</strong> <code></code>
-    </p>
-    1.		p2atvmp
-    p2atvmpcont
-        i)	 p2atvmpromano
-    p2atvmpromanocont
-    p2atvmpitem
-    p2atvmpitemcont
-    p2atvmpsubitem
-    p2atvmpsubitemcont
-    a )	p2atvmpitemletra
-    p2atvmpitemletracont
-    a	)	p2atvmpletra
-    p2atvmpletracont
-    p2atvmpletraitembullet
-    p2atvmpletraitembulletcont
-    i) p2atvmpletraromano
-    p2atvmpletraromanocont
-    1.		• p2atvmpnumitem
-    1.		a) p2atvmpnumletra
-    1.		a)	• p2atvmpnumletraitem  
-    a	) • p2atvmpletraitem
-    1.		i) p2atvmpnumromano
-    01) p2atvmpsomatoria
+   <!-- Páginas 000 e 000 MP-->
+   <!-- ******************** PÁGINA 000 MP ***************************-->
+   <section aria-label="Manual do professor" class="pag000mp">
+   <header>
+   <p aria-label="Página 1" class="pag" role="doc-pagebreak">Página <span aria-hidden="true">I</span>
+   </p>
+   </header>
+   <!--Manual do professor-->
+   <div aria-label="Conteúdo da página" class="box_geral_mp" role="region">
+   
+     <!-- Título de instrução -->
+     <p class="instrucao">
+        MPG - EXEMPLO DE <mark>TEXTO PRINCIPAL SEM RECUO</mark> | <strong>snippet:</strong> <code></code>
+        </p>
+        <p class="p2textompsemrecuo">Lorem, <mark>p.p2textompsemrecuo</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2textompsemrecuoitem">
+            <li>Lorem, <mark>ul.p2textompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum esse quaerat hic optio quibusdam incidunt tempora consequatur praesentium debitis similique ea ipsa iure dolores, neque corrupti sequi maiores voluptatem.</li>
+            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus earum esse quaerat hic optio quibusdam incidunt tempora consequatur praesentium debitis similique ea ipsa iure dolores, neque corrupti sequi maiores voluptatem.</li>
+        </ul>
+        <p class="p2textompsemrecuoitem">Lorem, <mark>p.p2textompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompsemrecuoitemcont">Lorem, <mark>p.p2textompsemrecuoitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <!-- /* Caso de uso no eja */ -->
+        <p class="p2textompsemrecuonum"><span class="c0destaquenumeromp">1.</span> Lorem, <mark>p.p2textompsemrecuonum / span.c0destaquenumeromp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompsemrecuonumcont">Lorem, <mark>p.p2textompsemrecuonumcont </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <!-- /* Caso de uso no eja */ -->
+        <!-- /* Caso de uso no ensino médio */ -->
+        <p class="p2textompnumsemrecuo"><span class="c0destaquenumeromp"> 1.</span> Lorem, <mark>p.p2textompnumsemrecuo / span.c0destaquenumeromp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompnumsemrecuocont">Lorem, <mark>p.p2textompnumsemrecuocont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> 
+        <!-- /* Caso de uso no ensino médio */ -->
+    
+        <p class="p2textompsemrecuoletra"><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p2textompsemrecuoletra / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2textompsemrecuoitem">
+            <li>Lorem, <mark>ul.p2textompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ex laudantium, laborum dicta pariatur illo possimus explicabo molestias a eos natus aut dolorem nisi, recusandae exercitationem! Temporibus incidunt earum ab.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ex laudantium, laborum dicta pariatur illo possimus explicabo molestias a eos natus aut dolorem nisi, recusandae exercitationem! Temporibus incidunt earum ab.</li>
+        </ul>
+        <p class="p2textompsemrecuoitem">Lorem, <mark>p.p2textompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2textompsemrecuosubitem">
+            <li>Lorem, <mark>ul.p2textompsemrecuosubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus at accusamus rem officia quos voluptatibus ab aspernatur ad sequi dolore, odio itaque atque necessitatibus mollitia vel repudiandae soluta sed nostrum.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus at accusamus rem officia quos voluptatibus ab aspernatur ad sequi dolore, odio itaque atque necessitatibus mollitia vel repudiandae soluta sed nostrum.</li>
+        </ul>
+        <p class="p2textompsemrecuosubitem">Lorem, <mark>p.p2textompsemrecuosubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompsemrecuonumletra"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueletramp">a)</span>Lorem, <mark>p.p2textompsemrecuonumletra / span.c0destaquenumeromp / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompsemrecuonumitem"><span class="c0destaquenumeromp">1.</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2textompsemrecuonumitem / span.c0destaquenumeromp / span.c0bulletnumitemmp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompsemrecuonumletraitem"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueletramp">a)</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2textompsemrecuonumletraitem / span.c0destaquenumeromp / span.c0destaqueletramp / span.c0bulletnumitemmp </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> 
+        <p class="p2textompsemrecuoromano"><span class="c0destaqueromanomp">III.</span> Lorem, <mark>p.p2textompsemrecuoromano / span.c0destaqueromanomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompsemrecuonumromano"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueromanomp">III)</span> Lorem, <mark>p.p2textompsemrecuonumromano / span.c0destaquenumeromp / span.c0destaqueromanomp </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> 
+        <p class="p2textompsemrecuonumromanoitem"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueromanomp">III)</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2textompsemrecuonumromanoitem / span.c0destaquenumeromp / span.c0destaqueromanomp / span.c0bulletnumitemmp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> 
+    
+        <!-- Título de instrução -->
+        <p class="instrucao">
+        MPG - EXEMPLO DE <mark>TEXTO PRINCIPAL</mark> | <strong>snippet:</strong> <code></code>
+        </p>
+        <p class="p2textomp">Lorem, <mark>p.p2textomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2textompitem">
+            <li>Lorem, <mark>ul.p2textompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores laudantium facilis eligendi blanditiis officiis deserunt ex necessitatibus ipsa nisi adipisci nemo? Temporibus consequatur cupiditate perferendis architecto obcaecati dolorum sapiente?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, dolores laudantium facilis eligendi blanditiis officiis deserunt ex necessitatibus ipsa nisi adipisci nemo? Temporibus consequatur cupiditate perferendis architecto obcaecati dolorum sapiente?</li>
+        </ul>
+        <p class="p2textompitem">Lorem, <mark>p.p2textompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompitemcont">Lorem, <mark>p.p2textompitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2textompsubitem">
+            <li>Lorem, <mark>ul.p2textompsubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellendus quos debitis, mollitia sapiente repellat beatae libero doloremque minima ipsam aperiam nisi eligendi porro assumenda. Odio earum veritatis deleniti possimus.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellendus quos debitis, mollitia sapiente repellat beatae libero doloremque minima ipsam aperiam nisi eligendi porro assumenda. Odio earum veritatis deleniti possimus.</li>
+        </ul>
+        <p class="p2textompsubitem">Lorem, <mark>p.p2textompsubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompsubitemcont">Lorem, <mark>p.p2textompsubitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompletra"><span class="c0destaqueletramp">a)</span> Lorem, <mark> p.p2textompletra / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>	
+        <p class="p2textompletracont">Lorem, <mark>p.p2textompletracont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2textompletraitem">
+            <li>Lorem, <mark>ul.p2textompletraitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos modi alias porro nihil aut recusandae quam corporis sit odio iusto! Dolorem, dignissimos enim? Dolorem corporis consequatur atque explicabo eum natus!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos modi alias porro nihil aut recusandae quam corporis sit odio iusto! Dolorem, dignissimos enim? Dolorem corporis consequatur atque explicabo eum natus!</li>
+        </ul>
+        <p class="p2textompletraitem">Lorem, <mark>p.p2textompletraitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompletraitemcont">Lorem, <mark>p.p2textompletraitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompmarcador"><span class="p5marcador">A.</span>Lorem, <mark>p.p2textompmarcador / span.p5marcador</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2textompmarcadoritem">
+            <li>Lorem, <mark>ul.p2textompmarcadoritem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis natus fugit necessitatibus alias harum quisquam. Voluptas, autem ipsam minima ex nesciunt quaerat eveniet commodi ullam atque incidunt optio animi accusantium.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis natus fugit necessitatibus alias harum quisquam. Voluptas, autem ipsam minima ex nesciunt quaerat eveniet commodi ullam atque incidunt optio animi accusantium.</li>
+        </ul>
+        <p class="p2textompmarcadoritem">Lorem, <mark>p.p2textompmarcadoritem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2textompmarcadorsemrecuo"><span class="p5marcador">A.</span> Lorem, <mark>p.p2textompmarcadorsemrecuo / span.p5marcador</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+    
+        <!-- Título de instrução -->
+        <p class="instrucao">
+        MPG - EXEMPLO DE <mark>QUESTÃO TEORIA</mark> | <strong>snippet:</strong> <code></code>
+        </p>
+    
+        <p class="p2questaomp"><span class="c0destaquenumeromp">1.</span> Lorem, <mark>p.p2questaomp / span.c0destaquenumeromp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2questaompcont">Lorem, <mark>p.p2questaompcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2questaompletra"><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p2questaompletra / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2questaompletracont">Lorem, <mark>p.p2questaompletracont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2questaompletraitem">
+            <li>Lorem, <mark>ul.p2questaompletraitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, corporis ullam sed excepturi labore optio dolorum aperiam commodi eaque eius consequuntur cum et esse animi quis laudantium doloremque incidunt?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit eligendi, corporis ullam sed excepturi labore optio dolorum aperiam commodi eaque eius consequuntur cum et esse animi quis laudantium doloremque incidunt?</li>
+        </ul>
+        <p class="p2questaompletraitem">Lorem, <mark>p.p2questaompletraitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2questaompletraitemcont">Lorem, <mark>p.p2questaompletraitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2questaompitem">
+            <li>Lorem, <mark>ul.p2questaompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique id quidem, aut pariatur cumque quibusdam necessitatibus omnis architecto cum ducimus odio impedit blanditiis rem molestiae porro harum assumenda aliquid?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor similique id quidem, aut pariatur cumque quibusdam necessitatibus omnis architecto cum ducimus odio impedit blanditiis rem molestiae porro harum assumenda aliquid?</li>
+        </ul>
+        <p class="p2questaompitem">Lorem, <mark>p.p2questaompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2questaompitemcont">Lorem, <mark>p.p2questaompitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2questaompsubitem">
+            <li>Lorem, <mark>ul.p2questaompsubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur asperiores illo beatae dolorem maxime aliquid corrupti doloribus culpa esse a? Ut hic dicta odio architecto corporis natus laborum aut commodi?</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur asperiores illo beatae dolorem maxime aliquid corrupti doloribus culpa esse a? Ut hic dicta odio architecto corporis natus laborum aut commodi?</li>
+        </ul>
+        <p class="p2questaompsubitem">Lorem, <mark>p.p2questaompsubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2questaompsubitemcont">Lorem, <mark>p.p2questaompsubitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2questaompnumitem"><span class="c0destaquenumeromp">1.</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2questaompnumitem / span.c0destaquenumeromp / span.c0bulletnumitemmp </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> 
+        <p class="p2questaompnumletra"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p2questaompnumletra / span.c0destaquenumeromp / span.c0destaqueletramp </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> 
+        <p class="p2questaompnumletraitem"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueletramp">a)</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2questaompnumletraitem / span.c0destaquenumeromp / span.c0destaqueletramp / span.c0bulletnumitemmp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p> 
+    
+        <!-- Título de instrução -->
+        <p class="instrucao">
+        MPG - EXEMPLO DE <mark>ATIVIDADES</mark> | <strong>snippet:</strong> <code></code>
+        </p>
+        <p class="p2atvmp"><span class="c0destaquenumeromp">1.</span> Lorem, <mark> p.p2atvmp / span.c0destaquenumeromp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpcont">Lorem, <mark>p.p2atvmpcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpromano"><span class="c0destaqueromanomp">I)</span> Lorem, <mark>p.p2atvmpromano / span.c0destaqueromanomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpromanocont">Lorem, <mark>p.p2atvmpromanocont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2atvmpitem">
+            <li>Lorem, <mark>ul.p2atvmpitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi aut ullam natus molestiae, tenetur rem consectetur fuga magni nulla provident unde modi sunt nihil nesciunt, delectus eius voluptatum. Rerum, commodi.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi aut ullam natus molestiae, tenetur rem consectetur fuga magni nulla provident unde modi sunt nihil nesciunt, delectus eius voluptatum. Rerum, commodi.</li>
+        </ul>
+        <p class="p2atvmpitem">Lorem, <mark>p.p2atvmpitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpitemcont">Lorem, <mark>p.p2atvmpitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2atvmpsubitem">
+            <li>Lorem, <mark>ul.p2atvmpsubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolor repellat deleniti. Sunt neque sequi illo aliquam odit dolor, dignissimos beatae quaerat eius eaque quidem harum labore voluptates perspiciatis quasi.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit dolor repellat deleniti. Sunt neque sequi illo aliquam odit dolor, dignissimos beatae quaerat eius eaque quidem harum labore voluptates perspiciatis quasi.</li>
+        </ul>
+        <p class="p2atvmpsubitem">Lorem, <mark>p.p2atvmpsubitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpsubitemcont">Lorem, <mark>p.p2atvmpsubitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpitemletra"><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p2atvmpitemletra / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpitemletracont">Lorem, <mark>p.p2atvmpitemletracont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpletra"><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p2atvmpletra / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpletracont">Lorem, <mark>p.p2atvmpletracont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p2atvmpletraitembullet">
+            <li>Lorem, <mark>ul.p2atvmpletraitembullet</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum sed impedit ullam sapiente quidem, labore quasi quod quo doloribus molestiae voluptatem unde similique! Veritatis sit unde sequi necessitatibus natus.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus harum sed impedit ullam sapiente quidem, labore quasi quod quo doloribus molestiae voluptatem unde similique! Veritatis sit unde sequi necessitatibus natus.</li>
+        </ul>
+        <p class="p2atvmpletraitembullet">Lorem, <mark>p.p2atvmpletraitembullet</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpletraitembulletcont">Lorem, <mark>p.p2atvmpletraitembulletcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpletraromano"><span class="c0destaqueromanomp">I)</span> Lorem, <mark>p.p2atvmpletraromano / span.c0destaqueromanomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpletraromanocont">Lorem, <mark>p.p2atvmpletraromanocont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpnumitem"><span class="c0destaquenumeromp">1.</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2atvmpnumitem / span.c0destaquenumeromp / span.c0bulletnumitemmp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpnumletra"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p2atvmpnumletra / span.c0destaquenumeromp / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpnumletraitem"><span class="c0destaquenumeromp">1.</span><span class="c0destaqueletramp">a)</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2atvmpnumletraitem / span.c0destaquenumeromp / span.c0destaqueletramp / span.c0bulletnumitemmp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpletraitem"><span class="c0destaqueletramp">a)</span><span class="c0bulletnumitemmp">•</span> Lorem, <mark>p.p2atvmpletraitem / span.c0destaqueletramp / span.c0bulletnumitemmp </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpnumromano"><span class="c0bulletnumitemmp">1.</span><span class="c0destaqueromanomp">I)</span> Lorem, <mark>p.p2atvmpnumromano / span.c0bulletnumitemmp / span.c0destaqueromanomp </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p2atvmpsomatoria"><span class="c0destaquesomatoriamp">01)</span> Lorem, <mark>p.p2atvmpsomatoria / span.c0destaquesomatoriamp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+    
+        <!-- Título de instrução -->
+        <p class="instrucao">
+        MPG - EXEMPLO DE <mark>TEXTO INTERMEDIÁRIO</mark> | <strong>snippet:</strong> <code></code>
+        </p>
+        <p class="p3intermediariomptit">Lorem, <mark>p.p3intermediariomptit</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariomp">Lorem, <mark>p.p3intermediariomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p3intermediariompitem">
+            <li>Lorem, <mark>ul.p3intermediariompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur amet libero recusandae corrupti sunt provident mollitia quod cum voluptatum repudiandae consectetur, aliquid incidunt numquam, ullam nihil reprehenderit a velit? Numquam.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur amet libero recusandae corrupti sunt provident mollitia quod cum voluptatum repudiandae consectetur, aliquid incidunt numquam, ullam nihil reprehenderit a velit? Numquam.</li>
+        </ul>
+        <p class="p3intermediariompitem">Lorem, <mark>p.p3intermediariompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompitemcont">Lorem, <mark>p.p3intermediariompitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompitemletra"><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p3intermediariompitemletra / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompitemletracont">Lorem, <mark>p.p3intermediariompitemletracont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompletra"><span class="c0destaqueletramp">a)</span> Lorem, <mark>p.p3intermediariompletra / span.c0destaqueletramp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompletracont">Lorem, <mark>p.p3intermediariompletracont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompnumero"><span class="c0destaquenumeromp">1.</span> Lorem, <mark>p.p3intermediariompnumero / span.c0destaquenumeromp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompnumerocont">Lorem, <mark>p.p3intermediariompnumerocont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompmarcador"><span class="p5marcador">A.</span> Lorem, <mark>p.p3intermediariompmarcador / span.p5marcador</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompmarcadorcont">Lorem, <mark>p.p3intermediariompmarcadorcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompsemrecuo">Lorem, <mark>p.p3intermediariompsemrecuo</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <ul class="p3intermediariompsemrecuoitem">
+            <li>Lorem, <mark>ul.p3intermediariompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem, <mark></mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem, <mark></mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+        </ul>
+        <p class="p3intermediariompsemrecuoitem">Lorem, <mark>p.p3intermediariompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+        <p class="p3intermediariompsemrecuoitemcont">Lorem, <mark>p.p3intermediariompsemrecuoitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</p>
+    
+        <!-- Título de instrução -->
+        <p class="instrucao">
+        MPG - EXEMPLO DE <mark>CITAÇÃO</mark> | <strong>snippet:</strong> <code></code>
+        </p>
+        <blockquote class="p3citacaomptit1">Lorem, <mark>blockquote.p3citacaomptit1</mark> ipsum dolor  elit.</blockquote>
+        <blockquote class="p3citacaomptit2">Lorem, <mark>blockquote.p3citacaomptit2</mark> ipsum dolor sit amet consectetur.</blockquote>
+        <blockquote class="p3citacaompolho">Lorem, <mark>blockquote.p3citacaompolho</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaomp">Lorem, <mark>blockquote.p3citacaomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <ul class="p3citacaompitem">
+            <li>Lorem, <mark>ul.p3citacaompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae magnam possimus fuga ut nam id voluptatum, dignissimos dolor cum aut veniam ad eaque laborum unde reprehenderit totam corrupti quo eius.</li>
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae magnam possimus fuga ut nam id voluptatum, dignissimos dolor cum aut veniam ad eaque laborum unde reprehenderit totam corrupti quo eius.</li>
+        </ul>
+        <blockquote class="p3citacaompitem">Lorem, <mark>blockquote.p3citacaompitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaompitemcont">Lorem, <mark>blockquote.p3citacaompitemcont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaompletra"><span class="c0destaqueletracitacaomp">a)</span> Lorem, <mark>blockquote.p3citacaompletra / span.c0destaqueletracitacaomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaompletracont">Lorem, <mark>blockquote.p3citacaompletracont </mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaompnumero"><span class="c0destaquenumerocitacaomp">1.</span> Lorem, <mark>blockquote.p3citacaompnumero / span.c0destaquenumerocitacaomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaompnumerocont">Lorem, <mark>blockquote.p3citacaompnumerocont</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaompsemrecuo">Lorem, <mark>blockquote.p3citacaompsemrecuo</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <blockquote class="p3citacaompsemrecuoletra"><span class="c0destaqueletracitacaomp">a)</span> Lorem, <mark>blockquote.p3citacaompsemrecuoletra / span.c0destaqueletracitacaomp</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+        <ul class="p3citacaompsemrecuoitem">
+            <li>Lorem, <mark>ul.p3citacaompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laudantium vitae culpa, obcaecati dicta repellendus magni officia nesciunt nihil, accusantium quaerat, aspernatur tempora molestias perspiciatis. Numquam fugit libero aliquid voluptatibus.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde laudantium vitae culpa, obcaecati dicta repellendus magni officia nesciunt nihil, accusantium quaerat, aspernatur tempora molestias perspiciatis. Numquam fugit libero aliquid voluptatibus.</li>
+        </ul>
+        <blockquote class="p3citacaompsemrecuoitem">Lorem, <mark>blockquote.p3citacaompsemrecuoitem</mark> ipsum dolor sit amet consectetur adipisicing elit. Amet unde esse, error quod praesentium aliquam voluptas totam vitae voluptatum eaque laboriosam ullam ut inventore quae id? Cumque ullam ratione dicta!</blockquote>
+    
+        <!-- Título de instrução -->
+        <p class="instrucao">
+        MPG - EXEMPLO DE <mark>RESPOSTAS DE ATIVIDADES PROPOSTAS NO MANUAL</mark> | <strong>snippet:</strong> <code></code>
+        </p>
+        p.p4respostamp
 
-    <!-- Título de instrução -->
-    <p class="instrucao">
-    MPG - EXEMPLO DE <mark>TEXTO INTERMEDIÁRIO</mark> | <strong>snippet:</strong> <code></code>
-    </p>
-    p3intermediariomptit
-    p3intermediariomp
-    p3intermediariompitem
-    p3intermediariompitemcont
-        a	)	p3intermediariompitemletra
-        p3intermediariompitemletracont
-        a	)	 p3intermediariompletra
-    p3intermediariompletracont
-    1.	 p3intermediariompnumero
-    p3intermediariompnumerocont
-        p3intermediariompmarcador
-    p3intermediariompmarcadorcont
-    p3intermediariompsemrecuo
-    •p3intermediariompsemrecuoitem
-    p3intermediariompsemrecuoitemcont
 
-    <!-- Título de instrução -->
-    <p class="instrucao">
-    MPG - EXEMPLO DE <mark>CITAÇÃO</mark> | <strong>snippet:</strong> <code></code>
-    </p>
-    p3citacaomptit1
-    p3citacaomptit2
-    p3citacaompolho
-    p3citacaomp
-    p3citacaompitem
-    p3citacaompitemcont
-    a	)	p3citacaompletra
-    p3citacaompletracont 
-    1.		p3citacaompnumero
-    p3citacaompnumerocont
-    p3citacaompsemrecuo
-    a) p3citacaompsemrecuoletra
-    • p3citacaompsemrecuoitem
+   </div>
+   <!--Manual do professor-->
+   </section>
 
-    <!-- Título de instrução -->
-    <p class="instrucao">
-    MPG - EXEMPLO DE <mark>RESPOSTAS DE ATIVIDADES PROPOSTAS NO MANUAL</mark> | <strong>snippet:</strong> <code></code>
-    </p>
-    p4respostamp
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+        var btn = document.querySelector("#back-to-top");
+        btn.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        })
+    </script>
 </main>
 </body>
 
