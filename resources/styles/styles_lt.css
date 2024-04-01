@@ -65,7 +65,10 @@ p, ul li {
 p {
     hyphens: none !important;
     line-height: 130%;    
+    width: 100%;
     max-width: 100%;
+    
+  
 }
 
 strong {
@@ -362,9 +365,13 @@ p1sumariooedpeso2
 
 /* Gráficos */
 .p1graficotit{}
+.o2graficogravata1{}
+.o2graficogravata2{}
 
 /* maps */
 .p1mapatit{}
+.o2mapagravata1{}
+.o2mapagravata2{}
 
 /* Título Box */
 .p1box1tit{}
@@ -395,8 +402,8 @@ p1sumariooedpeso2
 .p1sec6tit2{}
 .p1sec6tit3{}
 
-.p1sec7tit2{}
 .p1sec7tit1{}
+.p1sec7tit2{}
 .p1sec7tit3{}
 
 /*👉 SUGESTÕES COMPLEMENTARES 👈*/
@@ -412,22 +419,21 @@ p1sumariooedpeso2
 .p2referenciasbibliocoment{}
 
 /*👉======= TEXTOS PESO: principal =======👈*/
-/* Texto Principal */
+/* Texto SEM RECUO Principal */
 .p2textosemrecuo{}
 .p2textosemrecuoitem{}
 .p2textosemrecuoitemcont{}
 .p2textonumsemrecuo{}
 .p2textomarcadorsemrecuo{}
-.p2textomarcadorsemrecuocont{}/*TODO: Aguardando de definição de uso*/
-
-.p2textomarcadorletra,
-.p2textomarcadorletracont,
-.p2textosemrecuonumcont,
-.p2textosemrecuonumitem,
-.p2textosemrecuonumitemcont,
-.p2textosemrecuonumletra,
+.p2textomarcadorsemrecuocont{}
+.p2textosemrecuonumcont
+.p2textosemrecuonumitem
+.p2textosemrecuonumitemcont
+.p2textosemrecuonumletra
 .p2textosemrecuonumletracont
 
+
+/* Texto Principal */
 .p2texto{}
 
 .p2textoitem{}
@@ -446,6 +452,9 @@ p1sumariooedpeso2
 
 .p2textomarcador{}
 
+.p2textomarcadorletra{}
+.p2textomarcadorletracont{}
+
 .p2textomarcadoritem{}
 .p2textomarcadoritemcont{}
 
@@ -460,13 +469,16 @@ p1sumariooedpeso2
 .p2questaoletra{}
 .p2questaoletracont{}
 
-.p2questaoletraitem{}
+ul.p2questaoletraitem{}
+p.p2questaoletraitem{}
 .p2questaoletraitemcont{}
 
-.p2questaoitem{}
+ul.p2questaoitem{}
+p.p2questaoitem{}
 .p2questaoitemcont{}
 
-.p2questaosubitem{}
+ul.p2questaosubitem{}
+p.p2questaosubitem{}
 .p2questaosubitemcont{} 
 
 .p2questaomarcador{}
@@ -475,15 +487,43 @@ p1sumariooedpeso2
 
 
 /* Atividades */
+/*
+.p2atv
+.p2atvcont
+.p2atvromano
+.p2atvromanocont
+.p2atvitem
+.p2atvitemcont
+.p2atvsubitem
+.p2atvsubitemcont
+.p2atvitemletra
+.p2atvitemletracont
+.p2atvletra
+.p2atvletracont
+.p2atvletraromano
+.p2atvletraromanocont
+.p2atvletraitem
+.p2atvletraitemcont
+.p2atvletrasubitem
+.p2atvletrasubitemcont
+.p2atvletraitemromano
+.p2atvletraitemromanocont
+.p2atvmarcador
+.p2atvmarcadorcont
+.p2atvsomatoria
+.p2atvsomatoriacont
+*/
 .p2atv{}
 .p2atvcont{}
 .p2atvromano{}
 .p2atvromanocont{}
 
-.p2atvitem{}
+ul.p2atvitem{}
+p.p2atvitem{}
 .p2atvitemcont{}
 
-.p2atvsubitem{}
+ul.p2atvsubitem{}
+p.p2atvsubitem{}
 .p2atvsubitemcont{}
 
 .p2atvitemletra{}
@@ -495,10 +535,12 @@ p1sumariooedpeso2
 .p2atvletraromano{}
 .p2atvletraromanocont{}
 
-.p2atvletraitem{}
+ul.p2atvletraitem{}
+p.p2atvletraitem{}
 .p2atvletraitemcont{}
 
-.p2atvletrasubitem{}
+ul.p2atvletrasubitem{}
+p.p2atvletrasubitem{}
 .p2atvletrasubitemcont{}
 
 .p2atvletraitemromano{}
@@ -513,6 +555,25 @@ p1sumariooedpeso2
 
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
 /* Textos intermediários */
+/*
+.p3intermediariotit
+.p3intermediario
+.p3intermediarioitem
+.p3intermediarioitemcont
+.p3intermediarioitemletra
+.p3intermediarioitemletracont
+.p3intermediarioletra
+.p3intermediarioletracont
+.p3intermediarionumero
+.p3intermediarionumerocont
+.p3intermediariomarcador
+.p3intermediariomarcadorcont
+.p3intermediariosemrecuo
+.p3intermediariosemrecuoitem
+.p3intermediariosemrecuoitemcont
+.p3intermediariosemrecuoletra
+.p3intermediariosemrecuoletracont
+*/
 .p3intermediariotit{}
 .p3intermediario{}
 
@@ -530,6 +591,7 @@ p1sumariooedpeso2
 .p3intermediariomarcador{}
 .p3intermediariomarcadorcont{}
 
+/* Textos intermediários sem recuo*/
 .p3intermediariosemrecuo{}
 .p3intermediariosemrecuoitem{}
 .p3intermediariosemrecuoitemcont{}
@@ -539,6 +601,20 @@ p1sumariooedpeso2
 
 
 /* Textos citados */
+/*
+p3citacaomanchete
+p3citacaotit1
+p3citacaotit2
+p3citacaoolho
+p3citacaosemrecuo
+p3citacao
+p3citacaoitem
+p3citacaoitemcont
+p3citacaoletra
+p3citacaoletracont
+p3citacaonumero 
+p3citacaonumerocont
+*/
 .p3citacaomanchete{}
 
 .p3citacaotit1{}
@@ -550,7 +626,8 @@ p1sumariooedpeso2
 
 .p3citacao{}
 
-.p3citacaoitem{}
+ul.p3citacaoitem{}
+blockquote.p3citacaoitem{}
 .p3citacaoitemcont{}
 
 .p3citacaoletra{}
@@ -589,7 +666,8 @@ p1sumariooedpeso2
 
 /* Cuidado dica */
 .p4cuidadodica{}
-.p4cuidadodicaitem{}
+ul.p4cuidadodicaitem{}
+p.p4cuidadodicaitem{}
 .p4cuidadodicaitemcont{} 
 
 /* Respostas */
@@ -674,8 +752,12 @@ p1sumariooedpeso2
 .c3idiomabolditalico{}
 
 /* (exceção no INDD - overprint) */ 
-.c3idiomaresposta {}
-.c3idiomarespostaitalico {}
+.c3idiomaresposta{}
+.c3idiomaboldresposta{}
+.c3idiomaitalicoresposta{}
+.c3idiomabolditalicoresposta{}
+
+
 
 /*👉C4: Estilos de Suporte👈*/
 .c4lacuna{}
@@ -689,14 +771,10 @@ p1sumariooedpeso2
 .c4glossariodestaque{}
 .c4glossariodestaqueitalico{}
 
+
 .c5destaqueverbetedicionario{}
 
 
-/* FIXME: estilos que não apareceu na case da cynthia */
-.c3idiomaresposta{}
-.c3idiomaboldresposta{}
-.c3idiomaitalicoresposta{}
-.c3idiomabolditalicoresposta{}
 
 
 /* ESTILO DE OBJETO */
@@ -724,6 +802,7 @@ p1sumariooedpeso2
 .o0sec4
 .o0sec5
 .o0sec6  /*👉 Cynthia: atualizar lista de stilos */
+.o0sec7
 .o0parasabermais
 .o0referencias
 .o0sugestcomp
@@ -741,6 +820,7 @@ p1sumariooedpeso2
 .o1boxfundolaranja1
 .o1boxfundolaranja2
 .o1boxfundoverde1
+.o1boxfundoverde2
 .o1fioindicacaoroxo1
 .o1fioindicacaoverde1
 .o1boxfioroxo1
