@@ -46,11 +46,11 @@
 
 /*👉Navegação do cardápio 👈*/
 
-#myLinks {
+#mylinks {
     display: none;
   }
 
-.menuCardapio{
+.menucardapio{
 position: fixed;
 left: 0;
 top: 0.5em;
@@ -64,20 +64,20 @@ width: max-content;
 z-index: 25;
 }
 
-.menuCardapio h1 {
+.menucardapio h1 {
     color: #0bd8df;
     border-bottom: 1px solid #0bd8df;
     padding: 0.5em;
     margin-bottom: 1em;
 }
-.menuCardapio ul li{
+.menucardapio ul li{
     padding: 0.2em 0;
     font-size: 14px;
 }
-.menuCardapio a {
+.menucardapio a {
     color:aliceblue;
 }
-.menuCardapio a:hover{
+.menucardapio a:hover{
     color: #0bd8df;
 }
 /*👉INSTRUÇÃO DA PRODUÇÃO👈*/
@@ -108,11 +108,11 @@ z-index: 25;
     font-weight: bold;
 }
 
-.exemploAplicado {
+.exemploaplicado {
     border-top: 1px solid rgb(56, 56, 56);
     margin-top: 3em;
 }
-.exemploAplicado::before{
+.exemploaplicado::before{
     content: 'Exemplo Aplicado';
     position: absolute;
     margin: -2em 0 0 0.5em;
@@ -132,7 +132,7 @@ z-index: 25;
     padding: 0.2em 0.4em;
      border-radius: 0.5em;
 }
-.codigoExemplo {
+.codigoexemplo {
    display: block;
 
     padding: 1em;
@@ -150,7 +150,7 @@ z-index: 25;
 
   
 }
-.codigoExemplo::before{
+.codigoexemplo::before{
     content: 'Exemplo de Código Fonte';
     position: absolute;
     margin: -3em 0 0 0;
@@ -162,7 +162,7 @@ z-index: 25;
     box-shadow: 3px 3px 3px rgb(56, 56, 56, 0.3);
 }
 
-.comentarioCode {
+.comentariocode {
     font-size: 0.9em;
     line-height: 1.4em;
     text-align: justify;
@@ -170,7 +170,7 @@ z-index: 25;
     background: rgb(220, 220, 220);
     margin: 1em 0;
 }
-.comentarioCode::before{
+.comentariocode::before{
     content: 'Comentário:';
     position:absolute;
     margin: -20px 0 0 0;
@@ -178,7 +178,7 @@ z-index: 25;
     
 }
 
-.leituraNvda{
+.leituranvda{
      border-left: 1px solid #000;
      padding:0 1em 0 1em;
      margin: 3em 0 1em 1em ;
@@ -186,7 +186,7 @@ z-index: 25;
      line-height: 1.5em;
    
 }
-.leituraNvda::before{
+.leituranvda::before{
     content: 'Forma de leitura no NVDA (em modo de leitura contínua):';
     position:absolute;
     margin: -30px 0 0 -1em;
@@ -194,13 +194,13 @@ z-index: 25;
     font-style: normal;
 }
 
-.boxTeste{
+.boxteste{
     border: 2px dotted #000;
     padding:0.5em 1em 0.5em 1em;
     margin: 3em 0 1em 0;
 
 }
-.numeroTeste{
+.numeroteste{
     font-weight: bold;
    
     position: absolute;
