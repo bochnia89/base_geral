@@ -11,22 +11,75 @@
 .p1box1resotit{}
 .p1box2resotit{}
 
-/*👉------- TABELA ------------👈*/
-.p1tabelatit{}
-.p1tabelatitcoluna{}
-.p1tabelatexto{}
-.p1tabelatextoitem{}
-.p1tabelatextoitemcont{}
-
-/*👉------- QUADRO ------------👈*/
 
 
-/*👉------- GRÁFICOS ----------👈*/
-.p1graficotit{}
+/*👉------- TEXTO PRINCIPAL ---👈*/
+/* 
+p2textoresosemrecuo
+p2textoresosemrecuoitem
+p2textoresosemrecuoitemcont
+p2textoreso
+p2textoresoitem
+p2textoresoitemcont
+p2textoresomarcador
+*/
+.p2textoresosemrecuo{}
+.p2textoresosemrecuoitem{}
+.p2textoresosemrecuoitemcont{}
+.p2textoreso{}
+.p2textoresoitem{}
+.p2textoresoitemcont{}
+.p2textoresomarcador{}
 
 
-/*👉------- MAPA --------------👈*/
-.p1mapatit{}
+
+/*👉------- ATIVIDADES --------👈*/
+/* 
+p2atvreso
+p2atvresocont
+p2atvresoromano
+p2atvresoromanocont
+p2atvresoitem
+p2atvresoitemcont
+p2atvresosubitem
+p2atvresoitemletra
+p2atvresoitemletracont
+p2atvresoletra
+p2atvresoletracont
+p2atvresoletraitembullet
+p2atvresoletraitembulletcont
+p2atvresoletraromano
+p2atvresoletraromanocont
+p2atvresonumitem
+p2atvresonumletra
+p2atvresonumletraitem
+p2atvresoletraitem
+p2atvresonumromano
+p2atvresosomatoria
+p2atvresosomatoriacont
+*/
+.p2atvreso{}
+.p2atvresocont{}
+.p2atvresoromano{}
+.p2atvresoromanocont{}
+.p2atvresoitem{}
+.p2atvresoitemcont{}
+.p2atvresosubitem{}
+.p2atvresoitemletra{}
+.p2atvresoitemletracont{}
+.p2atvresoletra{}
+.p2atvresoletracont{}
+.p2atvresoletraitembullet{}
+.p2atvresoletraitembulletcont{}
+.p2atvresoletraromano{}
+.p2atvresoletraromanocont{}
+.p2atvresonumitem{}
+.p2atvresonumletra{}
+.p2atvresonumletraitem{}
+.p2atvresoletraitem{}
+.p2atvresonumromano{}
+.p2atvresosomatoria{}
+.p2atvresosomatoriacont{}
 
 /*👉------- SEÇÕES ------------👈*/
 .p1sec1tit1{}
@@ -55,79 +108,40 @@
 
 
 
-
-
-
-/*👉------- TEXTO PRINCIPAL ---👈*/
-.p2textoresosemrecuo{}
-
-.p2textoresosemrecuoitem{}
-.p2textoresosemrecuoitemcont{}
-
-.p2textoreso{}
-
-.p2textoresoitem{}
-.p2textoresoitemcont{}
-
-.p2textoresomarcador{}
-
-
-
-/*👉------- ATIVIDADES --------👈*/
-.p2atvreso{}
-.p2atvresocont{}
-
-.p2atvresoromano{}
-.p2atvresoromanocont{}
-
-.p2atvresoitem{}
-.p2atvresoitemcont{}
-
-.p2atvresosubitem{}
-
-.p2atvresoitemletra{}
-.p2atvresoitemletracont{}
-
-.p2atvresoletra{}
-.p2atvresoletracont{}
-
-.p2atvresoletraitembullet{}
-.p2atvresoletraitembulletcont{}
-
-.p2atvresoletraromano{}
-.p2atvresoletraromanocont{}
-
-.p2atvresonumitem{}
-
-.p2atvresonumletra{}
-.p2atvresonumletraitem{}
-
-.p2atvresoletraitem{}
-
-.p2atvresonumromano{}
-
-.p2atvresosomatoria{}
-.p2atvresosomatoriacont{}
-
-
-
-/*👉------- LEGENDA ------------👈*/
-.p4legenda{}
-
-/*👉------- CREDITO GERAL ------👈*/
-.p4credgeral{}
-
-/*👉------- COTAS --------------👈*/
-.p4cota{}
-
-/*👉RECADO IMAGEM E MEDIDA ANIMAL👈*/
-.p4recadoimagem{}
-
-
 /*👉---- ESTILOS DE CARACTERES ---👈*/
 
-.c0destaqueletramp
-.c0destaquenummp
+.c0destaqueletramp{}
+.c0destaqueletracitacaomp{}
+.c0destaquenumeromp{}
+.c0destaquenumerocitacaomp{} 
+.c0destaqueromanomp{}
+.c0destaquequestaonumeromp{}
+.c0destaquesomatoriamp{}
+.c0bulletnumitemmp{}
+.c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
+
+/* OBS.: Estas categorias estão presentes no styles_lt.css */
+/*👉------- LEGENDA -------👈*/ 
+/*👉------- CRÉDITO GERAL -------👈*/
+/*👉------- CRÉDITO IMAGEM  -------👈*/
+/*👉------- COTAS  -------👈*/
+/*👉------- RECADO IMAGEM E MEDIDA ANIMAL -------👈*/
+/*👉------- TABELA -------👈*/
+/*👉------- QUADRO -------👈*/
+/*👉------- GRÁFICO -------👈*/ 
+/*👉------- MAPAS -------👈*/ 
+/*👉------- MARCADORES -------👈*/
 
 
+/*MEDIA QUERY*/
+/*👉Versão Mobile Cel👈*/
+@media screen and (min-width: 300px) and (max-width: 700px) {}
 
+/*👉Versão Mobile tablet👈*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {}
+
+/*👉Versão Desktop👈*/
+@media screen and (min-width: 1200px) {}
+
+/*👉Versão IMPRESSÃO👈*/
+@media print and (max-height: 280mm) {}

@@ -66,9 +66,7 @@ p {
     hyphens: none !important;
     line-height: 130%;    
     width: 100%;
-    max-width: 100%;
-    
-  
+    max-width: 100%;  
 }
 
 strong {
@@ -159,29 +157,29 @@ table p {
 .col2d{}
 
 /* Alinhamento vertical */
-.colTop {
+.coltop {
     align-items: flex-start;
 }
 
-.colCenter {
+.colcenter {
     align-items: center;
 }
 
-.colBottom {
+.colbottom {
     align-items: flex-end;
 }
 
 /* Alinhamento vertical de imagens dentro do parágrafo */
-.imgBottom {
+.imgbottom {
     vertical-align: text-bottom;
 }
 
-.imgTop {
+.imgtop {
     vertical-align: sub;
 }
 
 .ico,
-.imgMiddle {
+.imgmiddle {
     vertical-align: middle;
 }
 
@@ -224,43 +222,43 @@ table p {
 
 
 /*👉ESTILOS CONSUMIVEL👈*/
-.linhaResposta1, .linhaResposta2,
-.linhaResposta3, .linhaResposta4,
-.linhaResposta5{
+.linharesposta1, .linharesposta2,
+.linharesposta3, .linharesposta4,
+.linharesposta5{
     background: url(../images/linha_resposta.svg) ;
     width: 100%;
     margin: 1em 0;
 }
-.linhaResposta1{
+.linharesposta1{
     height:20px;
 }
-.linhaResposta2{ 
+.linharesposta2{ 
     height: 30px;
 }
-.linhaResposta3{ 
+.linharesposta3{ 
     height: 50px;   
 }
-.linhaResposta4{   
+.linharesposta4{   
     height: 60px;   
 }
-.linhaResposta5{    
+.linharesposta5{    
     height: 80px;
    
 }
 
-.lacunaRespostaP, .lacunaRespostaM,
-.lacunaRespostaG{
+.lacunarespostap, .lacunarespostam,
+.lacunarespostag{
     background: url(../images/linha_resposta.svg) ;
     background-position-y:20px ;
     margin: 0 5px;
 }
-.lacunaRespostaP{
+.lacunarespostap{
     padding:0em 1em;
 }
-.lacunaRespostaM{
+.lacunarespostam{
     padding:0em 2.5em;
 }
-.lacunaRespostaG{  
+.lacunarespostag{  
     padding:0em 4.5em;
 }
 
@@ -312,6 +310,22 @@ p1sumariooedpeso2
 
 /*👉=================== ESTILOS MIOLO ================================👈*/
 /* TÍTULOS  */
+/* 
+.p0tit1
+.p0tit1numpv
+.p0tit1pv
+.p0tit2
+.p0tit2numpv
+.p0tit2pv
+.p0tit3
+.p0tit4
+.p0tit5
+.p0tit6
+.p0tit3negativo
+.p0tit4negativo
+.p0tit5negativo
+.p0tit6negativo
+*/
 .p0tit1{}
 .p0tit1numpv{}
 .p0tit1pv{}
@@ -336,6 +350,13 @@ p1sumariooedpeso2
 /* TÍTULOS DE ELEMENTOS */
 
 /* Tabelas e Quadros */
+/* 
+p1tabelatit
+p1tabelatitcoluna
+p1tabelatexto
+p1tabelatextoitem
+p1tabelatextoitemcont
+*/
 .p1tabelatit{}
 .p1tabelatitcoluna{}
 .p1tabelatexto{}
@@ -363,21 +384,58 @@ p1sumariooedpeso2
 }
 
 
-/* Gráficos */
+/* GRÁFICOS */
+/* 
+p1graficotit
+o2graficogravata1
+o2graficogravata2
+*/
 .p1graficotit{}
 .o2graficogravata1{}
 .o2graficogravata2{}
 
-/* maps */
+/* MAPAS */
+/* 
+p1mapatit
+o2mapagravata1
+o2mapagravata2
+*/
 .p1mapatit{}
 .o2mapagravata1{}
 .o2mapagravata2{}
 
-/* Título Box */
+/* TÍTULO BOX */
+/* 
+p1box1tit
+p1box2tit
+*/
 .p1box1tit{}
 .p1box2tit{}
 
-/* Título Seção */
+/* TÍTULO SEÇÃO */
+/* 
+.p1sec1tit1
+.p1sec1tit2
+.p1sec1tit3
+.p1sec2tit1
+.p1sec2tit2
+.p1sec2tit3
+.p1sec3tit1
+.p1sec3tit2
+.p1sec3tit3
+.p1sec4tit1
+.p1sec4tit2
+.p1sec4tit3
+.p1sec5tit1
+.p1sec5tit2
+.p1sec5tit3
+.p1sec6tit1
+.p1sec6tit2
+.p1sec6tit3
+.p1sec7tit1
+.p1sec7tit2
+.p1sec7tit3
+*/
 .p1sec1tit1{}
 .p1sec1tit2{}
 .p1sec1tit3{}
@@ -407,10 +465,21 @@ p1sumariooedpeso2
 .p1sec7tit3{}
 
 /*👉 SUGESTÕES COMPLEMENTARES 👈*/
+/* 
+p1sugestcomptit1
+p1sugestcomptit2
+*/
 .p1sugestcomptit1{}
 .p1sugestcomptit2{}
 
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
+/* 
+p1referenciasbibliotit1
+p1referenciasbibliotit2
+p2referenciasbiblio
+p2referenciasbiblioitem
+p2referenciasbibliocoment
+*/
 .p1referenciasbibliotit1{}
 .p1referenciasbibliotit2{}
 
@@ -419,21 +488,54 @@ p1sumariooedpeso2
 .p2referenciasbibliocoment{}
 
 /*👉======= TEXTOS PESO: principal =======👈*/
-/* Texto SEM RECUO Principal */
+/* TEXTO SEM RECUO PRINCIPAL */
+/* 
+p2textosemrecuo
+p2textosemrecuoitem
+p2textosemrecuoitemcont
+p2textonumsemrecuo
+p2textomarcadorsemrecuo
+p2textomarcadorsemrecuocont
+p2textosemrecuonumcont
+p2textosemrecuonumitem
+p2textosemrecuonumitemcont
+p2textosemrecuonumletra
+p2textosemrecuonumletracont
+*/
 .p2textosemrecuo{}
 .p2textosemrecuoitem{}
 .p2textosemrecuoitemcont{}
 .p2textonumsemrecuo{}
 .p2textomarcadorsemrecuo{}
 .p2textomarcadorsemrecuocont{}
-.p2textosemrecuonumcont
-.p2textosemrecuonumitem
-.p2textosemrecuonumitemcont
-.p2textosemrecuonumletra
-.p2textosemrecuonumletracont
+.p2textosemrecuonumcont{}
+.p2textosemrecuonumitem{}
+.p2textosemrecuonumitemcont{}
+.p2textosemrecuonumletra{}
+.p2textosemrecuonumletracont{}
 
 
-/* Texto Principal */
+/* TEXTO PRINCIPAL */
+/* 
+p2texto
+p2textoitem
+p2textoitemcont
+p2textosubitem
+p2textosubitemcont
+p2textoitemletra
+p2textoitemletracont
+p2textoletra
+p2textoletracont
+p2textoletraitem
+p2textoletraitemcont
+p2textomarcador
+p2textomarcadorletra
+p2textomarcadorletracont
+p2textomarcadoritem
+p2textomarcadoritemcont
+p2textomarcadorsubitem
+p2textomarcadorsubitemcont
+*/
 .p2texto{}
 
 .p2textoitem{}
@@ -458,11 +560,25 @@ p1sumariooedpeso2
 .p2textomarcadoritem{}
 .p2textomarcadoritemcont{}
 
-.p2textomarcadorsubitem{} /*TODO: Aguardando de definição de uso*/
-.p2textomarcadorsubitemcont{}/*TODO: Aguardando de definição de uso*/
+.p2textomarcadorsubitem{} 
+.p2textomarcadorsubitemcont{}
 
 
-/* Questão Teoria */
+/* QUESTÃO TEORIA */
+/* 
+p2questao
+p2questaocont
+p2questaoletra
+p2questaoletracont
+p2questaoletraitem
+p2questaoletraitemcont
+p2questaoitem
+p2questaoitemcont
+p2questaosubitem
+p2questaosubitemcont
+p2questaomarcador
+p2questaomarcadorcont
+*/
 .p2questao{}
 .p2questaocont{}
 
@@ -486,7 +602,7 @@ p.p2questaosubitem{}
 
 
 
-/* Atividades */
+/* ATIVIDADES */
 /*
 .p2atv
 .p2atvcont
@@ -554,7 +670,7 @@ p.p2atvletrasubitem{}
 
 
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
-/* Textos intermediários */
+/* TEXTOS INTERMEDIÁRIOS */
 /*
 .p3intermediariotit
 .p3intermediario
@@ -591,7 +707,7 @@ p.p2atvletrasubitem{}
 .p3intermediariomarcador{}
 .p3intermediariomarcadorcont{}
 
-/* Textos intermediários sem recuo*/
+/* TEXTOS INTERMEDIÁRIOS SEM RECUO */
 .p3intermediariosemrecuo{}
 .p3intermediariosemrecuoitem{}
 .p3intermediariosemrecuoitemcont{}
@@ -600,7 +716,7 @@ p.p2atvletrasubitem{}
 .p3intermediariosemrecuoletracont{}
 
 
-/* Textos citados */
+/* TEXTOS CITADOS - CITAÇÃO */
 /*
 p3citacaomanchete
 p3citacaotit1
@@ -671,14 +787,33 @@ p.p4cuidadodicaitem{}
 .p4cuidadodicaitemcont{} 
 
 /* Respostas */
+/*  
+p4resposta
+*/
 .p4resposta{}
 
 /*👉TEXTOS SUPORTE👈*/
 /* Balão de fala */
+/* 
+p5balao
+*/
 .p5balao{}
 
 
-/* Marcadores */
+/* MARCADORES */
+/* 
+p5marcador
+p5marcadornegativo
+p5marcador2
+p5marcador2negativo
+p5marcadorcaixa
+p5marcadorcaixanegativo
+p5marcadorcaixa2
+p5marcadorcaixa2negativo
+p5marcadorcaixa3
+p5marcadorcaixa3negativo
+p5marcadorromano
+*/
 .p5marcador{}
 .p5marcadornegativo{}
 
@@ -694,15 +829,26 @@ p.p4cuidadodicaitem{}
 .p5marcadorcaixa3{}
 .p5marcadorcaixa3negativo{}
 
-.p5marcadorromano{}  /* TODO: ELEMENTO NOVO */
+.p5marcadorromano{}  
 
 /* ABERTURA DE CAPITULO */
+/* 
+p5aberturaobjtit
+p5aberturaobjitem
+*/
 .p5aberturaobjtit{}
 .p5aberturaobjitem{}
 
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
 /* Sumário */
+/* 
+c0sumariosecao1
+c0sumariosecao2
+c0sumariosecao3
+c0sumariosecao4
+c0sumariosecao5
+*/
 .c0sumariosecao1{}
 .c0sumariosecao2{}
 .c0sumariosecao3{}
@@ -711,16 +857,26 @@ p.p4cuidadodicaitem{}
 
 
 /* Geral */
+/* 
+c0destaqueletra
+c0destaqueletracitacao
+c0destaquenumero
+c0destaquenumerocitacao 👉Estilo de caracter utilizado na citacao 
+c0destaqueromano
+c0destaquequestaonumero
+c0destaquesomatoria
+c0bulletnumitem
+c0bulletsubitem  👉Estilo de caracter utilizado no manual em U 
+c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
+c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
+*/
+
 .c0destaqueletra{}
 .c0destaqueletracitacao{}
 .c0destaquenumero{}
 .c0destaquenumerocitacao{} /* Estilo de caracter utilizado na citacao */ 
 .c0destaqueromano{}
 .c0destaquequestaonumero{}
-
-.c0destaqueletramp{}
-.c0destaquenumeromp{}
-.c0destaqueromanomp{}
 
 .c0destaquesomatoria{}
 .c0bulletnumitem{}
@@ -731,6 +887,14 @@ p.p4cuidadodicaitem{}
 
 
 /*👉C1: Estilos de bold e itálico👈*/
+/* 
+c1bold
+c1italico
+c1bolditalico
+c1citacaobold
+c1citacaoitalico
+c1citacaobolditalico
+*/
 .c1bold{}
 .c1italico{}
 .c1bolditalico{}
@@ -740,18 +904,35 @@ p.p4cuidadodicaitem{}
 .c1citacaobolditalico{}
 
 /*👉C2: Estilos de Respostas👈*/
+/* 
+c2respostabold
+c2respostaitalico
+c2respostabolditalico
+*/
 .c2respostabold{}
 .c2respostaitalico{}
 .c2respostabolditalico{}
 
 
 /*👉C3: Estilos de Acessibilidade👈*/
+/* 
+c3idioma
+c3idiomabold
+c3idiomaitalico
+c3idiomabolditalico
+*/
 .c3idioma{}
 .c3idiomabold{}
 .c3idiomaitalico{}
 .c3idiomabolditalico{}
 
 /* (exceção no INDD - overprint) */ 
+/* 
+c3idiomaresposta
+c3idiomaboldresposta
+c3idiomaitalicoresposta
+c3idiomabolditalicoresposta
+*/
 .c3idiomaresposta{}
 .c3idiomaboldresposta{}
 .c3idiomaitalicoresposta{}
@@ -760,6 +941,18 @@ p.p4cuidadodicaitem{}
 
 
 /*👉C4: Estilos de Suporte👈*/
+/* 
+c4lacuna
+c4ordinal
+c4ordinalnegativo
+c4ordinalresposta
+c4simuladorhiperlink
+c4linhalacunaresposta
+c4vocabulariodestaque
+c4vocabulariodestaqueitalico
+c4glossariodestaque
+c4glossariodestaqueitalico
+*/
 .c4lacuna{}
 .c4ordinal{}
 .c4ordinalnegativo{}
@@ -772,6 +965,7 @@ p.p4cuidadodicaitem{}
 .c4glossariodestaqueitalico{}
 
 
+/*👉C4: Estilos de  👈*/
 .c5destaqueverbetedicionario{}
 
 
@@ -781,121 +975,221 @@ p.p4cuidadodicaitem{}
 
 /*👉O0: Estilos “reservados” (Essenciais em todo projeto)👈*/
 
-/* Abertura  estilos esclusivs do digital*/
+/* Abertura  estilos esclusivos do digital*/
 .boxabertura
 .imgAbertura
-/* Abertura  estilos esclusivs do digital*/
+/* Abertura  estilos esclusivos do digital*/
 
 /* Estilos de objeto: APRESENTAÇÃO E CONHEÇA */
-.o0mpg
-.o0facsimile
-.o0secconheca
-.o0secapresentacao
-.o0secconheca2
-
-.o0aberturaatvbox
-.o0aberturaobjbox
-.o0aberturalegenda
-.o0sec1
-.o0sec2
-.o0sec3
-.o0sec4
-.o0sec5
-.o0sec6  /*👉 Cynthia: atualizar lista de stilos */
-.o0sec7
-.o0parasabermais
-.o0referencias
-.o0sugestcomp
-.o0recadoimagembox
-.o0medidaanimalbox
-.o0boxpalavra
+/* 
+o0mpg
+o0facsimile
+o0secconheca
+o0secapresentacao
+o0secconheca2
+o0aberturaatvbox
+o0aberturaobjbox
+o0aberturalegenda
+o0sec1
+o0sec2
+o0sec3
+o0sec4
+o0sec5
+o0sec6  👉 Cynthia: atualizar lista de stilos 
+o0sec7
+o0parasabermais
+o0referencias
+o0sugestcomp
+o0recadoimagembox
+o0medidaanimalbox
+o0boxpalavra
+*/
+.o0mpg{}
+.o0facsimile{}
+.o0secconheca{}
+.o0secapresentacao{}
+.o0secconheca2{}
+.o0aberturaatvbox{}
+.o0aberturaobjbox{}
+.o0aberturalegenda{}
+.o0sec1{}
+.o0sec2{}
+.o0sec3{}
+.o0sec4{}
+.o0sec5{}
+.o0sec6{}  
+.o0sec7{}
+.o0parasabermais{}
+.o0referencias{}
+.o0sugestcomp{}
+.o0recadoimagembox{}
+.o0medidaanimalbox{}
+.o0boxpalavra{}
 
 /*👉O1: Estilos para boxes genéricos, suportes e papeletas👈*/
-.o1boxfundobranco
-.o1boxfundoazul1
-.o1boxfundoazul2
-.o1boxfundoroxo1
-.o1boxfundoroxo2
-.o1boxfundoamarelo1
-.o1boxfundolaranja1
-.o1boxfundolaranja2
-.o1boxfundoverde1
-.o1boxfundoverde2
-.o1fioindicacaoroxo1
-.o1fioindicacaoverde1
-.o1boxfioroxo1
-.o1fiocotapreto
-.o1setaroxo1
-.o1setaverde1
-.o1contornoimagem /*👉 Cynthia: atualizar lista de stilos */
+/* 
+o1boxfundobranco
+o1boxfundoazul1
+o1boxfundoazul2
+o1boxfundoroxo1
+o1boxfundoroxo2
+o1boxfundoamarelo1
+o1boxfundolaranja1
+o1boxfundolaranja2
+o1boxfundoverde1
+o1boxfundoverde2
+o1fioindicacaoroxo1
+o1fioindicacaoverde1
+o1boxfioroxo1
+o1fiocotapreto
+o1setaroxo1
+o1setaverde1
+o1contornoimagem  👉 Cynthia: atualizar lista de stilos
+*/
+.o1boxfundobranco{}
+.o1boxfundoazul1{}
+.o1boxfundoazul2{}
+.o1boxfundoroxo1{}
+.o1boxfundoroxo2{}
+.o1boxfundoamarelo1{}
+.o1boxfundolaranja1{}
+.o1boxfundolaranja2{}
+.o1boxfundoverde1{}
+.o1boxfundoverde2{}
+.o1fioindicacaoroxo1{}
+.o1fioindicacaoverde1{}
+.o1boxfioroxo1{}
+.o1fiocotapreto{}
+.o1setaroxo1{}
+.o1setaverde1{}
+.o1contornoimagem{}
 
 
 /*👉O2: Gráficos e mapas👈*/
-.o2mapabox
-.o2mapaescala
-.o2mapaescalabox
-.o2graficobox
-.o2esquemabox
+/* 
+o2mapabox
+o2mapaescala
+o2mapaescalabox
+o2graficobox
+o2esquemabox
+*/
+.o2mapabox{}
+.o2mapaescala{}
+.o2mapaescalabox{}
+.o2graficobox{}
+.o2esquemabox{}
 
 /*👉O3: Jornal e Citação👈*/
-.o3jornalfundo
-.o3fiocitacao
+/* 
+o3jornalfundo
+o3fiocitacao
+*/
+.o3jornalfundo{}
+.o3fiocitacao{}
 
 
 /*👉O4: Boxes específicos👈*/
-.o4ficha
-.o4ficha2
-.o4boxinfo
-.o4boxmateriais
-.o4balao
-.o4balaobranco
-.o4balaopensamento
-.o4balaopensamentobranco
-.o4cuidadobox
-.o4dicabox
-.o4dicaboxnegativo
-.o4autorbox
-.o4atencaobox
-.o4conceitobox
-.o4avaliacaobox
-.o4vocabulariobox
-.o4etapabox
-.o4exemplobox
-.o4intermediariobox
-.o4destaquepalavrabox
-.o4destaquepalavrafio
-
-.o4recadoimagemcinza
-.o4recadoimagembranco
-.o4recadoimagemvermelho
+/* 
+o4ficha
+o4ficha2
+o4boxinfo
+o4boxmateriais
+o4balao
+o4balaobranco
+o4balaopensamento
+o4balaopensamentobranco
+o4cuidadobox
+o4dicabox
+o4dicaboxnegativo
+o4autorbox
+o4atencaobox
+o4conceitobox
+o4avaliacaobox
+o4vocabulariobox
+o4etapabox
+o4exemplobox
+o4intermediariobox
+o4destaquepalavrabox
+o4destaquepalavrafio
+o4recadoimagemcinza
+o4recadoimagembranco
+*/
+.o4ficha{}
+.o4ficha2{}
+.o4boxinfo{}
+.o4boxmateriais{}
+.o4balao{}
+.o4balaobranco{}
+.o4balaopensamento{}
+.o4balaopensamentobranco{}
+.o4cuidadobox{}
+.o4dicabox{}
+.o4dicaboxnegativo{}
+.o4autorbox{}
+.o4atencaobox{}
+.o4conceitobox{}
+.o4avaliacaobox{}
+.o4vocabulariobox{}
+.o4etapabox{}
+.o4exemplobox{}
+.o4intermediariobox{}
+.o4destaquepalavrabox{}
+.o4destaquepalavrafio{}
+.o4recadoimagemcinza{}
+.o4recadoimagembranco{}
 
 
 /*👉O5: Papeletas e papelaria👈*/
-.o5bilhete1
-.o5bilhete2
-.o5nota1
-.o5nota2
-.o5nota3
-.o5postit1
-.o5postit2
-.o5papeleta1
-.o5papeleta2
-.o5prancheta
-.o5lousa
-.o5quadrobranco
-.o5moldura
-.o5navegadorbarra
-.o5navegadorfundo
-.o5verbetedicionario
-.o5curriculo
-.o5email
-.o5email2
+/* 
+o5bilhete1
+o5bilhete2
+o5nota1
+o5nota2
+o5nota3
+o5postit1
+o5postit2
+o5papeleta1
+o5papeleta2
+o5prancheta
+o5lousa
+o5quadrobranco
+o5moldura
+o5navegadorbarra
+o5navegadorfundo
+o5verbetedicionario
+o5curriculo
+o5email
+o5email2
+*/
+.o5bilhete1{}
+.o5bilhete2{}
+.o5nota1{}
+.o5nota2{}
+.o5nota3{}
+.o5postit1{}
+.o5postit2{}
+.o5papeleta1{}
+.o5papeleta2{}
+.o5prancheta{}
+.o5lousa{}
+.o5quadrobranco{}
+.o5moldura{}
+.o5navegadorbarra{}
+.o5navegadorfundo{}
+.o5verbetedicionario{}
+.o5curriculo{}
+.o5email{}
+.o5email2{}
 
 
 
 /*👉OE: Elementos vindos da editora👈*/
-.oemestrategias
-.oemestrategias2
+/* 
+oemestrategias
+oemestrategias2
+*/
+.oemestrategias{}
+.oemestrategias2{}
 
 
 /*MEDIA QUERY*/
