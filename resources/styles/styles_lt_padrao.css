@@ -1,0 +1,1238 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(colorfonts.css);
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);   
+    line-height: 1.5em;
+    overflow-x: hidden;
+    hyphens: none;   
+}
+main {
+    max-width: 85ch;
+    margin: 0 auto;
+}
+section {
+    box-sizing: border-box;
+    margin-bottom: 2.5em;
+    page-break-before: always;
+    page-break-after: avoid;
+}
+section header {
+    padding: 15px 0 0px 0;
+    display: flex;
+    flex-direction: column;
+}
+blockquote {
+    font-size: 1em;
+    max-width: 100%;
+}
+figure {
+    margin: 1em 0.5em;
+    display: table;
+}
+figure img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+figcaption.p4legenda {
+    display: table-caption;
+    caption-side: bottom;
+    hyphens: none;
+}
+figcaption.legenda2 {
+    display: table-caption;
+    caption-side: top;
+    hyphens: none;
+}
+
+p, ul li {
+    hyphens: none;
+    max-width: 100%;
+}
+
+p {
+    hyphens: none !important;
+    line-height: 130%;    
+    width: 100%;
+    max-width: 100%;  
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+strong em, em strong  {
+    font-weight: bold;
+    font-style: italic;
+}
+
+table {
+    max-width: 100%;
+}
+table tr td,
+table tr th {
+    padding: 8px;
+}
+table p {
+    margin: 0px;
+    padding: 0;
+}
+
+
+
+/*👉 ----- IDs PARA MAPEAMENTO ------ 👈
+//mathml_id_2028548792szo
+//aj_pro_id_t092036697776uk
+//lang_id_ed2047233561g
+//glossario_id_mOm092057201488_glos
+//glossario_id_mOm092057201488_voc
+//list_id_gv2456551860w
+*/
+
+/*👉 CLASSES RESERVADAS DIGITAL 👈*/
+/* 
+aluno
+professor
+url_para_encurta
+pag
+box_aluno
+box_professor_mp
+caracterizada
+descaracterizada
+ajustepronuncia
+conteudoOriginal
+conteudoAdaptado
+creditoimagemOED
+creditoimagem
+creditoimagemResposta
+creditoimagemPage
+orienta
+orientatx
+ocultatx
+ocultamn
+hifen_ano
+*/
+.aluno{}
+.professor{}
+.url_para_encurta{}
+.pag{}
+.box_aluno{}
+.box_professor_mp{}
+.caracterizada{}
+.descaracterizada{}
+.ajustepronuncia{}
+.conteudoOriginal{}
+.conteudoAdaptado{}
+.creditoimagemOED{}
+.creditoimagem{}
+.creditoimagemResposta{}
+.creditoimagemPage{}
+
+
+.orienta{}
+.orientatx{}
+.ocultatx{}
+.ocultamn{}
+.hifen_ano{}
+
+
+
+/*👉CLASSES PARA DIAGRAMAR👈*/
+/* COLUNAS E ALINHAMENTO */
+.col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.col2c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.col2s {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 16px;
+}
+
+.col2d{}
+
+/* Alinhamento vertical */
+.coltop {
+    align-items: flex-start;
+}
+
+.colcenter {
+    align-items: center;
+}
+
+.colbottom {
+    align-items: flex-end;
+}
+
+/* Alinhamento vertical de imagens dentro do parágrafo */
+.imgbottom {
+    vertical-align: text-bottom;
+}
+
+.imgtop {
+    vertical-align: sub;
+}
+
+.ico,
+.imgmiddle {
+    vertical-align: middle;
+}
+
+/* ALINHAMENTO DE TEXTO  */
+.esquerda tr td,
+.esquerda tr th,
+.esquerda {
+    text-align: left !important;
+}
+
+.direita tr td,
+.direita tr th,
+.direita {
+    text-align: right;
+}
+
+.centro tr td,
+.centro tr th,
+.centro {
+    text-align: center;
+}
+
+.justificado tr td,
+.justificado tr th,
+.justificado {
+    text-align: justify;
+}
+
+.largura25 {
+    width: 25% !important;
+}
+
+.largura33 {
+    width: 33% !important;
+}
+
+.largura45 {
+    width: 45% !important;
+}
+
+
+/*👉ESTILOS CONSUMIVEL👈*/
+.linharesposta1, .linharesposta2,
+.linharesposta3, .linharesposta4,
+.linharesposta5{
+    background: url(../images/linha_resposta.svg) ;
+    width: 100%;
+    margin: 1em 0;
+}
+.linharesposta1{
+    height:20px;
+}
+.linharesposta2{ 
+    height: 30px;
+}
+.linharesposta3{ 
+    height: 50px;   
+}
+.linharesposta4{   
+    height: 60px;   
+}
+.linharesposta5{    
+    height: 80px;
+   
+}
+
+.lacunarespostap, .lacunarespostam,
+.lacunarespostag{
+    background: url(../images/linha_resposta.svg) ;
+    background-position-y:20px ;
+    margin: 0 5px;
+}
+.lacunarespostap{
+    padding:0em 1em;
+}
+.lacunarespostam{
+    padding:0em 2.5em;
+}
+.lacunarespostag{  
+    padding:0em 4.5em;
+}
+
+/*👉 ================ SUMÁRIO / APRESENTAÇÃO E CONHEÇA LT ==================👈*/
+/* 
+secsumario
+sumariosecinicial
+navsumario
+
+p1sumariopv
+
+p1seciniciaistit1
+p1seciniciaistit2
+p1sumariopeso1pv
+p1sumariopeso1
+p1sumariopeso2
+p1sumariopeso3
+p1sumariopeso4
+p1sumariopeso5
+p1sumarioextrapeso1
+p1sumarioextrapeso2
+p1sumarioextrapeso3
+p1sumariopeso1numero
+p1sumariopeso2numero
+p1sumariooedpv
+p1sumariooedpeso1
+p1sumariooedpeso2
+
+*/
+
+.p1seciniciaistit1{}
+.p1seciniciaistit2{}
+.p1sumariopeso1pv{}
+
+.p1sumariopeso1{}
+.p1sumariopeso2{}
+.p1sumariopeso3{}
+.p1sumariopeso4{}
+.p1sumariopeso5{}
+.p1sumarioextrapeso1{}
+.p1sumarioextrapeso2{}
+.p1sumarioextrapeso3{}
+.p1sumariopeso1numero{}
+.p1sumariopeso2numero{}
+
+.p1sumariooedpv{}
+.p1sumariooedpeso1{}
+.p1sumariooedpeso2{}
+
+/*👉=================== ESTILOS MIOLO ================================👈*/
+/* TÍTULOS  */
+/* 
+.p0tit1
+.p0tit1numpv
+.p0tit1pv
+.p0tit2
+.p0tit2numpv
+.p0tit2pv
+.p0tit3
+.p0tit4
+.p0tit5
+.p0tit6
+.p0tit3negativo
+.p0tit4negativo
+.p0tit5negativo
+.p0tit6negativo
+*/
+.p0tit1{}
+.p0tit1numpv{}
+.p0tit1pv{}
+
+
+.p0tit2{}
+.p0tit2numpv{}
+.p0tit2pv{}
+
+
+.p0tit3{}
+.p0tit4{}
+.p0tit5{}
+.p0tit6{}
+
+
+.p0tit3negativo{}
+.p0tit4negativo{}
+.p0tit5negativo{}
+.p0tit6negativo{}
+
+/* TÍTULOS DE ELEMENTOS */
+
+/* Tabelas e Quadros */
+/* 
+p1tabelatit
+p1tabelatitcoluna
+p1tabelatexto
+p1tabelatextoitem
+p1tabelatextoitemcont
+*/
+.p1tabelatit{}
+.p1tabelatitcoluna{}
+.p1tabelatexto{}
+.p1tabelatextoitem{}
+.p1tabelatextoitemcont{}
+
+/* Especificação exclusiva do Digital */
+.quadro td:first-child,
+.quadro th:first-child {
+    border: 1px solid var(--verde1);
+}
+.quadro td:last-child,
+.quadro th:last-child {
+    border: 1px solid var(--verde1);
+}
+.tabela td:first-child,
+.tabela th:first-child,
+.tabela caption {
+    border-left: none;
+}
+.tabela td:last-child,
+.tabela th:last-child,
+.tabela caption  {
+    border-right: none;
+}
+
+
+/* GRÁFICOS */
+/* 
+p1graficotit
+o2graficogravata1
+o2graficogravata2
+*/
+.p1graficotit{}
+.o2graficogravata1{}
+.o2graficogravata2{}
+
+/* MAPAS */
+/* 
+p1mapatit
+o2mapagravata1
+o2mapagravata2
+*/
+.p1mapatit{}
+.o2mapagravata1{}
+.o2mapagravata2{}
+
+/* TÍTULO BOX */
+/* 
+p1box1tit
+p1box2tit
+*/
+.p1box1tit{}
+.p1box2tit{}
+
+/* TÍTULO SEÇÃO */
+/* 
+.p1sec1tit1
+.p1sec1tit2
+.p1sec1tit3
+.p1sec2tit1
+.p1sec2tit2
+.p1sec2tit3
+.p1sec3tit1
+.p1sec3tit2
+.p1sec3tit3
+.p1sec4tit1
+.p1sec4tit2
+.p1sec4tit3
+.p1sec5tit1
+.p1sec5tit2
+.p1sec5tit3
+.p1sec6tit1
+.p1sec6tit2
+.p1sec6tit3
+.p1sec7tit1
+.p1sec7tit2
+.p1sec7tit3
+*/
+.p1sec1tit1{}
+.p1sec1tit2{}
+.p1sec1tit3{}
+
+.p1sec2tit1{}
+.p1sec2tit2{}
+.p1sec2tit3{}
+
+.p1sec3tit1{}
+.p1sec3tit2{}
+.p1sec3tit3{}
+
+.p1sec4tit1{}
+.p1sec4tit2{}
+.p1sec4tit3{}
+
+.p1sec5tit1{}
+.p1sec5tit2{}
+.p1sec5tit3{}
+
+.p1sec6tit1{}
+.p1sec6tit2{}
+.p1sec6tit3{}
+
+.p1sec7tit1{}
+.p1sec7tit2{}
+.p1sec7tit3{}
+
+/*👉 SUGESTÕES COMPLEMENTARES 👈*/
+/* 
+p1sugestcomptit1
+p1sugestcomptit2
+*/
+.p1sugestcomptit1{}
+.p1sugestcomptit2{}
+
+/*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
+/* 
+p1referenciasbibliotit1
+p1referenciasbibliotit2
+p2referenciasbiblio
+p2referenciasbiblioitem
+p2referenciasbibliocoment
+*/
+.p1referenciasbibliotit1{}
+.p1referenciasbibliotit2{}
+
+.p2referenciasbiblio{}
+.p2referenciasbiblioitem{}
+.p2referenciasbibliocoment{}
+
+/*👉======= TEXTOS PESO: principal =======👈*/
+/* TEXTO SEM RECUO PRINCIPAL */
+/* 
+p2textosemrecuo
+p2textosemrecuoitem
+p2textosemrecuoitemcont
+p2textonumsemrecuo
+p2textomarcadorsemrecuo
+p2textomarcadorsemrecuocont
+p2textosemrecuonumcont
+p2textosemrecuonumitem
+p2textosemrecuonumitemcont
+p2textosemrecuonumletra
+p2textosemrecuonumletracont
+p2textosemrecuoletra
+*/
+.p2textosemrecuo{}
+.p2textosemrecuoitem{}
+.p2textosemrecuoitemcont{}
+.p2textonumsemrecuo{}
+.p2textomarcadorsemrecuo{}
+.p2textomarcadorsemrecuocont{}
+.p2textosemrecuonumcont{}
+.p2textosemrecuonumitem{}
+.p2textosemrecuonumitemcont{}
+.p2textosemrecuonumletra{}
+.p2textosemrecuonumletracont{}
+.p2textosemrecuoletra
+
+
+/* TEXTO PRINCIPAL */
+/* 
+p2texto
+p2textoitem
+p2textoitemcont
+p2textosubitem
+p2textosubitemcont
+p2textoitemletra
+p2textoitemletracont
+p2textoletra
+p2textoletracont
+p2textoletraitem
+p2textoletraitemcont
+p2textomarcador
+p2textomarcadorletra
+p2textomarcadorletracont
+p2textomarcadoritem
+p2textomarcadoritemcont
+p2textomarcadorsubitem
+p2textomarcadorsubitemcont
+*/
+.p2texto{}
+
+.p2textoitem{}
+.p2textoitemcont{}
+
+.p2textosubitem{}
+.p2textosubitemcont{}
+
+.p2textoitemletra{}
+.p2textoitemletracont{}
+
+.p2textoletra{}
+.p2textoletracont{}
+.p2textoletraitem{}
+.p2textoletraitemcont{}
+
+.p2textomarcador{}
+
+.p2textomarcadorletra{}
+.p2textomarcadorletracont{}
+
+.p2textomarcadoritem{}
+.p2textomarcadoritemcont{}
+
+.p2textomarcadorsubitem{} 
+.p2textomarcadorsubitemcont{}
+
+
+/* QUESTÃO TEORIA */
+/* 
+p2questao
+p2questaocont
+p2questaoletra
+p2questaoletracont
+p2questaoletraitem
+p2questaoletraitemcont
+p2questaoitem
+p2questaoitemcont
+p2questaosubitem
+p2questaosubitemcont
+p2questaomarcador
+p2questaomarcadorcont
+*/
+.p2questao{}
+.p2questaocont{}
+
+.p2questaoletra{}
+.p2questaoletracont{}
+
+ul.p2questaoletraitem{}
+p.p2questaoletraitem{}
+.p2questaoletraitemcont{}
+
+ul.p2questaoitem{}
+p.p2questaoitem{}
+.p2questaoitemcont{}
+
+ul.p2questaosubitem{}
+p.p2questaosubitem{}
+.p2questaosubitemcont{} 
+
+.p2questaomarcador{}
+.p2questaomarcadorcont{}
+
+
+
+/* ATIVIDADES */
+/*
+.p2atv
+.p2atvcont
+.p2atvromano
+.p2atvromanocont
+.p2atvitem
+.p2atvitemcont
+.p2atvsubitem
+.p2atvsubitemcont
+.p2atvitemletra
+.p2atvitemletracont
+.p2atvletra
+.p2atvletracont
+.p2atvletraromano
+.p2atvletraromanocont
+.p2atvletraitem
+.p2atvletraitemcont
+.p2atvletrasubitem
+.p2atvletrasubitemcont
+.p2atvletraitemromano
+.p2atvletraitemromanocont
+.p2atvmarcador
+.p2atvmarcadorcont
+.p2atvsomatoria
+.p2atvsomatoriacont
+*/
+.p2atv{}
+.p2atvcont{}
+.p2atvromano{}
+.p2atvromanocont{}
+
+ul.p2atvitem{}
+p.p2atvitem{}
+.p2atvitemcont{}
+
+ul.p2atvsubitem{}
+p.p2atvsubitem{}
+.p2atvsubitemcont{}
+
+.p2atvitemletra{}
+.p2atvitemletracont{}
+
+.p2atvletra{}
+.p2atvletracont{}
+
+.p2atvletraromano{}
+.p2atvletraromanocont{}
+
+ul.p2atvletraitem{}
+p.p2atvletraitem{}
+.p2atvletraitemcont{}
+
+ul.p2atvletrasubitem{}
+p.p2atvletrasubitem{}
+.p2atvletrasubitemcont{}
+
+.p2atvletraitemromano{}
+.p2atvletraitemromanocont{}
+
+.p2atvmarcador{}
+.p2atvmarcadorcont{}/*TODO: Aguardando de definição de uso*/
+.p2atvsomatoria{}
+.p2atvsomatoriacont{}
+
+
+
+/*👉==================== TEXTOS PESO: intermediário ===================👈*/
+/* TEXTOS INTERMEDIÁRIOS */
+/*
+.p3intermediariotit
+.p3intermediario
+.p3intermediarioitem
+.p3intermediarioitemcont
+.p3intermediarioitemletra
+.p3intermediarioitemletracont
+.p3intermediarioletra
+.p3intermediarioletracont
+.p3intermediarionumero
+.p3intermediarionumerocont
+.p3intermediariomarcador
+.p3intermediariomarcadorcont
+.p3intermediariosemrecuo
+.p3intermediariosemrecuoitem
+.p3intermediariosemrecuoitemcont
+.p3intermediariosemrecuoletra
+.p3intermediariosemrecuoletracont
+*/
+.p3intermediariotit{}
+.p3intermediario{}
+
+.p3intermediarioitem{}
+.p3intermediarioitemcont{}
+.p3intermediarioitemletra{}
+.p3intermediarioitemletracont{}
+
+.p3intermediarioletra{}
+.p3intermediarioletracont{}
+
+.p3intermediarionumero{}
+.p3intermediarionumerocont{}
+
+.p3intermediariomarcador{}
+.p3intermediariomarcadorcont{}
+
+/* TEXTOS INTERMEDIÁRIOS SEM RECUO */
+.p3intermediariosemrecuo{}
+.p3intermediariosemrecuoitem{}
+.p3intermediariosemrecuoitemcont{}
+
+.p3intermediariosemrecuoletra{}
+.p3intermediariosemrecuoletracont{}
+
+
+/* TEXTOS CITADOS - CITAÇÃO */
+/*
+p3citacaomanchete
+p3citacaotit1
+p3citacaotit2
+p3citacaoolho
+p3citacaosemrecuo
+p3citacao
+p3citacaoitem
+p3citacaoitemcont
+p3citacaoletra
+p3citacaoletracont
+p3citacaonumero 
+p3citacaonumerocont
+
+
+*/
+.p3citacaomanchete{}
+
+.p3citacaotit1{}
+.p3citacaotit2{}
+
+.p3citacaoolho{}
+
+.p3citacaosemrecuo{} /* TODO: ELEMENTO NOVO */
+
+.p3citacao{}
+
+ul.p3citacaoitem{}
+blockquote.p3citacaoitem{}
+.p3citacaoitemcont{}
+
+.p3citacaoletra{}
+.p3citacaoletracont{}
+
+.p3citacaonumero{}  
+.p3citacaonumerocont{}
+
+
+
+/*👉==================== TEXTOS PESO: menor ===========================👈*/
+/* Ícone OED */
+.p4iconeoed{}
+
+/* Legenda */
+.p4legenda{}
+
+/* Crédito geral */
+.p4credgeral{}
+
+/* Cotas */
+.p4cota{}
+.p4cotamarcador{}
+
+/* Vocabulário */
+.p4vocabulario{}
+
+/* Glossário */
+.p4glossario{}
+
+/* Recado imagem e medida animal */
+.p4recadoimagem{}
+
+/* Crédito Imagem*/
+.p4credimagem{}
+
+/* Cuidado dica */
+.p4cuidadodica{}
+ul.p4cuidadodicaitem{}
+p.p4cuidadodicaitem{}
+.p4cuidadodicaitemcont{} 
+
+/* Respostas */
+/*  
+p4resposta
+*/
+.p4resposta{}
+
+/*👉TEXTOS SUPORTE👈*/
+/* Balão de fala */
+/* 
+p5balao
+*/
+.p5balao{}
+
+
+/* MARCADORES */
+/* 
+p5marcador
+p5marcadornegativo
+p5marcador2
+p5marcador2negativo
+p5marcadorcaixa
+p5marcadorcaixanegativo
+p5marcadorcaixa2
+p5marcadorcaixa2negativo
+p5marcadorcaixa3
+p5marcadorcaixa3negativo
+p5marcadorromano
+*/
+.p5marcador{}
+.p5marcadornegativo{}
+
+.p5marcador2{}
+.p5marcador2negativo{}
+
+.p5marcadorcaixa{}
+.p5marcadorcaixanegativo{}
+
+.p5marcadorcaixa2{}
+.p5marcadorcaixa2negativo{}
+
+.p5marcadorcaixa3{}
+.p5marcadorcaixa3negativo{}
+
+.p5marcadorromano{}  
+
+/* ABERTURA DE CAPITULO */
+/* 
+p5aberturaobjtit
+p5aberturaobjitem
+*/
+.p5aberturaobjtit{}
+.p5aberturaobjitem{}
+
+/*👉ESTILOS DE CARACTER👈*/
+/*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
+/* Sumário */
+/* 
+c0sumariosecao1
+c0sumariosecao2
+c0sumariosecao3
+c0sumariosecao4
+c0sumariosecao5
+*/
+.c0sumariosecao1{}
+.c0sumariosecao2{}
+.c0sumariosecao3{}
+.c0sumariosecao4{}
+.c0sumariosecao5{}
+
+
+/* Geral */
+/* 
+c0destaqueletra
+c0destaqueletracitacao
+c0destaquenumero
+c0destaquenumerocitacao 👉Estilo de caracter utilizado na citacao 
+c0destaqueromano
+c0destaquequestaonumero
+c0destaquesomatoria
+c0bulletnumitem
+c0bulletsubitem  👉Estilo de caracter utilizado no manual em U 
+c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
+c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
+*/
+
+.c0destaqueletra{}
+.c0destaqueletracitacao{}
+.c0destaquenumero{}
+.c0destaquenumerocitacao{} /* Estilo de caracter utilizado na citacao */ 
+.c0destaqueromano{}
+.c0destaquequestaonumero{}
+
+.c0destaquesomatoria{}
+.c0bulletnumitem{}
+.c0bulletsubitem{} /* Estilo de caracter utilizado no manual em U */ 
+
+.c0destaquecap{}/* Estilo de caracter utilizado no sumário mp */ 
+.c0destaquesecao{}/* Estilo de caracter utilizado no sumário mp */ 
+
+
+/*👉C1: Estilos de bold e itálico👈*/
+/* 
+c1bold
+c1italico
+c1bolditalico
+c1citacaobold
+c1citacaoitalico
+c1citacaobolditalico
+*/
+.c1bold{}
+.c1italico{}
+.c1bolditalico{}
+
+.c1citacaobold{}
+.c1citacaoitalico{}
+.c1citacaobolditalico{}
+
+/*👉C2: Estilos de Respostas👈*/
+/* 
+c2respostabold
+c2respostaitalico
+c2respostabolditalico
+*/
+.c2respostabold{}
+.c2respostaitalico{}
+.c2respostabolditalico{}
+
+
+/*👉C3: Estilos de Acessibilidade👈*/
+/* 
+c3idioma
+c3idiomabold
+c3idiomaitalico
+c3idiomabolditalico
+*/
+.c3idioma{}
+.c3idiomabold{}
+.c3idiomaitalico{}
+.c3idiomabolditalico{}
+
+/* (exceção no INDD - overprint) */ 
+/* 
+c3idiomaresposta
+c3idiomaboldresposta
+c3idiomaitalicoresposta
+c3idiomabolditalicoresposta
+*/
+.c3idiomaresposta{}
+.c3idiomaboldresposta{}
+.c3idiomaitalicoresposta{}
+.c3idiomabolditalicoresposta{}
+
+
+
+/*👉C4: Estilos de Suporte👈*/
+/* 
+c4lacuna
+c4ordinal
+c4ordinalnegativo
+c4ordinalresposta
+c4simuladorhiperlink
+c4linhalacunaresposta
+c4vocabulariodestaque
+c4vocabulariodestaqueitalico
+c4glossariodestaque
+c4glossariodestaqueitalico
+*/
+.c4lacuna{}
+.c4ordinal{}
+.c4ordinalnegativo{}
+.c4ordinalresposta{}
+.c4simuladorhiperlink{}
+.c4linhalacunaresposta{}
+.c4vocabulariodestaque{}
+.c4vocabulariodestaqueitalico{}
+.c4glossariodestaque{}
+.c4glossariodestaqueitalico{}
+
+
+/*👉C4: Estilos de  👈*/
+.c5destaqueverbetedicionario{}
+
+
+
+
+/* ESTILO DE OBJETO */
+
+/*👉O0: Estilos “reservados” (Essenciais em todo projeto)👈*/
+
+/* Abertura  estilos esclusivos do digital*/
+.boxabertura
+.imgAbertura
+/* Abertura  estilos esclusivos do digital*/
+
+/* Estilos de objeto: APRESENTAÇÃO E CONHEÇA */
+/* 
+o0mpg
+o0facsimile
+o0secconheca
+o0secapresentacao
+o0secconheca2
+o0aberturaatvbox
+o0aberturaobjbox
+o0aberturalegenda
+o0sec1
+o0sec2
+o0sec3
+o0sec4
+o0sec5
+o0sec6  👉 Cynthia: atualizar lista de stilos 
+o0sec7
+o0parasabermais
+o0referencias
+o0sugestcomp
+o0recadoimagembox
+o0medidaanimalbox
+o0boxpalavra
+o0pronunciation 👉 Especifico de inglês
+*/
+.o0mpg{}
+.o0facsimile{}
+.o0secconheca{}
+.o0secapresentacao{}
+.o0secconheca2{}
+.o0aberturaatvbox{}
+.o0aberturaobjbox{}
+.o0aberturalegenda{}
+.o0sec1{}
+.o0sec2{}
+.o0sec3{}
+.o0sec4{}
+.o0sec5{}
+.o0sec6{}  
+.o0sec7{}
+.o0parasabermais{}
+.o0referencias{}
+.o0sugestcomp{}
+.o0recadoimagembox{}
+.o0medidaanimalbox{}
+.o0boxpalavra{}
+.o0pronunciation
+
+/*👉O1: Estilos para boxes genéricos, suportes e papeletas👈*/
+/* 
+o1boxfundobranco
+o1boxfundoazul1
+o1boxfundoazul2
+o1boxfundoroxo1
+o1boxfundoroxo2
+o1boxfundoamarelo1
+o1boxfundolaranja1
+o1boxfundolaranja2
+o1boxfundoverde1
+o1boxfundoverde2
+o1fioindicacaoroxo1
+o1fioindicacaoverde1
+o1boxfioroxo1
+o1fiocotapreto
+o1setaroxo1
+o1setaverde1
+o1contornoimagem  👉 Cynthia: atualizar lista de stilos
+*/
+.o1boxfundobranco{}
+.o1boxfundoazul1{}
+.o1boxfundoazul2{}
+.o1boxfundoroxo1{}
+.o1boxfundoroxo2{}
+.o1boxfundoamarelo1{}
+.o1boxfundolaranja1{}
+.o1boxfundolaranja2{}
+.o1boxfundoverde1{}
+.o1boxfundoverde2{}
+.o1fioindicacaoroxo1{}
+.o1fioindicacaoverde1{}
+.o1boxfioroxo1{}
+.o1fiocotapreto{}
+.o1setaroxo1{}
+.o1setaverde1{}
+.o1contornoimagem{}
+
+
+/*👉O2: Gráficos e mapas👈*/
+/* 
+o2mapabox
+o2mapaescala
+o2mapaescalabox
+o2graficobox
+o2esquemabox
+*/
+.o2mapabox{}
+.o2mapaescala{}
+.o2mapaescalabox{}
+.o2graficobox{}
+.o2esquemabox{}
+
+/*👉O3: Jornal e Citação👈*/
+/* 
+o3jornalfundo
+o3fiocitacao
+*/
+.o3jornalfundo{}
+.o3fiocitacao{}
+
+
+/*👉O4: Boxes específicos👈*/
+/* 
+o4ficha
+o4ficha2
+o4boxinfo
+o4boxmateriais
+o4balao
+o4balaobranco
+o4balaopensamento
+o4balaopensamentobranco
+o4cuidadobox
+o4dicabox
+o4dicaboxnegativo
+o4autorbox
+o4atencaobox
+o4conceitobox
+o4avaliacaobox
+o4vocabulariobox
+o4etapabox
+o4exemplobox
+o4intermediariobox
+o4destaquepalavrabox
+o4destaquepalavrafio
+o4recadoimagemcinza
+o4recadoimagembranco
+*/
+.o4ficha{}
+.o4ficha2{}
+.o4boxinfo{}
+.o4boxmateriais{}
+.o4balao{}
+.o4balaobranco{}
+.o4balaopensamento{}
+.o4balaopensamentobranco{}
+.o4cuidadobox{}
+.o4dicabox{}
+.o4dicaboxnegativo{}
+.o4autorbox{}
+.o4atencaobox{}
+.o4conceitobox{}
+.o4avaliacaobox{}
+.o4vocabulariobox{}
+.o4etapabox{}
+.o4exemplobox{}
+.o4intermediariobox{}
+.o4destaquepalavrabox{}
+.o4destaquepalavrafio{}
+.o4recadoimagemcinza{}
+.o4recadoimagembranco{}
+
+
+/*👉O5: Papeletas e papelaria👈*/
+/* 
+o5bilhete1
+o5bilhete2
+o5nota1
+o5nota2
+o5nota3
+o5postit1
+o5postit2
+o5papeleta1
+o5papeleta2
+o5prancheta
+o5lousa
+o5quadrobranco
+o5moldura
+o5navegadorbarra
+o5navegadorfundo
+o5verbetedicionario
+o5curriculo
+o5email
+o5email2
+*/
+.o5bilhete1{}
+.o5bilhete2{}
+.o5nota1{}
+.o5nota2{}
+.o5nota3{}
+.o5postit1{}
+.o5postit2{}
+.o5papeleta1{}
+.o5papeleta2{}
+.o5prancheta{}
+.o5lousa{}
+.o5quadrobranco{}
+.o5moldura{}
+.o5navegadorbarra{}
+.o5navegadorfundo{}
+.o5verbetedicionario{}
+.o5curriculo{}
+.o5email{}
+.o5email2{}
+
+
+
+/*👉OE: Elementos vindos da editora👈*/
+/* 
+oemestrategias
+oemestrategias2
+*/
+.oemestrategias{}
+.oemestrategias2{}
+
+
+/*MEDIA QUERY*/
+/*👉Versão Mobile Cel👈*/
+@media screen and (min-width: 300px) and (max-width: 700px) {
+    main{
+        max-width: 100%;
+    }
+}
+
+/*👉Versão Mobile tablet👈*/
+@media screen and (min-width: 720px) and (max-width: 1024px) {}
+
+/*👉Versão Desktop👈*/
+@media screen and (min-width: 1200px) {}
+
+/*👉Versão IMPRESSÃO👈*/
+@media print and (max-height: 280mm) {}

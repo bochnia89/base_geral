@@ -65,7 +65,6 @@ p, ul li {
 p {
     hyphens: none !important;
     line-height: 130%;    
-    width: 100%;
     max-width: 100%;  
 }
 
@@ -106,12 +105,39 @@ table p {
 */
 
 /*👉 CLASSES RESERVADAS DIGITAL 👈*/
+/* 
+aluno
+professor
+url_para_encurta
+pag
+box_aluno
+box_professor_mp
+caracterizada
+descaracterizada
+ajustepronuncia
+conteudoOriginal
+conteudoAdaptado
+creditoimagemOED
+creditoimagem
+creditoimagemResposta
+creditoimagemPage
+orienta
+orientatx
+ocultatx
+ocultamn
+hifen_ano
+*/
 .aluno{}
 .professor{}
 .url_para_encurta{}
 .pag{}
-.box_aluno{}
-.box_professor_mp{}
+.box_aluno{
+    padding: 0.5em 0 1em 0;
+}
+.box_professor_mp{
+    background: var(--manualu);
+    padding: 0 1em 1em 1em;
+}
 .caracterizada{}
 .descaracterizada{}
 .ajustepronuncia{}
@@ -122,14 +148,49 @@ table p {
 .creditoimagemResposta{}
 .creditoimagemPage{}
 
+.orienta{
+    background: var(--cinza);
+    border-radius: 0 0 1em 1em;
+    color: var(--preto);
+    font-family: var(--titulo);
+    text-align: center;
+    padding: 0.5em 1em;
+    margin: 0 0 1em 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.orientatx{
+    font-family: var(--texto);
+    padding: 0.5em 0;
+}
+.ocultatx, .ocultamn{
+    color: transparent;
+}
+.ocultatx{
+    font-size: 0.3em;
+}
+.ocultamn{
+    font-size: 0.9em;
+}
+.hifen_ano{
+    margin-left: -8px;
+}
 
-.orienta{}
-.orientaTx{}
-.ocultatx{}
-.ocultamn{}
-.hifen_ano{}
 
 
+/* Visual do número da página */
+header .pag {
+    align-self: flex-end;
+}
+.pag {
+    color: #000;
+    font-family: var(--titulo);
+    font-size: var(--pesoPadrao);
+    font-weight: bold;
+    padding: 4px 8px;    
+    page-break-before: always;
+    page-break-after: avoid;
+    width: max-content;
+}
 
 /*👉CLASSES PARA DIAGRAMAR👈*/
 /* COLUNAS E ALINHAMENTO */
@@ -501,18 +562,80 @@ p2textosemrecuonumitem
 p2textosemrecuonumitemcont
 p2textosemrecuonumletra
 p2textosemrecuonumletracont
+p2textosemrecuoletra
 */
-.p2textosemrecuo{}
-.p2textosemrecuoitem{}
-.p2textosemrecuoitemcont{}
-.p2textonumsemrecuo{}
-.p2textomarcadorsemrecuo{}
-.p2textomarcadorsemrecuocont{}
-.p2textosemrecuonumcont{}
-.p2textosemrecuonumitem{}
-.p2textosemrecuonumitemcont{}
-.p2textosemrecuonumletra{}
-.p2textosemrecuonumletracont{}
+.p2textosemrecuo,
+.p2textosemrecuoitem,
+.p2textosemrecuoitemcont,
+.p2textonumsemrecuo,
+.p2textomarcadorsemrecuo,
+.p2textomarcadorsemrecuocont,
+.p2textosemrecuonumcont,
+.p2textosemrecuonumitem,
+.p2textosemrecuonumitemcont,
+.p2textosemrecuonumletra,
+.p2textosemrecuonumletracont{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
+.p2textosemrecuo{
+    margin: 0.5em 0;
+}
+ul.p2textosemrecuoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p2textosemrecuoitem{
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p2textosemrecuoitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textosemrecuoitemcont{
+    margin: 0.5em 0 0.5em 1em;
+}
+.p2textonumsemrecuo{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p2textomarcadorsemrecuo{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2textomarcadorsemrecuocont{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2textosemrecuonumcont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+ul.p2textosemrecuonumitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2textosemrecuonumitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2textosemrecuonumitem::before{
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    width:10px ;
+    height:10px ;
+    position: absolute;
+    margin:0 0 0 -14px ;
+    }
+.p2textosemrecuonumitemcont{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2textosemrecuonumletra{
+    margin: 0.5em 0 0.5em 3.5em;
+}
+.p2textosemrecuonumletracont{
+    margin: 0.5em 0 0.5em 3.5em;
+}
+/*👉FIXME: Cria o css 👈*/
+.p2textosemrecuoletra
 
 
 /* TEXTO PRINCIPAL */
@@ -536,32 +659,160 @@ p2textomarcadoritemcont
 p2textomarcadorsubitem
 p2textomarcadorsubitemcont
 */
-.p2texto{}
+.p2texto,
+.p2textoitem,
+.p2textoitemcont,
+.p2textosubitem,
+.p2textosubitemcont,
+.p2textoitemletra,
+.p2textoitemletracont,
+.p2textoletra,
+.p2textoletracont,
+.p2textoletraitem,
+.p2textoletraitemcont,
+.p2textomarcador,
+.p2textomarcadorletra,
+.p2textomarcadorletracont,
+.p2textomarcadoritem,
+.p2textomarcadoritemcont,
+.p2textomarcadorsubitem,
+.p2textomarcadorsubitemcont{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
 
-.p2textoitem{}
-.p2textoitemcont{}
+.p2texto{
+    margin: 0.5em 0 0.5em 0;
+    text-indent: 1.5em;
+}
 
-.p2textosubitem{}
-.p2textosubitemcont{}
+ul.p2textoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 40px;
+}
+p.p2textoitem{
+    margin: 0.5em 0 0.5em 40px;
+}
+p.p2textoitem::before {
+    content: '';  /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
 
-.p2textoitemletra{}
-.p2textoitemletracont{}
+.p2textoitemcont{
+    margin: 0em 0 0.5em 40px;
+}
 
-.p2textoletra{}
-.p2textoletracont{}
-.p2textoletraitem{}
-.p2textoletraitemcont{}
+ul.p2textosubitem{
+    list-style: none;
+    margin: 0.5em 0 0.5em 3.5em;
+}
+ul.p2textosubitem li::before {
+    content: '•';
+    color: var(--verde1);
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
 
-.p2textomarcador{}
+p.p2textosubitem{
+    margin: 0.5em 0 0.5em 3.5em;
+}
+p.p2textosubitem::before {
+    content: ''; /*content: '•';*/
+    color: var(--verde1);
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textosubitemcont{
+    margin: 0.5em 0 0.5em 3.5em;
+}
 
-.p2textomarcadorletra{}
-.p2textomarcadorletracont{}
+.p2textoitemletra{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2textoitemletracont{
+    margin: 0.5em 0 0.5em 4em;
+}
 
-.p2textomarcadoritem{}
-.p2textomarcadoritemcont{}
+.p2textoletra{
+    margin: 0.5em 0 0.5em 50px;
+}
+.p2textoletracont{
+    margin: 0.5em 0 0.5em 50px;
+}
+ul.p2textoletraitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 65px;
+}
+p.p2textoletraitem{
+    margin: 0.5em 0 0.5em 65px;
+}
+p.p2textoletraitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textoletraitemcont{
+    margin: 0.5em 0 0.5em 65px;
+}
 
-.p2textomarcadorsubitem{} 
-.p2textomarcadorsubitemcont{}
+.p2textomarcador{
+    margin: 0.5em 0 0.5em 50px;
+}
+
+.p2textomarcadorletra{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p2textomarcadorletracont{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+
+ul.p2textomarcadoritem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2textomarcadoritem{
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2textomarcadoritem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textomarcadoritemcont{
+    margin: 0.5em 0 0.5em 4em;
+}
+
+ul.p2textomarcadorsubitem{
+    list-style: none;
+    margin: 0.5em 0 0.5em 5em;
+}
+ul.p2textomarcadorsubitem li::before{
+    content: '•';
+    color: var(--verde1);
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+p.p2textomarcadorsubitem{
+    margin: 0.5em 0 0.5em 5em;
+}  
+p.p2textomarcadorsubitem::before {
+    content: ''; /*content: '•';*/
+    color: var(--verde1);
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textomarcadorsubitemcont{
+    margin: 0.5em 0 0.5em 5em;
+}
 
 
 /* QUESTÃO TEORIA */
@@ -579,26 +830,108 @@ p2questaosubitemcont
 p2questaomarcador
 p2questaomarcadorcont
 */
-.p2questao{}
-.p2questaocont{}
 
-.p2questaoletra{}
-.p2questaoletracont{}
+.p2questao,
+.p2questaocont,
+.p2questaoletra,
+.p2questaoletracont,
+.p2questaoletraitem,
+.p2questaoletraitemcont,
+.p2questaoitem,
+.p2questaoitemcont,
+.p2questaosubitem,
+.p2questaosubitemcont,
+.p2questaomarcador,
+.p2questaomarcadorcont{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
+.p2questao{
+    margin: 0.5em 0;
+}
+.p2questaocont{
+    margin: 0.5em 0;
+}
 
-ul.p2questaoletraitem{}
-p.p2questaoletraitem{}
-.p2questaoletraitemcont{}
+.p2questaoletra{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p2questaoletracont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
 
-ul.p2questaoitem{}
-p.p2questaoitem{}
-.p2questaoitemcont{}
+ul.p2questaoletraitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2questaoletraitem{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2questaoletraitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -14px;
+}
+.p2questaoletraitemcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
 
-ul.p2questaosubitem{}
-p.p2questaosubitem{}
-.p2questaosubitemcont{} 
+ul.p2questaoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p2questaoitem{
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p2questaoitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -14px;
+}
+.p2questaoitemcont{
+    margin: 0.5em 0 0.5em 1em;
+}
 
-.p2questaomarcador{}
-.p2questaomarcadorcont{}
+ul.p2questaosubitem{
+    margin: 0.5em 0 0.5em 2em;
+}
+ul.p2questaosubitem li::before{
+    content: '•';
+    color: var(--verde1);
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -14px;
+}
+p.p2questaosubitem{
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2questaosubitem::before {
+    content: ''; /*content: '•';*/
+    color: var(--verde1);
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -14px;
+}
+.p2questaosubitemcont{
+    margin: 0.5em 0 0.5em 2em;
+} 
+.p2questaomarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2questaomarcadorcont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 
 
@@ -629,43 +962,176 @@ p.p2questaosubitem{}
 .p2atvsomatoria
 .p2atvsomatoriacont
 */
-.p2atv{}
-.p2atvcont{}
-.p2atvromano{}
-.p2atvromanocont{}
+.p2atv,
+.p2atvcont,
+.p2atvromano,
+.p2atvromanocont,
+.p2atvitem,
+.p2atvitemcont,
+.p2atvsubitem,
+.p2atvsubitemcont,
+.p2atvitemletra,
+.p2atvitemletracont,
+.p2atvletra,
+.p2atvletracont,
+.p2atvletraromano,
+.p2atvletraromanocont,
+.p2atvletraitem,
+.p2atvletraitemcont,
+.p2atvletrasubitem,
+.p2atvletrasubitemcont,
+.p2atvletraitemromano,
+.p2atvletraitemromanocont,
+.p2atvmarcador,
+.p2atvmarcadorcont,
+.p2atvsomatoria,
+.p2atvsomatoriacont{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
 
-ul.p2atvitem{}
-p.p2atvitem{}
-.p2atvitemcont{}
+.p2atv{
+    margin: 0.5em 0 0.5em 28px;
+}
+.p2atvcont{
+    margin: 0.5em 0 0.5em 28px;
+}
+.p2atvromano{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvromanocont{
+    margin: 0.5em 0 0.5em 4em;
+}
 
-ul.p2atvsubitem{}
-p.p2atvsubitem{}
-.p2atvsubitemcont{}
+ul.p2atvitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2atvitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2atvitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2atvitemcont{
+    margin: 0.5em 0 0.5em 3em;
+}
 
-.p2atvitemletra{}
-.p2atvitemletracont{}
+ul.p2atvsubitem{
+    margin: 0.5em 0 0.5em 4em;
+}
+ul.p2atvsubitem li::before{
+    content: '•';
+    color: var(--verde1);
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+p.p2atvsubitem{
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2atvsubitem::before {
+    content: ''; /*content: '•';*/
+    color: var(--verde1);
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2atvsubitemcont{
+    margin: 0.5em 0 0.5em 4em;
+}
 
-.p2atvletra{}
-.p2atvletracont{}
+.p2atvitemletra{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvitemletracont{
+    margin: 0.5em 0 0.5em 4em;
+}
 
-.p2atvletraromano{}
-.p2atvletraromanocont{}
+.p2atvletra{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvletracont{
+    margin: 0.5em 0 0.5em 3em;
+}
 
-ul.p2atvletraitem{}
-p.p2atvletraitem{}
-.p2atvletraitemcont{}
+.p2atvletraromano{
+    margin: 0.5em 0 0.5em 5.1em;
+}
+.p2atvletraromanocont{
+    margin: 0.5em 0 0.5em 5.1em;
+}
 
-ul.p2atvletrasubitem{}
-p.p2atvletrasubitem{}
-.p2atvletrasubitemcont{}
+ul.p2atvletraitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2atvletraitem{
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2atvletraitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.3em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -14px;
+}
+.p2atvletraitemcont{
+    margin: 0.5em 0 0.5em 4em;
+}
 
-.p2atvletraitemromano{}
-.p2atvletraitemromanocont{}
+ul.p2atvletrasubitem{
+    margin: 0.5em 0 0.5em 5em;
+}
+ul.p2atvletrasubitem li::before{
+    content: '•';
+    color: var(--verde1);
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -12px;
+}
+p.p2atvletrasubitem{
+    margin: 0.5em 0 0.5em 5em;
+}
+p.p2atvletrasubitem::before {
+    content: ''; /*content: '•';*/
+    color: var(--verde1);
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -12px;
+}
+.p2atvletrasubitemcont{
+    margin: 0.5em 0 0.5em 5em;
+}
 
-.p2atvmarcador{}
-.p2atvmarcadorcont{}/*TODO: Aguardando de definição de uso*/
-.p2atvsomatoria{}
-.p2atvsomatoriacont{}
+.p2atvletraitemromano{
+    margin: 0.5em 0 0.5em 7em;
+}
+.p2atvletraitemromanocont{
+    margin: 0.5em 0 0.5em 7em;
+}
+
+.p2atvmarcador{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvmarcadorcont{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvsomatoria{
+    margin: 0.5em 0 0.5em 5em;
+}
+.p2atvsomatoriacont{
+    margin: 0.5em 0 0.5em 5em;
+}
 
 
 
@@ -690,30 +1156,114 @@ p.p2atvletrasubitem{}
 .p3intermediariosemrecuoletra
 .p3intermediariosemrecuoletracont
 */
-.p3intermediariotit{}
-.p3intermediario{}
+.p3intermediariotit,
+.p3intermediario,
+.p3intermediarioitem,
+.p3intermediarioitemcont,
+.p3intermediarioitemletra,
+.p3intermediarioitemletracont,
+.p3intermediarioletra,
+.p3intermediarioletracont,
+.p3intermediarionumero,
+.p3intermediarionumerocont,
+.p3intermediariomarcador,
+.p3intermediariomarcadorcont,
+.p3intermediariosemrecuo,
+.p3intermediariosemrecuoitem,
+.p3intermediariosemrecuoitemcont,
+.p3intermediariosemrecuoletra,
+.p3intermediariosemrecuoletracont{
+    font-family: var(--texto);
+    font-size: var(--pesoIntermediario);
+    text-align: left;
+    max-width: 100%;
+}
+.p3intermediariotit{
+    font-family: var(--titulo);
+    font-size: var(--pesoPadrao);
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+.p3intermediario{
+    margin: 0.5em 0;
+}
 
-.p3intermediarioitem{}
-.p3intermediarioitemcont{}
-.p3intermediarioitemletra{}
-.p3intermediarioitemletracont{}
+ul.p3intermediarioitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p3intermediarioitem{
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p3intermediarioitem::before{
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px ;
+    position: absolute;
+    margin:0 0 0 -1em;
+    }
+.p3intermediarioitemcont{
+    margin: 0.5em 0 0.5em 1em;
+}
+.p3intermediarioitemletra{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediarioitemletracont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
 
-.p3intermediarioletra{}
-.p3intermediarioletracont{}
+.p3intermediarioletra{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p3intermediarioletracont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
 
-.p3intermediarionumero{}
-.p3intermediarionumerocont{}
+.p3intermediarionumero{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p3intermediarionumerocont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
 
-.p3intermediariomarcador{}
-.p3intermediariomarcadorcont{}
+.p3intermediariomarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3intermediariomarcadorcont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /* TEXTOS INTERMEDIÁRIOS SEM RECUO */
-.p3intermediariosemrecuo{}
-.p3intermediariosemrecuoitem{}
-.p3intermediariosemrecuoitemcont{}
+.p3intermediariosemrecuo{
+    margin: 0.5em 0;
+}
+ul.p3intermediariosemrecuoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p3intermediariosemrecuoitem{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p3intermediariosemrecuoitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -12px;
+}
 
-.p3intermediariosemrecuoletra{}
-.p3intermediariosemrecuoletracont{}
+.p3intermediariosemrecuoitemcont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+
+.p3intermediariosemrecuoletra{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p3intermediariosemrecuoletracont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
 
 
 /* TEXTOS CITADOS - CITAÇÃO */
@@ -731,26 +1281,108 @@ p3citacaoletracont
 p3citacaonumero 
 p3citacaonumerocont
 */
-.p3citacaomanchete{}
+.p3citacaomanchete,
+.p3citacaotit1,
+.p3citacaotit2,
+.p3citacaoolho,
+.p3citacaosemrecuo,
+.p3citacao,
+.p3citacaoitem,
+.p3citacaoitemcont,
+.p3citacaoletra,
+.p3citacaoletracont,
+.p3citacaonumero,
+.p3citacaonumerocont{
+    font-family: var(--citacao);
+    font-size: var(--pesoPadrao);
+}
 
-.p3citacaotit1{}
-.p3citacaotit2{}
+.p3citacaomanchete{
+    font-weight: bold;
+    font-size: var(--peso4);
+    text-align: center;
+    margin: 0.5em 0;
+}
+.o3jornalfundo>.p3citacaomanchete {
+    font-weight: bold;
+    font-size: var(--peso4);
+    text-align: center;
+    margin: 0.5em 0;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #A7ACA8;
+}
 
-.p3citacaoolho{}
+.p3citacaotit1{
+    font-weight: bold;
+    font-size: var(--peso5);
+    text-align: center;
+    margin: 0.5em 0;
+}
+.p3citacaotit2{
+    font-weight: bold;
+    font-size: var(--peso6);
+    text-align: center;
+    margin: 0.5em 0;
+}
 
-.p3citacaosemrecuo{} /* TODO: ELEMENTO NOVO */
+.p3citacaoolho{
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    margin: 0.5em 0;
+}
 
-.p3citacao{}
+.p3citacaosemrecuo{
+    font-family: var(--pesoPadrao);
+    font-family: var(--citacao);
+    text-align: justify;
+    margin: 0.5em 0;
+} /* TODO: ELEMENTO NOVO */
 
-ul.p3citacaoitem{}
-blockquote.p3citacaoitem{}
-.p3citacaoitemcont{}
+.p3citacao{
+    font-family: var(--pesoPadrao);
+    font-family: var(--citacao);
+    text-align: justify;
+    text-indent: 1.5em;
+    margin: 0.5em 0;
+}
 
-.p3citacaoletra{}
-.p3citacaoletracont{}
+ul.p3citacaoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1em;
+}
+blockquote.p3citacaoitem{
+    margin: 0.5em 0 0.5em 1em;
+}
+blockquote.p3citacaoitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -14px;
+}
 
-.p3citacaonumero{}  
-.p3citacaonumerocont{}
+.p3citacaoitemcont{
+    margin: 0.5em 0 0.5em 1em;
+}
+
+.p3citacaoletra{
+    margin: 0.5em 0 0.5em 1.4em;
+}
+.p3citacaoletracont{
+    margin: 0.5em 0 0.5em 1.4em;
+}
+
+.p3citacaonumero{
+    text-align: justify;
+    margin: 0.5em  0  0.5em 30px;
+
+}  
+.p3citacaonumerocont{
+    text-align: justify;
+    margin: 0.5em  0  0.5em 30px;
+}
 
 
 
@@ -759,45 +1391,93 @@ blockquote.p3citacaoitem{}
 .p4iconeoed{}
 
 /* Legenda */
-.p4legenda{}
+.p4legenda{
+    
+}
 
 /* Crédito geral */
-.p4credgeral{}
+.p4credgeral{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: right;
+    margin: 0.5em 0;
+}
 
 /* Cotas */
 .p4cota{}
 .p4cotamarcador{}
 
 /* Vocabulário */
-.p4vocabulario{}
+.p4vocabulario{
+    margin: 1em 0;
+}
 
 /* Glossário */
 .p4glossario{}
 
 /* Recado imagem e medida animal */
-.p4recadoimagem{}
+.p4recadoimagem{
+    font-family: var(--texto);
+    font-size: var(--pesoMenor);
+    text-align: right;
+}
 
 /* Crédito Imagem*/
-.p4credimagem{}
+.p4credimagem{
+    background: #3EE0CE;
+    font-family: var(--texto);
+    font-size: var(--pesoMenor);
+    text-align: right;
+}
 
 /* Cuidado dica */
-.p4cuidadodica{}
-ul.p4cuidadodicaitem{}
-p.p4cuidadodicaitem{}
-.p4cuidadodicaitemcont{} 
+.p4cuidadodica{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: left;
+    margin: 0.5em 0;
+}
+ul.p4cuidadodicaitem{
+    list-style:disc;
+    margin: 0.5em 0 0.5em 1em ;
+}
+p.p4cuidadodicaitem{
+    margin: 0.5em 0 0.5em 1em ;
+}
+p.p4cuidadodicaitem::before{
+    content: ''; /* content: '•';*/
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 -0.9em;
+}
+.p4cuidadodicaitemcont{
+    margin: 0.5em 0 0.5em 1em ;
+} 
 
 /* Respostas */
 /*  
 p4resposta
 */
-.p4resposta{}
+.p4resposta{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    color: var(--corprof);
+    text-align: justify;
+    margin: 0.2em 0;
+}
 
 /*👉TEXTOS SUPORTE👈*/
 /* Balão de fala */
 /* 
 p5balao
 */
-.p5balao{}
+.p5balao{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: center;
+}
 
 
 /* MARCADORES */
@@ -814,16 +1494,66 @@ p5marcadorcaixa3
 p5marcadorcaixa3negativo
 p5marcadorromano
 */
-.p5marcador{}
+.p5marcador{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -30px;
+    width: 25px;
+}
 .p5marcadornegativo{}
 
-.p5marcador2{}
+.p5marcador2{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -30px;
+    width: 25px;
+}
+
+figure>.p5marcador {
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    text-align: center;
+    margin: 0 0 0 0px;
+    position: static;
+    width: 25px;
+}
+
+
 .p5marcador2negativo{}
 
-.p5marcadorcaixa{}
+.p5marcadorcaixa{
+    background: var(--verde1);
+    border-radius: 0em 0 0 0;
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-weight: bold;
+    width: max-content;
+    max-width: 100%;
+    padding: 0 1em 0.2em 1em;
+    margin: 0.5em 0;
+}
 .p5marcadorcaixanegativo{}
 
-.p5marcadorcaixa2{}
+.p5marcadorcaixa2{
+    background: var(--preto);
+    border-radius: 0.6em;
+    color: var(--branco);
+    font-family: var(--titulo);
+    font-weight: bold;
+    padding: 0em 0.5em 0.2em 0.5em;
+    width: max-content;
+    margin: 1em 0;
+}
 .p5marcadorcaixa2negativo{}
 
 .p5marcadorcaixa3{}
@@ -871,15 +1601,65 @@ c0destaquecap 👉Estilo de caracter utilizado no sumário mp
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
 */
 
-.c0destaqueletra{}
-.c0destaqueletracitacao{}
-.c0destaquenumero{}
-.c0destaquenumerocitacao{} /* Estilo de caracter utilizado na citacao */ 
-.c0destaqueromano{}
-.c0destaquequestaonumero{}
+.c0destaqueletra{
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 0 0 0 -26px;
+    text-align: center;
+}
+.c0destaqueletracitacao{
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 0 0 0 -26px;
+    text-align: center;
+}
+.c0destaquenumero{
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 0 0 0 -26px;
+    text-align: center;
+}
+.c0destaquenumerocitacao{
+    font-weight: bold;
+    position: absolute;
+    width: 20px;
+    height:20px;
+    margin: 0 0 0 -30px;
+} /* Estilo de caracter utilizado na citacao */ 
+.c0destaqueromano{
+    font-weight: bold;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    margin: 0 0 0 -40px;
+    text-align: right;
+}
+.c0destaquequestaonumero{
+    color: var(--verde1);
+    font-family: var(--titulo);
+    font-weight: bold;
+}
 
-.c0destaquesomatoria{}
-.c0bulletnumitem{}
+.c0destaquesomatoria{
+    font-weight: 550;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    margin: 0 0 0 -30px;
+}
+.c0bulletnumitem{
+    width: 10px;
+  height: 10px;
+  position: absolute;
+  margin: 0 0 0 -12px;
+  font-size: 1.2em;
+}
 .c0bulletsubitem{} /* Estilo de caracter utilizado no manual em U */ 
 
 .c0destaquecap{}/* Estilo de caracter utilizado no sumário mp */ 
@@ -1003,6 +1783,7 @@ o0sugestcomp
 o0recadoimagembox
 o0medidaanimalbox
 o0boxpalavra
+o0pronunciation 👉 Especifico de inglês
 */
 .o0mpg{}
 .o0facsimile{}
@@ -1118,10 +1899,100 @@ o4recadoimagembranco
 .o4ficha2{}
 .o4boxinfo{}
 .o4boxmateriais{}
-.o4balao{}
-.o4balaobranco{}
-.o4balaopensamento{}
-.o4balaopensamentobranco{}
+.o4balao, .o4balaopensamento {
+    background: var(--amarelo2);
+    border-radius: 2em ;
+    padding: 1.2em;
+    width: 250px;
+    margin: 1em 0 2em 0;
+}
+
+.o4balao.direita::after{
+    content: '';
+    background: url(../images/pv_o4balao_dir.svg) no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height:30px;
+    position: absolute;
+    margin: 10px 0 0 -50px;
+}
+.o4balaopensamento.direita::after{
+    content: '';
+    background: url(../images/pv_o4balaopensamento_dir.svg) no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height:30px;
+    position: absolute;
+    margin: 15px 0 0 -50px;
+}
+
+.o4balao.esquerda::after{
+    content: '';
+    background: url(../images/pv_o4balao_esq.svg) no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height:30px;
+    position: absolute;
+    margin: 10px 0 0 40px;
+}
+
+.o4balaopensamento.esquerda::after{
+    content: '';
+    background: url(../images/pv_o4balaopensamento_esq.svg) no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height:30px;
+    position: absolute;
+    margin: 15px 0 0 40px;
+}
+
+.o4balaobranco, .o4balaopensamentobranco  {
+    background: var(--branco);
+    border-radius: 2em ;
+    padding: 1.2em;
+    width: 250px;
+    margin: 1em 0 2em 0;
+}
+
+.o4balaobranco.direita::after{
+    content: '';
+    background: url(../images/pv_o4balaobranco_dir.svg) no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height:30px;
+    position: absolute;
+    margin: 10px 0 0 -50px;
+}
+
+.o4balaobranco.esquerda::after{
+    content: '';
+    background: url(../images/pv_o4balaobranco_esq.svg) no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height:30px;
+    position: absolute;
+    margin: 10px 0 0 40px;
+}
+
+.o4balaopensamentobranco.direita::after{
+    content: '';
+    background: url(../images/pv_o4balaopensamentobranco_dir.svg) no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height:30px;
+    position: absolute;
+    margin: 15px 0 0 -50px;
+}
+
+.o4balaopensamentobranco.esquerda::after{
+    content: '';
+    background: url(../images/pv_o4balaopensamentobranco_esq.svg) no-repeat;
+    background-size: 100%;
+    width: 30px;
+    height:30px;
+    position: absolute;
+    margin: 15px 0 0 40px;
+}
 .o4cuidadobox{}
 .o4dicabox{}
 .o4dicaboxnegativo{}

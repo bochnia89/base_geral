@@ -4,12 +4,38 @@
 /* Documento de CSS de RESOLUÇÕES */
 
 /*👉------- TÍTULOS -----------👈*/
-.p0tit1reso{}
-.p0tit2reso{}
-.p0tit3reso{}
+/* 
+p0tit1reso
+p0tit2reso
+p0tit3reso
+p1box1resotit
+p1box2resotit
+*/
+.p0tit1reso,
+.p0tit2reso,
+.p0tit3reso,
+.p1box1resotit,
+.p1box2resotit{
+    font-family: var(--titulo);
+    font-weight: bold;
+    margin: 1em 0 0.5em 0;
+}
+.p0tit1reso{
+    font-size: var(--peso1);
+}
+.p0tit2reso{
+    font-size: var(--peso2);
+}
+.p0tit3reso{
+    font-size: var(--peso3);
+}
 
-.p1box1resotit{}
-.p1box2resotit{}
+.p1box1resotit{
+    font-size: var(--peso6);
+}
+.p1box2resotit{
+    font-size: var(--peso6);
+}
 
 
 
@@ -23,13 +49,63 @@ p2textoresoitem
 p2textoresoitemcont
 p2textoresomarcador
 */
-.p2textoresosemrecuo{}
-.p2textoresosemrecuoitem{}
-.p2textoresosemrecuoitemcont{}
-.p2textoreso{}
-.p2textoresoitem{}
-.p2textoresoitemcont{}
-.p2textoresomarcador{}
+
+.p2textoresosemrecuo,
+.p2textoresosemrecuoitem,
+.p2textoresosemrecuoitemcont,
+.p2textoreso,
+.p2textoresoitem,
+.p2textoresoitemcont,
+.p2textoresomarcador{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
+
+.p2textoresosemrecuo{
+    margin: 0.5em 0 0.5em 0;
+}
+ul.p2textoresosemrecuoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p2textoresosemrecuoitem{
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p2textoresosemrecuoitem::before{
+    content: ''; /*content: '';*/
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin:0 0 0 -26px ;
+}
+.p2textoresosemrecuoitemcont{
+    margin: 0.5em 0 0.5em 1em;
+}
+.p2textoreso{
+    margin: 0.5em 0 0.5em 0;
+    text-indent: 1.5em;
+}
+ul.p2textoresoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2textoresoitem{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2textoresoitem::before{
+    content: ''; /*content: '';*/
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin:0 0 0 -26px ;
+}
+.p2textoresoitemcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p2textoresomarcador{
+    margin: 0.5em 0 0.5em 3.5em;
+}
 
 
 
@@ -58,30 +134,202 @@ p2atvresonumromano
 p2atvresosomatoria
 p2atvresosomatoriacont
 */
-.p2atvreso{}
-.p2atvresocont{}
-.p2atvresoromano{}
-.p2atvresoromanocont{}
-.p2atvresoitem{}
-.p2atvresoitemcont{}
-.p2atvresosubitem{}
-.p2atvresoitemletra{}
-.p2atvresoitemletracont{}
-.p2atvresoletra{}
-.p2atvresoletracont{}
-.p2atvresoletraitembullet{}
-.p2atvresoletraitembulletcont{}
-.p2atvresoletraromano{}
-.p2atvresoletraromanocont{}
-.p2atvresonumitem{}
-.p2atvresonumletra{}
-.p2atvresonumletraitem{}
-.p2atvresoletraitem{}
-.p2atvresonumromano{}
-.p2atvresosomatoria{}
-.p2atvresosomatoriacont{}
+.p2atvreso,
+.p2atvresocont,
+.p2atvresoromano,
+.p2atvresoromanocont,
+.p2atvresoitem,
+.p2atvresoitemcont,
+.p2atvresosubitem,
+.p2atvresoitemletra,
+.p2atvresoitemletracont,
+.p2atvresoletra,
+.p2atvresoletracont,
+.p2atvresoletraitembullet,
+.p2atvresoletraitembulletcont,
+.p2atvresoletraromano,
+.p2atvresoletraromanocont,
+.p2atvresonumitem,
+.p2atvresonumletra,
+.p2atvresonumletraitem,
+.p2atvresoletraitem,
+.p2atvresonumromano,
+.p2atvresosomatoria,
+.p2atvresosomatoriacont{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
+
+.p2atvreso{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvresocont{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvresoromano{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvresoromanocont{
+    margin: 0.5em 0 0.5em 3em;
+}
+ul.p2atvresoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2atvresoitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2atvresoitem::before{
+    content: ''; /*content: '•';*/
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 0 0 0 -26px;
+}
+.p2atvresoitemcont{
+    margin: 0.5em 0 0.5em 3em;
+}
+ul.p2atvresosubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2atvresosubitem{
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2atvresosubitem::before{
+    content: ''; /*content: '•';*/
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 0 0 0 -26px;
+}
+.p2atvresoitemletra{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p2atvresoitemletracont{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p2atvresoletra{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvresoletracont{
+    margin: 0.5em 0 0.5em 3em;
+}
+ul.p2atvresoletraitembullet{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2atvresoletraitembullet{
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2atvresoletraitembullet::before{
+    content: ''; /*content: '•';*/
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    margin: 0 0 0 -26px;
+}
+.p2atvresoletraitembulletcont{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvresoletraromano{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvresoletraromanocont{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvresonumitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvresonumitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvresonumletra{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvresonumletra>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvresonumletraitem{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p2atvresonumletraitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -68px;
+    position: absolute;
+    text-align: center;
+  }
+  .p2atvresonumletraitem>.c0destaqueletramp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvresoletraitem{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p2atvresoletraitem>.c0destaqueletramp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvresonumromano{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvresonumromano>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvresosomatoria{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvresosomatoriacont{
+    margin: 0.5em 0 0.5em 4em;
+}
 
 /*👉------- SEÇÕES ------------👈*/
+/* 
+p1sec1tit1
+p1sec1tit2
+p1sec1tit3
+p1sec2tit1
+p1sec2tit2
+p1sec2tit3
+p1sec3tit1
+p1sec3tit2
+p1sec3tit3
+p1sec4tit1
+p1sec4tit2
+p1sec4tit3
+p1sec5tit1
+p1sec5tit2
+p1sec5tit3
+p1sec6tit1
+p1sec6tit2
+p1sec6tit3
+*/
 .p1sec1tit1{}
 .p1sec1tit2{}
 .p1sec1tit3{}

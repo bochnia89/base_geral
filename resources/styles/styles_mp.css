@@ -14,22 +14,64 @@ p0tit5mpnegativo
 p0tit6mp
 p0tit6mpnegativo
 */
-.p0tit1mp{}
+.p0tit1mp{
+    font-family: var(--titulo);
+    font-size: var(--peso1);
+    line-height: 1.1em;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
 .p0tit1mpnegativo{}
 
-.p0tit2mp{}
+.p0tit2mp{
+    font-family: var(--titulo);
+    font-size: var(--peso2);
+    font-weight: bold;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
 .p0tit2mpnegativo{}
 
-.p0tit3mp{}
+.p0tit3mp{
+    font-family: var(--titulo);
+    font-size: var(--peso3);
+    font-weight: bold;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
 .p0tit3mpnegativo{}
 
-.p0tit4mp{}
+.p0tit4mp{
+    font-family: var(--titulo);
+    font-size: var(--peso4);
+    font-weight: bold;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
 .p0tit4mpnegativo{}
 
-.p0tit5mp{}
+.p0tit5mp{
+    font-family: var(--titulo);
+    font-size: var(--peso5);
+    font-weight: bold;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
 .p0tit5mpnegativo{}
 
-.p0tit6mp{}
+.p0tit6mp{
+    font-family: var(--titulo);
+    font-size: var(--peso6);
+    font-weight: bold;
+    width: max-content;
+    max-width: 100%;
+    margin: 1em 0 0.5em 0;
+}
 .p0tit6mpnegativo{}
 
 /*👉SUMÁRIO👈*/
@@ -77,10 +119,10 @@ p1sec2mptit2
 p2textompsemrecuo
 p2textompsemrecuoitem
 p2textompsemrecuoitemcont
-p2textompsemrecuonum 
-p2textompsemrecuonumcont 
-p2textompnumsemrecuo  
-p2textompnumsemrecuocont 
+p2textompsemrecuonum  👉Caso de uso no eja 
+p2textompsemrecuonumcont  👉Caso de uso no eja 
+p2textompnumsemrecuo   👉Caso de uso no ensino médio 
+p2textompnumsemrecuocont  👉Caso de uso no ensino médio 
 p2textompsemrecuoletra
 p2textompsemrecuoitem
 p2textompsemrecuosubitem
@@ -91,26 +133,180 @@ p2textompsemrecuoromano
 p2textompsemrecuonumromano
 p2textompsemrecuonumromanoitem
 */
-.p2textompsemrecuo{}
+.p2textompsemrecuo,
+.p2textompsemrecuoitem,
+.p2textompsemrecuoitemcont,
+.p2textompsemrecuonum,  
+.p2textompsemrecuonumcont,  
+.p2textompnumsemrecuo,   
+.p2textompnumsemrecuocont,  
+.p2textompsemrecuoletra,
+.p2textompsemrecuoitem,
+.p2textompsemrecuosubitem,
+.p2textompsemrecuonumletra,
+.p2textompsemrecuonumitem,
+.p2textompsemrecuonumletraitem,
+.p2textompsemrecuoromano,
+.p2textompsemrecuonumromano,
+.p2textompsemrecuonumromanoitem{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);   
+    text-align: justify;
+    hyphens: none;
+}
+
+.p2textompsemrecuo{
+    margin: 0.5em 0 0.5em 0;
+}
+ul.p2textompsemrecuoitem{
+    margin: 0.5em 0 0.5em 2em ;
+}
+ul.p2textompsemrecuoitem li::before{
+    content: '•';
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px 0 -18px;
+    position: absolute;
+}
+p.p2textompsemrecuoitem{
+    margin: 0.5em 0 0.5em 2em ;
+}
+p.p2textompsemrecuoitem::before{
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px 0 0 ;
+}
+.p2textompsemrecuoitemcont{
+    margin: 0.5em 0 0.5em 2em ;
+}
+
+.p2textompsemrecuonum{
+    margin: 0.5em 0 0.5em 2em ;
+} 
+.p2textompsemrecuonumcont{
+    margin: 0.5em 0 0.5em 2em ;
+} 
+.p2textompnumsemrecuo{
+    margin: 0.5em 0 0.5em 2em ;
+}
+.p2textompnumsemrecuocont{
+    margin: 0.5em 0 0.5em 2em ;
+} 
+.p2textompsemrecuoletra{
+    margin: 0.5em 0 0.5em 2em ;
+}
 ul.p2textompsemrecuoitem{}
 p.p2textompsemrecuoitem{}
-.p2textompsemrecuoitemcont{}
-.p2textompsemrecuonum{} /* Caso de uso no eja */
-.p2textompsemrecuonumcont{} /* Caso de uso no eja */
-.p2textompnumsemrecuo{}  /* Caso de uso no ensino médio */
-.p2textompnumsemrecuocont{} /* Caso de uso no ensino médio */
-.p2textompsemrecuoletra{}
-ul.p2textompsemrecuoitem{}
-p.p2textompsemrecuoitem{}
-ul.p2textompsemrecuosubitem{}
-li.p2textompsemrecuosubitem{}
-.p2textompsemrecuonumletra{}
-.p2textompsemrecuonumitem{}
-.p2textompsemrecuonumitem{}
-.p2textompsemrecuonumletraitem{}
-.p2textompsemrecuoromano{}
-.p2textompsemrecuonumromano{}
-.p2textompsemrecuonumromanoitem{}
+ul.p2textompsemrecuosubitem{
+    margin: 0.5em 0 0.5em 3em ;
+}
+ul.p2textompsemrecuosubitem li::before{
+    content: '•';
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px 0 -18px;
+    position: absolute;
+}
+p.p2textompsemrecuosubitem{
+    margin: 0.5em 0 0.5em 3em ;
+}
+.p2textompsemrecuonumletra{
+    margin: 0.5em 0 0.5em 3em ;
+}
+.p2textompsemrecuonumletra>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+
+.p2textompsemrecuonumitem{
+    margin: 0.5em 0 0.5em 3em ;
+}
+.p2textompsemrecuonumitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -45px;
+    position: absolute;
+    text-align: center;
+  }
+
+.p2textompsemrecuonumletraitem{
+    margin: 0.5em 0 0.5em 4.5em ;
+}
+.p2textompsemrecuonumletraitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -65px;
+    position: absolute;
+    text-align: center;
+  }
+  .p2textompsemrecuonumletraitem>.c0destaqueletramp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -45px;
+    position: absolute;
+    text-align: center;
+  }
+  .p2textompsemrecuonumletraitem>.c0bulletnumitemmp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -25px;
+    position: absolute;
+    text-align: center;
+  }
+.p2textompsemrecuoromano{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2textompsemrecuonumromano{
+    margin: 0.5em 0 0.5em 3em ;
+}
+.p2textompsemrecuonumromano>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -45px;
+    position: absolute;
+    text-align: center;
+  }
+
+.p2textompsemrecuonumromanoitem{
+    margin: 0.5em 0 0.5em 4.5em ;
+}
+.p2textompsemrecuonumromanoitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -65px;
+    position: absolute;
+    text-align: center;
+  }
+  .p2textompsemrecuonumromanoitem>.c0destaqueromanomp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: right;
+  }
+  .p2textompsemrecuonumromanoitem>.c0bulletnumitemmp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -25px;
+    position: absolute;
+    text-align: center;
+  }
 
 /*👉TEXTO PRINCIPAL 👈*/
 /* 
@@ -127,22 +323,96 @@ p2textompmarcador
 p2textompmarcadoritem
 p2textompmarcadorsemrecuo
 */
-.p2textomp{}
-ul.p2textompitem{}
-p.p2textompitem{}
-.p2textompitemcont{}
-ul.p2textompsubitem{}
-li.p2textompsubitem{}
-.p2textompsubitemcont{}
-.p2textompletra{}
-.p2textompletracont{}
-ul.p2textompletraitem{}
-p.p2textompletraitem{}
-.p2textompletraitemcont{}
-.p2textompmarcador{}
-ul.p2textompmarcadoritem{}
-p.p2textompmarcadoritem{}
-.p2textompmarcadorsemrecuo{}
+.p2textomp,
+.p2textompitem,
+.p2textompitemcont,
+.p2textompsubitem,
+.p2textompsubitemcont,
+.p2textompletra,
+.p2textompletracont,
+.p2textompletraitem,
+.p2textompletraitemcont,
+.p2textompmarcador,
+.p2textompmarcadoritem,
+.p2textompmarcadorsemrecuo{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
+.p2textomp{
+    margin: 0.5em 0;
+    text-indent: 1.5em;
+}
+ul.p2textompitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p2textompitem{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p2textompitem::before{
+content: ''; /*content: '';*/
+width: 24px ;
+height: 24px ;
+position: absolute;
+margin: 0 0 0 -26px;
+}
+.p2textompitemcont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+ul.p2textompsubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2.8em;
+}
+p.p2textompsubitem{
+    margin: 0.5em 0 0.5em 2.8em;
+}
+p.p2textompsubitem::before{
+    content: ''; /*content: '';*/
+    width: 24px ;
+    height: 24px ;
+    position: absolute;
+    margin: 0 0 0 -26px;
+    }
+.p2textompsubitemcont{
+    margin: 0.5em 0 0.5em 2.8em;
+}
+.p2textompletra{
+    margin: 0.5em 0 0.5em 2.8em;
+}
+.p2textompletracont{
+    margin: 0.5em 0 0.5em 2.8em;
+}
+ul.p2textompletraitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2textompletraitem{
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2textompletraitem::before{
+    content: ''; /*content: '';*/
+    width: 24px ;
+    height: 24px ;
+    position: absolute;
+    margin: 0 0 0 -26px;
+    }
+.p2textompletraitemcont{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2textompmarcador{
+    margin: 0.5em 0 0.5em 2.8em;
+}
+ul.p2textompmarcadoritem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4em;
+}
+p.p2textompmarcadoritem{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2textompmarcadorsemrecuo{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 
 /*👉RESPOSTA E COMENTÁRIOS - QUESTÃO TEORIA👈*/
@@ -161,23 +431,128 @@ p2questaompnumitem
 p2questaompnumletra
 p2questaompnumletraitem
 */
-.p2questaomp{}
-.p2questaompcont{}
-.p2questaompletra{}
-.p2questaompletracont{}
-ul.p2questaompletraitem{}
-p.p2questaompletraitem{}
-.p2questaompletraitemcont{}
-ul.p2questaompitem{}
-p.p2questaompitem{}
-.p2questaompitemcont{}
-ul.p2questaompsubitem{}
-p.p2questaompsubitem{}
-.p2questaompsubitemcont{}
-.p2questaompnumitem{}
-.p2questaompnumletra{}
-.p2questaompnumletraitem{}
+.p2questaomp,
+.p2questaompcont,
+.p2questaompletra,
+.p2questaompletracont,
+.p2questaompletraitem,
+.p2questaompletraitemcont,
+.p2questaompitem,
+.p2questaompitemcont,
+.p2questaompsubitem,
+.p2questaompsubitemcont,
+.p2questaompnumitem,
+.p2questaompnumletra,
+.p2questaompnumletraitem{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
 
+.p2questaomp{
+    margin: 0.5em 0 0.5em 0;
+}
+.p2questaompcont{
+    margin: 0.5em 0 0.5em 0;
+}
+.p2questaompletra{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p2questaompletracont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+ul.p2questaompletraitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2questaompletraitem{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2questaompletraitem::before{
+    content: ''; /*content: '•';*/
+    width: 24px;
+    height:24px ;
+    position: absolute;
+    margin:0 0 0 -26px ;
+}
+.p2questaompletraitemcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+ul.p2questaompitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p2questaompitem{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p2questaompitem::before{
+    content: ''; /*content: '•';*/
+    width: 24px;
+    height:24px ;
+    position: absolute;
+    margin:0 0 0 -26px ;
+}
+.p2questaompitemcont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+ul.p2questaompsubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2questaompsubitem{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p2questaompsubitem::before{
+    content: ''; /*content: '•';*/
+    width: 24px;
+    height:24px ;
+    position: absolute;
+    margin:0 0 0 -26px ;
+}
+.p2questaompsubitemcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p2questaompnumitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2questaompnumitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2questaompnumletra{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2questaompnumletra>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2questaompnumletraitem{
+    margin: 0.5em 0 0.5em 4.3em;
+}
+.p2questaompnumletraitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -68px;
+    position: absolute;
+    text-align: center;
+  }
+.p2questaompnumletraitem>.c0destaqueletramp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
 
 
 /*👉RESPOSTA E COMENTÁRIOS - ATIVIDADES👈*/
@@ -205,31 +580,173 @@ p2atvmpletraitem
 p2atvmpnumromano
 p2atvmpsomatoria
 */
-.p2atvmp{}
-.p2atvmpcont{}
-.p2atvmpromano{}
-.p2atvmpromanocont{}
-ul.p2atvmpitem{}
-p.p2atvmpitem{}
-.p2atvmpitemcont{}
-ul.p2atvmpsubitem{}
-p.p2atvmpsubitem{}
-.p2atvmpsubitemcont{}
-.p2atvmpitemletra{}
-.p2atvmpitemletracont{}
-.p2atvmpletra{}
-.p2atvmpletracont{}
-ul.p2atvmpletraitembullet{}
-p.p2atvmpletraitembullet{}
-.p2atvmpletraitembulletcont{}
-.p2atvmpletraromano{}
-.p2atvmpletraromanocont{}
-.p2atvmpnumitem{}
-.p2atvmpnumletra{}
-.p2atvmpnumletraitem{}
-.p2atvmpletraitem{}
-.p2atvmpnumromano{}
-.p2atvmpsomatoria{}
+.p2atvmp,
+.p2atvmpcont,
+.p2atvmpromano,
+.p2atvmpromanocont,
+.p2atvmpitem,
+.p2atvmpitemcont,
+.p2atvmpsubitem,
+.p2atvmpsubitemcont,
+.p2atvmpitemletra,
+.p2atvmpitemletracont,
+.p2atvmpletra,
+.p2atvmpletracont,
+.p2atvmpletraitembullet,
+.p2atvmpletraitembulletcont,
+.p2atvmpletraromano,
+.p2atvmpletraromanocont,
+.p2atvmpnumitem,
+.p2atvmpnumletra,
+.p2atvmpnumletraitem,  
+.p2atvmpletraitem,
+.p2atvmpnumromano,
+.p2atvmpsomatoria{
+    font-family: var(--texto);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
+
+.p2atvmp{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvmpcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvmpromano{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvmpromanocont{
+    margin: 0.5em 0 0.5em 2em;
+}
+ul.p2atvmpitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2atvmpitem{
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2atvmpitem::before{
+content: ''; /*content: '•';*/
+width:24px ;
+height:24px ;
+position: absolute;
+margin:0 0 0 -26px ;
+}
+.p2atvmpitemcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+ul.p2atvmpsubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2atvmpsubitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2atvmpsubitem::before{
+    content: ''; /*content: '';*/
+    width:24px  ;
+    height:24px  ;
+    position: absolute;
+    margin: 0 0 0 -26px ;
+}
+.p2atvmpsubitemcont{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpitemletra{
+    margin: 0.5em 0 0.5em 3.5em;
+}
+.p2atvmpitemletracont{
+    margin: 0.5em 0 0.5em 3.5em;
+}
+.p2atvmpletra{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvmpletracont{
+    margin: 0.5em 0 0.5em 2em;
+}
+ul.p2atvmpletraitembullet{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2atvmpletraitembullet{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpletraitembulletcont{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpletraromano{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpletraromanocont{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpnumitem{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpnumitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvmpnumletra{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpnumletra>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvmpnumletraitem{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p2atvmpnumletraitem>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -68px;
+    position: absolute;
+    text-align: center;
+  }
+  .p2atvmpnumletraitem>.c0destaqueletramp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvmpletraitem{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+.p2atvmpletraitem>.c0destaqueletramp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvmpnumromano{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2atvmpnumromano>.c0destaquenumeromp {
+    font-weight: bold;
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -48px;
+    position: absolute;
+    text-align: center;
+  }
+.p2atvmpsomatoria{
+    margin: 0.5em 0 0.5em 4em;
+}
 
 
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
@@ -258,23 +775,97 @@ p3intermediariompsemrecuo
 p3intermediariompsemrecuoitem
 p3intermediariompsemrecuoitemcont
 */
-.p3intermediariomptit{}
-.p3intermediariomp{}
-ul.p3intermediariompitem{}
-p.p3intermediariompitem{}
-.p3intermediariompitemcont{}
-.p3intermediariompitemletra{}
-.p3intermediariompitemletracont{}
-.p3intermediariompletra{}
-.p3intermediariompletracont{}
-.p3intermediariompnumero{}
-.p3intermediariompnumerocont{}
-.p3intermediariompmarcador{}
-.p3intermediariompmarcadorcont{}
-.p3intermediariompsemrecuo{}
-ul.p3intermediariompsemrecuoitem{}
-p.p3intermediariompsemrecuoitem{}
-.p3intermediariompsemrecuoitemcont{}
+
+.p3intermediariomptit,
+.p3intermediariomp,
+.p3intermediariompitem,
+.p3intermediariompitemcont,
+.p3intermediariompitemletra,
+.p3intermediariompitemletracont,
+.p3intermediariompletra,
+.p3intermediariompletracont,
+.p3intermediariompnumero,
+.p3intermediariompnumerocont,
+.p3intermediariompmarcador,
+.p3intermediariompmarcadorcont,
+.p3intermediariompsemrecuo,
+.p3intermediariompsemrecuoitem,
+.p3intermediariompsemrecuoitemcont{
+    font-family: var(--texto);
+    font-size: var(--pesoIntermediario);
+    text-align: left;
+}
+
+.p3intermediariomptit{
+    font-family: var(--titulo);
+    font-weight: bold;
+    margin: 0.5em 0 0.5em 0;
+}
+.p3intermediariomp{
+    margin: 0.5em 0 0.5em 0;
+    text-indent: 1.5em;
+}
+ul.p3intermediariompitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p3intermediariompitem{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+p.p3intermediariompitem::before{
+content: ''; /*content: '•';*/
+width: 24px ;
+height: 24px ;
+position: absolute;
+margin: 0 0 0 -26px;
+}
+.p3intermediariompitemcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariompitemletra{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p3intermediariompitemletracont{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p3intermediariompletra{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariompletracont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariompnumero{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariompnumerocont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariompmarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3intermediariompmarcadorcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3intermediariompsemrecuo{
+    margin: 0.5em 0 0.5em 0em;
+}
+ul.p3intermediariompsemrecuoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p3intermediariompsemrecuoitem{
+    margin: 0.5em 0 0.5em 1em;
+}
+p.p3intermediariompsemrecuoitem::before{
+content: '';/*content: '•';*/
+width: 24px;
+height:24px;
+position: absolute;
+margin: 0 0 0 -26px ;
+}
+.p3intermediariompsemrecuoitemcont{
+    margin: 0.5em 0 0.5em 1em;
+}
 
 /*👉CITAÇÃO👈*/
 /* 
@@ -292,21 +883,95 @@ p3citacaompsemrecuo
 p3citacaompsemrecuoletra
 p3citacaompsemrecuoitem
 */
-.p3citacaomptit1{}
-.p3citacaomptit2{}
-.p3citacaompolho{}
-.p3citacaomp{}
-ul.p3citacaompitem{}
-blockquote.p3citacaompitem{}
-.p3citacaompitemcont{}
-.p3citacaompletra{}
-.p3citacaompletracont{} 
-.p3citacaompnumero{}
-.p3citacaompnumerocont{}
+
+.p3citacaomptit1,
+.p3citacaomptit2,
+.p3citacaompolho,
+.p3citacaomp,
+.p3citacaompitem,
+.p3citacaompitemcont,
+.p3citacaompletra,
+.p3citacaompletracont,
+.p3citacaompnumero,
+.p3citacaompnumerocont,
+.p3citacaompsemrecuo,
+.p3citacaompsemrecuoletra,
+.p3citacaompsemrecuoitem{
+    font-family: var(--citacao);
+    font-size: var(--pesoPadrao);
+    text-align: justify;
+}
+
+.p3citacaomptit1{
+    font-weight: bold;
+    font-size: var(--peso2);
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+}
+.p3citacaomptit2{
+    font-weight: bold;
+    font-size: var(--peso4);
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+}
+.p3citacaompolho{
+    font-style: italic;
+    text-align: center;
+    margin: 0.5em 0 0.5em 0;
+}
+.p3citacaomp{
+    margin: 0.5em 0 0.5em 0;
+    text-indent: 1.5em;
+}
+ul.p3citacaompitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2.5em;
+}
+blockquote.p3citacaompitem{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+blockquote.p3citacaompitem::before{
+content: ''; /* content: '•';*/
+width: 24px ;
+height:24px ;
+position: absolute;
+margin:0 0 0 -26px ;
+}
+.p3citacaompitemcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3citacaompletra{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p3citacaompletracont{
+    margin: 0.5em 0 0.5em 3em;
+} 
+.p3citacaompnumero{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p3citacaompnumerocont{
+    margin: 0.5em 0 0.5em 3em;
+}
+
 .p3citacaompsemrecuo{}
-.p3citacaompsemrecuoletra{}
-ul.p3citacaompsemrecuoitem{}
-blockquote.p3citacaompsemrecuoitem{}
+.p3citacaompsemrecuoletra{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+ul.p3citacaompsemrecuoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1.5em;
+}
+blockquote.p3citacaompsemrecuoitem{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+
+blockquote.p3citacaompsemrecuoitem::before{
+content: '';/*content: '•';*/
+width: 24px;
+height:24px ;
+position: absolute;
+margin:0 0 0 -26px ;
+}
 
 
 /*👉RESPOSTAS DE ATIVIDADES PROPOSTAS NO MANUAL👈*/
@@ -349,14 +1014,64 @@ c0bulletnumitemmp
 c0bulletsubitemmp
 */
 
-.c0destaqueletramp{}
-.c0destaqueletracitacaomp{}
-.c0destaquenumeromp{}
-.c0destaquenumerocitacaomp{} 
-.c0destaqueromanomp{}
-.c0destaquequestaonumeromp{}
-.c0destaquesomatoriamp{}
-.c0bulletnumitemmp{}
+.c0destaqueletramp{
+    font-weight: bold; 
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -28px;
+    position: absolute;    
+    text-align: center;
+}
+.c0destaqueletracitacaomp{
+    font-weight: bold; 
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -28px;
+    position: absolute;    
+    text-align: center;
+}
+.c0destaquenumeromp{
+    font-weight: bold; 
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -28px;
+    position: absolute;    
+    text-align: center;
+}
+.c0destaquenumerocitacaomp{ 
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -28px;
+    position: absolute;    
+    text-align: center;
+} 
+.c0destaqueromanomp{
+    font-weight: bold; 
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -28px;
+    position: absolute; 
+    text-align: right;
+}
+.c0destaquequestaonumeromp{
+    font-weight: bold; 
+}
+.c0destaquesomatoriamp{
+    font-weight: bold; 
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -28px;
+    position: absolute; 
+    text-align: right;
+}
+.c0bulletnumitemmp{
+    font-weight: bold; 
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 -28px;
+    position: absolute;    
+    text-align: center;
+}
 .c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
 
 .c0destquecapsummp{}
