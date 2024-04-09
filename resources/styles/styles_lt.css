@@ -21,6 +21,7 @@ body {
 main {
     max-width: 85ch;
     margin: 0 auto;
+    
 }
 section {
     box-sizing: border-box;

@@ -919,17 +919,7 @@ c0bulletnumitemmp
 c0bulletsubitemmp
 */
 
-.c0destaqueletramp,
-.c0destaqueletracitacaomp,
-.c0destaquenumeromp,
-.c0destaquenumerocitacaomp,
-.c0destaqueromanomp,
-.c0destaquequestaonumeromp,
-.c0destaquesomatoriamp,
-.c0bulletnumitemmp,
-.c0bulletsubitemmp{
-    border:1px solid red;
-}
+
 
 .c0destaqueletramp{
     font-weight: bold; 
