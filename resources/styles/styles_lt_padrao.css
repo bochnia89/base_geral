@@ -94,6 +94,8 @@ table p {
     padding: 0;
 }
 
+dfn sup{}
+dd sup{}
 
 
 /*👉 ----- IDs PARA MAPEAMENTO ------ 👈
@@ -430,9 +432,11 @@ o2mapagravata2
 /* 
 p1box1tit
 p1box2tit
+p1box3tit
 */
 .p1box1tit{}
 .p1box2tit{}
+.p1box3tit{}
 
 /* TÍTULO SEÇÃO */
 /* 

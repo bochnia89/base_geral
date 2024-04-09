@@ -201,7 +201,7 @@ p.p2textompsemrecuoitem::before{
 ul.p2textompsemrecuoitem{}
 p.p2textompsemrecuoitem{}
 ul.p2textompsemrecuosubitem{
-    margin: 0.5em 0 0.5em 3em ;
+    margin: 0.5em 0 0.5em 3.5em ;
 }
 ul.p2textompsemrecuosubitem li::before{
     content: '•';
@@ -212,100 +212,55 @@ ul.p2textompsemrecuosubitem li::before{
     position: absolute;
 }
 p.p2textompsemrecuosubitem{
-    margin: 0.5em 0 0.5em 3em ;
+    margin: 0.5em 0 0.5em 3.5em ;
 }
 .p2textompsemrecuonumletra{
-    margin: 0.5em 0 0.5em 3em ;
+    margin: 0.5em 0 0.5em 3.6em ;
 }
-.p2textompsemrecuonumletra>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+.p2textompsemrecuonumletra>.c0destaquenumeromp {  
+    margin: 0 0 0 -58px;
   }
 
 .p2textompsemrecuonumitem{
-    margin: 0.5em 0 0.5em 3em ;
+    margin: 0.5em 0 0.5em 3.6em ;
 }
 .p2textompsemrecuonumitem>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -45px;
-    position: absolute;
-    text-align: center;
+      margin: 0 0 0 -58px;
   }
 
 .p2textompsemrecuonumletraitem{
-    margin: 0.5em 0 0.5em 4.5em ;
+    margin: 0.5em 0 0.5em 5.3em ;
 }
 .p2textompsemrecuonumletraitem>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -65px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -85px;
   }
   .p2textompsemrecuonumletraitem>.c0destaqueletramp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -45px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -55px;
   }
   .p2textompsemrecuonumletraitem>.c0bulletnumitemmp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
     margin: 0 0 0 -25px;
-    position: absolute;
-    text-align: center;
   }
 .p2textompsemrecuoromano{
     margin: 0.5em 0 0.5em 2em;
 }
 .p2textompsemrecuonumromano{
-    margin: 0.5em 0 0.5em 3em ;
+    margin: 0.5em 0 0.5em 4em ;
 }
 .p2textompsemrecuonumromano>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -45px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -60px;
   }
 
 .p2textompsemrecuonumromanoitem{
-    margin: 0.5em 0 0.5em 4.5em ;
+    margin: 0.5em 0 0.5em 5.5em ;
 }
 .p2textompsemrecuonumromanoitem>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -65px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -85px;
   }
   .p2textompsemrecuonumromanoitem>.c0destaqueromanomp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: right;
+    margin: 0 0 0 -55px;
   }
   .p2textompsemrecuonumromanoitem>.c0bulletnumitemmp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
     margin: 0 0 0 -25px;
-    position: absolute;
-    text-align: center;
   }
 
 /*👉TEXTO PRINCIPAL 👈*/
@@ -456,17 +411,17 @@ p2questaompnumletraitem
     margin: 0.5em 0 0.5em 0;
 }
 .p2questaompletra{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 .p2questaompletracont{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 ul.p2questaompletraitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 p.p2questaompletraitem{
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 p.p2questaompletraitem::before{
     content: ''; /*content: '•';*/
@@ -476,14 +431,14 @@ p.p2questaompletraitem::before{
     margin:0 0 0 -26px ;
 }
 .p2questaompletraitemcont{
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 ul.p2questaompitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 p.p2questaompitem{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 p.p2questaompitem::before{
     content: ''; /*content: '•';*/
@@ -493,14 +448,14 @@ p.p2questaompitem::before{
     margin:0 0 0 -26px ;
 }
 .p2questaompitemcont{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 ul.p2questaompsubitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 p.p2questaompsubitem{
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 p.p2questaompsubitem::before{
     content: ''; /*content: '•';*/
@@ -510,48 +465,28 @@ p.p2questaompsubitem::before{
     margin:0 0 0 -26px ;
 }
 .p2questaompsubitemcont{
-    margin: 0.5em 0 0.5em 2.5em;
+    margin: 0.5em 0 0.5em 3.8em;
 }
 .p2questaompnumitem{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 3.8em;
 }
 .p2questaompnumitem>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -56px;
   }
 .p2questaompnumletra{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 4em;
 }
 .p2questaompnumletra>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -60px;
   }
 .p2questaompnumletraitem{
-    margin: 0.5em 0 0.5em 4.3em;
+    margin: 0.5em 0 0.5em 5.7em;
 }
 .p2questaompnumletraitem>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -68px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -85px;
   }
 .p2questaompnumletraitem>.c0destaqueletramp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -56px;
   }
 
 
@@ -614,17 +549,17 @@ p2atvmpsomatoria
     margin: 0.5em 0 0.5em 2em;
 }
 .p2atvmpromano{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 .p2atvmpromanocont{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 ul.p2atvmpitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 p.p2atvmpitem{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 p.p2atvmpitem::before{
 content: ''; /*content: '•';*/
@@ -634,14 +569,14 @@ position: absolute;
 margin:0 0 0 -26px ;
 }
 .p2atvmpitemcont{
-    margin: 0.5em 0 0.5em 2em;
+    margin: 0.5em 0 0.5em 3.5em;
 }
 ul.p2atvmpsubitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 5em;
 }
 p.p2atvmpsubitem{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 5em;
 }
 p.p2atvmpsubitem::before{
     content: ''; /*content: '';*/
@@ -651,13 +586,13 @@ p.p2atvmpsubitem::before{
     margin: 0 0 0 -26px ;
 }
 .p2atvmpsubitemcont{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 5em;
 }
 .p2atvmpitemletra{
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 5.5em;
 }
 .p2atvmpitemletracont{
-    margin: 0.5em 0 0.5em 3.5em;
+    margin: 0.5em 0 0.5em 5.5em;
 }
 .p2atvmpletra{
     margin: 0.5em 0 0.5em 2em;
@@ -682,67 +617,37 @@ p.p2atvmpletraitembullet{
     margin: 0.5em 0 0.5em 3em;
 }
 .p2atvmpnumitem{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 3.6em;
 }
 .p2atvmpnumitem>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -58px;
   }
 .p2atvmpnumletra{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 3.7em;
 }
 .p2atvmpnumletra>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -60px;
   }
 .p2atvmpnumletraitem{
-    margin: 0.5em 0 0.5em 4.5em;
+    margin: 0.5em 0 0.5em 5.4em;
 }
 .p2atvmpnumletraitem>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -68px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -87px;
   }
   .p2atvmpnumletraitem>.c0destaqueletramp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -58px;
   }
 .p2atvmpletraitem{
-    margin: 0.5em 0 0.5em 4.5em;
+    margin: 0.5em 0 0.5em 5.5em;
 }
 .p2atvmpletraitem>.c0destaqueletramp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -57px;
   }
 .p2atvmpnumromano{
-    margin: 0.5em 0 0.5em 3em;
+    margin: 0.5em 0 0.5em 3.7em;
 }
 .p2atvmpnumromano>.c0destaquenumeromp {
-    font-weight: bold;
-    width: 24px;
-    height: 24px;
-    margin: 0 0 0 -48px;
-    position: absolute;
-    text-align: center;
+    margin: 0 0 0 -60px;
   }
 .p2atvmpsomatoria{
     margin: 0.5em 0 0.5em 4em;
@@ -955,14 +860,14 @@ margin:0 0 0 -26px ;
 
 .p3citacaompsemrecuo{}
 .p3citacaompsemrecuoletra{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 ul.p3citacaompsemrecuoitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 blockquote.p3citacaompsemrecuoitem{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2em;
 }
 
 blockquote.p3citacaompsemrecuoitem::before{
@@ -1014,42 +919,54 @@ c0bulletnumitemmp
 c0bulletsubitemmp
 */
 
+.c0destaqueletramp,
+.c0destaqueletracitacaomp,
+.c0destaquenumeromp,
+.c0destaquenumerocitacaomp,
+.c0destaqueromanomp,
+.c0destaquequestaonumeromp,
+.c0destaquesomatoriamp,
+.c0bulletnumitemmp,
+.c0bulletsubitemmp{
+    border:1px solid red;
+}
+
 .c0destaqueletramp{
     font-weight: bold; 
-    width: 24px;
+    width: 30px;
     height: 24px;
-    margin: 0 0 0 -28px;
+    margin: 0 0 0 -30px;
     position: absolute;    
     text-align: center;
 }
 .c0destaqueletracitacaomp{
     font-weight: bold; 
-    width: 24px;
+    width: 30px;
     height: 24px;
-    margin: 0 0 0 -28px;
+    margin: 0 0 0 -30px;
     position: absolute;    
     text-align: center;
 }
 .c0destaquenumeromp{
     font-weight: bold; 
-    width: 24px;
+    width: 30px;
     height: 24px;
-    margin: 0 0 0 -28px;
+    margin: 0 0 0 -30px;
     position: absolute;    
     text-align: center;
 }
 .c0destaquenumerocitacaomp{ 
-    width: 24px;
+    width: 30px;
     height: 24px;
-    margin: 0 0 0 -28px;
+    margin: 0 0 0 -30px;
     position: absolute;    
     text-align: center;
 } 
 .c0destaqueromanomp{
     font-weight: bold; 
-    width: 24px;
+    width: 30px;
     height: 24px;
-    margin: 0 0 0 -28px;
+    margin: 0 0 0 -30px;
     position: absolute; 
     text-align: right;
 }
@@ -1058,9 +975,9 @@ c0bulletsubitemmp
 }
 .c0destaquesomatoriamp{
     font-weight: bold; 
-    width: 24px;
+    width: 30px;
     height: 24px;
-    margin: 0 0 0 -28px;
+    margin: 0 0 0 -30px;
     position: absolute; 
     text-align: right;
 }
