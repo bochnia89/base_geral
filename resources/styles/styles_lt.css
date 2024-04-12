@@ -1653,9 +1653,25 @@ figure>.p5marcador {
 /* 
 p5aberturaobjtit
 p5aberturaobjitem
+p5aberturaobjtexto
 */
+.p5aberturaobjtexto{}
 .p5aberturaobjtit{}
 .p5aberturaobjitem{}
+
+/*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
+/* 
+d0materiaistit
+d0atividade
+d0atv
+d0anote
+d0estrategiastit
+*/
+.d0materiaistit{}
+.d0sectitatv{}
+.d0atv{}
+.d0anote{}
+.d0estrategiastit{}
 
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
@@ -1857,7 +1873,13 @@ c3idiomabolditalicoresposta
     font-weight: bold;
 }
 
-
+/* idioma vocabulario */
+/* 
+c3idiomavocabulariodestaque
+c3idiomavocabulariodestaqueitalico
+*/
+.c3idiomavocabulariodestaque{}
+.c3idiomavocabulariodestaqueitalico{}
 
 /*👉C4: Estilos de Suporte👈*/
 /* 
@@ -1921,9 +1943,11 @@ o0facsimile
 o0secconheca
 o0secapresentacao
 o0secconheca2
+o0aberturabox
 o0aberturaatvbox
 o0aberturaobjbox
 o0aberturalegenda
+o0aberturaimgmini
 o0sec1
 o0sec2
 o0sec3
@@ -1931,6 +1955,20 @@ o0sec4
 o0sec5
 o0sec6  👉 Cynthia: atualizar lista de stilos 
 o0sec7
+o0sec1a
+O0Sec2a
+o0sec3a
+o0sec4a
+o0sec5a
+o0sec6a
+o0sec7a
+o0sec1box
+o0sec2box
+o0sec3box
+o0sec4box
+o0sec5box
+o0sec6box
+o0sec7box
 o0parasabermais
 o0referencias
 o0sugestcomp
@@ -1944,9 +1982,11 @@ o0pronunciation 👉 Especifico de inglês
 .o0secconheca{}
 .o0secapresentacao{}
 .o0secconheca2{}
+.o0aberturabox{}
 .o0aberturaatvbox{}
 .o0aberturaobjbox{}
 .o0aberturalegenda{}
+.o0aberturaimgmini{}
 .o0sec1{}
 .o0sec2{}
 .o0sec3{}
@@ -1954,6 +1994,20 @@ o0pronunciation 👉 Especifico de inglês
 .o0sec5{}
 .o0sec6{}  
 .o0sec7{}
+.o0sec1a{}
+.o0sec2a{}
+.o0sec3a{}
+.o0sec4a{}
+.o0sec5a{}
+.o0sec6a{}  
+.o0sec7a{}
+.o0sec1box{}
+.o0sec2box{}
+.o0sec3box{}
+.o0sec4box{}
+.o0sec5box{}
+.o0sec6box{}  
+.o0sec7box{}
 .o0parasabermais{}
 .o0referencias{}
 .o0sugestcomp{}
@@ -1995,6 +2049,8 @@ o1boxfundolaranja1
 o1boxfundolaranja2
 o1boxfundoverde1
 o1boxfundoverde2
+o1boxfundoturquesa1
+o1boxfundoturquesa2
 o1fioindicacaoroxo1
 o1fioindicacaoverde1
 o1boxfioroxo1
@@ -2002,6 +2058,9 @@ o1fiocotapreto
 o1setaroxo1
 o1setaverde1
 o1contornoimagem  👉 Cynthia: atualizar lista de stilos
+o1acabamentoimagem
+o1contornoimagembranco
+o1zoomcontorno
 */
 .o1boxfundobranco{}
 .o1boxfundoazul1{}
@@ -2013,6 +2072,8 @@ o1contornoimagem  👉 Cynthia: atualizar lista de stilos
 .o1boxfundolaranja2{}
 .o1boxfundoverde1{}
 .o1boxfundoverde2{}
+.o1boxfundoturquesa1{}
+.o1boxfundoturquesa2{}
 .o1fioindicacaoroxo1{}
 .o1fioindicacaoverde1{}
 .o1boxfioroxo1{}
@@ -2022,6 +2083,9 @@ o1contornoimagem  👉 Cynthia: atualizar lista de stilos
 .o1contornoimagem{
     border: 1px solid var(--preto);
 }
+.o1acabamentoimagem{}
+.o1contornoimagembranco{}
+.o1zoomcontorno{}
 
 
 /*👉O2: Gráficos e mapas👈*/
@@ -2042,6 +2106,7 @@ o2esquemabox
 /* 
 o3jornalfundo
 o3fiocitacao
+o3fiovocabulario
 */
 .o3jornalfundo{
     background: var(--cinza);
@@ -2050,10 +2115,12 @@ o3fiocitacao
     margin: 1em 0;
 }
 .o3fiocitacao{}
+.o3fiovocabulario{}
 
 
 /*👉O4: Boxes específicos👈*/
 /* 
+o4questaobox
 o4ficha
 o4ficha2
 o4boxinfo
@@ -2077,7 +2144,9 @@ o4destaquepalavrabox
 o4destaquepalavrafio
 o4recadoimagemcinza
 o4recadoimagembranco
+o4recadoimagemvermelho
 */
+.o4questaobox{}
 .o4ficha{}
 p.o4ficha {
     border: 3px solid var(--cinza);
@@ -2263,7 +2332,7 @@ span.o4ficha2 {
 .o4destaquepalavrafio{}
 .o4recadoimagemcinza{}
 .o4recadoimagembranco{}
-
+.o4recadoimagemvermelho{}
 
 /*👉O5: Papeletas e papelaria👈*/
 /* 
@@ -2276,6 +2345,9 @@ o5postit1
 o5postit2
 o5papeleta1
 o5papeleta2
+o5passoapasso
+o5passoapassocheck
+o5passoapassosec
 o5prancheta
 o5lousa
 o5quadrobranco
@@ -2296,6 +2368,9 @@ o5email2
 .o5postit2{}
 .o5papeleta1{}
 .o5papeleta2{}
+.o5passoapasso{}
+.o5passoapassocheck{}
+.o5passoapassosec{}
 .o5prancheta{}
 .o5lousa{}
 .o5quadrobranco{}
@@ -2308,14 +2383,27 @@ o5email2
 .o5email2{}
 
 
+/*👉06: Elistos para Fluxograma👈*/
+/* 
+o6fluxogramaseta
+o6fluxogramainiciofim
+o6fluxogramaacao
+o6fluxogramadecisao
+*/
+.o6fluxogramaseta{}
+.o6fluxogramainiciofim{}
+.o6fluxogramaacao{}
+.o6fluxogramadecisao{}
 
 /*👉OE: Elementos vindos da editora👈*/
 /* 
 oemestrategias
 oemestrategias2
+oemamplieseurepertoriobox
 */
 .oemestrategias{}
 .oemestrategias2{}
+.oemamplieseurepertoriobox{}
 
 
 /*MEDIA QUERY*/

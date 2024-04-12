@@ -6,7 +6,9 @@
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/materialicons/v37/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
   }
-  
+  mark{
+    word-break: break-all;
+  }  
   s{
     color: #7b7b7b;
   }
