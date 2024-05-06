@@ -114,9 +114,12 @@ p.p2textogabitem::before{
 /* 
 p2questaogab
 p2questaogabcont
+p2questaogabmarcador
+p2questaogabmarcadorcont
 p2questaogabitem
 p2questaogabitemcont
 p2questaogabsubitem
+p2questaogabsubitemcont
 p2questaogabletra
 p2questaogabletracont
 p2questaogabletraitem
@@ -124,9 +127,12 @@ p2questaogabletraitemcont
 */
 .p2questaogab,
 .p2questaogabcont,
+.p2questaogabmarcador,
+.p2questaogabmarcadorcont,
 .p2questaogabitem,
 .p2questaogabitemcont,
 .p2questaogabsubitem,
+.p2questaogabsubitemcont,
 .p2questaogabletra,
 .p2questaogabletracont,
 .p2questaogabletraitem,
@@ -141,6 +147,12 @@ p2questaogabletraitemcont
 }
 .p2questaogabcont{
     margin: 0.5em 0 0.5em 0;
+}
+.p2questaogabmarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2questaogabmarcadorcont{
+    margin: 0.5em 0 0.5em 2em;
 }
 ul.p2questaogabitem{
     list-style: disc;
@@ -173,6 +185,9 @@ p.p2questaogabsubitem{
     height:24px ;
     position: absolute;
     margin:0 0 0 -26px;
+}
+.p2questaogabsubitemcont{
+    margin: 0.5em 0 0.5em 2em;
 }
 
 .p2questaogabletra{
@@ -216,6 +231,7 @@ p2atvgabletraitembullet
 p2atvgabletraitembulletcont
 p2atvgabletraromano
 p2atvgabletraromanocont
+p2atvgabletrasubromano
 p2atvgabnumitem
 p2atvgabnumletra
 p2atvgabnumletraitem
@@ -239,6 +255,7 @@ p2atvgabsomatoriacont
 .p2atvgabletraitembulletcont,
 .p2atvgabletraromano,
 .p2atvgabletraromanocont,
+.p2atvgabletrasubromano,
 .p2atvgabnumitem,
 .p2atvgabnumletra,
 .p2atvgabnumletraitem,
@@ -327,11 +344,19 @@ p.p2atvgabletraitembullet::before{
     margin: 0.5em 0 0.5em 4.5em;
 }
 .p2atvgabletraromano{
-    margin: 0.5em 0 0.5em 4.5em;
+    margin: 0.5em 0 0.5em 5.5em;
 }
 .p2atvgabletraromanocont{
-    margin: 0.5em 0 0.5em 4.5em;
+    margin: 0.5em 0 0.5em 5.5em;
 }
+.p2atvgabletrasubromano{
+    margin: 0.5em 0 0.5em 5.5em;
+}
+.p2atvgabletrasubromano>.c0destaqueletra {
+    margin: 0 0 0 -50px;
+   text-align: center;
+ }
+
 .p2atvgabnumitem{
     margin: 0.5em 0 0.5em 3.5em;
 }
@@ -388,6 +413,10 @@ p3intermediariogabitemcont
 p3intermediariogabsemrecuo
 p3intermediariogabsemrecuoitem
 p3intermediariogabsemrecuoitemcont
+p3intermediariogabsemrecuonumero
+p3intermediariogabsemrecuonumerocont
+p3intermediariogabsemrecuoletra
+p3intermediariogabsemrecuoletracont
 */
 .p3intermediariogabtit,
 .p3intermediariogab,
@@ -395,7 +424,11 @@ p3intermediariogabsemrecuoitemcont
 .p3intermediariogabitemcont,
 .p3intermediariogabsemrecuo,
 .p3intermediariogabsemrecuoitem,
-.p3intermediariogabsemrecuoitemcont{
+.p3intermediariogabsemrecuoitemcont,
+.p3intermediariogabsemrecuonumero,
+.p3intermediariogabsemrecuonumerocont,
+.p3intermediariogabsemrecuoletra,
+.p3intermediariogabsemrecuoletracont{
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -452,6 +485,19 @@ margin:0 0 0 -26px ;
     
 .p3intermediariogabsemrecuoitemcont{
     margin: 0.5em 0 0.5em 1em;
+}
+
+.p3intermediariogabsemrecuonumero{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3intermediariogabsemrecuonumerocont{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3intermediariogabsemrecuoletra{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3intermediariogabsemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em;
 }
 
 

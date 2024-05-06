@@ -126,6 +126,7 @@ p2atvresoletraitembullet
 p2atvresoletraitembulletcont
 p2atvresoletraromano
 p2atvresoletraromanocont
+p2atvresoletrasubromano
 p2atvresonumitem
 p2atvresonumletra
 p2atvresonumletraitem
@@ -149,6 +150,7 @@ p2atvresosomatoriacont
 .p2atvresoletraitembulletcont,
 .p2atvresoletraromano,
 .p2atvresoletraromanocont,
+.p2atvresoletrasubromano,
 .p2atvresonumitem,
 .p2atvresonumletra,
 .p2atvresonumletraitem,
@@ -234,11 +236,18 @@ p.p2atvresoletraitembullet::before{
     margin: 0.5em 0 0.5em 4em;
 }
 .p2atvresoletraromano{
-    margin: 0.5em 0 0.5em 4em;
+    margin: 0.5em 0 0.5em 5em;
 }
 .p2atvresoletraromanocont{
-    margin: 0.5em 0 0.5em 4em;
+    margin: 0.5em 0 0.5em 5em;
 }
+.p2atvresoletrasubromano{
+    margin: 0.5em 0 0.5em 5.5em;
+}
+.p2atvresoletrasubromano>.c0destaqueletramp {
+    margin: 0 0 0 -50px;
+  }
+
 .p2atvresonumitem{
     margin: 0.5em 0 0.5em 3.8em;
 }

@@ -270,6 +270,8 @@ p2textompitem
 p2textompitemcont
 p2textompsubitem
 p2textompsubitemcont
+p2textompitemletra
+p2textompitemletracont
 p2textompletra
 p2textompletracont
 p2textompletraitem
@@ -283,6 +285,8 @@ p2textompmarcadorsemrecuo
 .p2textompitemcont,
 .p2textompsubitem,
 .p2textompsubitemcont,
+.p2textompsubitemcont,
+.p2textompitemletra,
 .p2textompletra,
 .p2textompletracont,
 .p2textompletraitem,
@@ -332,6 +336,8 @@ p.p2textompsubitem::before{
 .p2textompsubitemcont{
     margin: 0.5em 0 0.5em 2.8em;
 }
+.p2textompsubitemcont{}
+.p2textompitemletra{}
 .p2textompletra{
     margin: 0.5em 0 0.5em 2.8em;
 }
@@ -956,7 +962,7 @@ c0bulletsubitemmp
     font-weight: bold; 
     width: 30px;
     height: 24px;
-    margin: 0 0 0 -30px;
+    margin: 0 0 0 -32px;
     position: absolute; 
     text-align: right;
 }
@@ -967,7 +973,7 @@ c0bulletsubitemmp
     font-weight: bold; 
     width: 30px;
     height: 24px;
-    margin: 0 0 0 -30px;
+    margin: 0 0 0 -32px;
     position: absolute; 
     text-align: right;
 }

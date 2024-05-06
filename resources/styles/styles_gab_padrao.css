@@ -44,9 +44,12 @@ p2textogabmarcador
 /* 
 p2questaogab
 p2questaogabcont
+p2questaogabmarcador
+p2questaogabmarcadorcont
 p2questaogabitem
 p2questaogabitemcont
 p2questaogabsubitem
+p2questaogabsubitemcont
 p2questaogabletra
 p2questaogabletracont
 p2questaogabletraitem
@@ -54,9 +57,12 @@ p2questaogabletraitemcont
 */
 .p2questaogab{}
 .p2questaogabcont{}
+.p2questaogabmarcador{}
+.p2questaogabmarcadorcont{}
 .p2questaogabitem{}
 .p2questaogabitemcont{}
 .p2questaogabsubitem{}
+.p2questaogabsubitemcont{}
 .p2questaogabletra{}
 .p2questaogabletracont{}
 .p2questaogabletraitem{}
@@ -79,6 +85,7 @@ p2atvgabletraitembullet
 p2atvgabletraitembulletcont
 p2atvgabletraromano
 p2atvgabletraromanocont
+p2atvgabletrasubromano
 p2atvgabnumitem
 p2atvgabnumletra
 p2atvgabnumletraitem
@@ -102,6 +109,7 @@ p2atvgabsomatoriacont
 .p2atvgabletraitembulletcont{}
 .p2atvgabletraromano{}
 .p2atvgabletraromanocont{}
+.p2atvgabletrasubromano{}
 .p2atvgabnumitem{}
 .p2atvgabnumletra{}
 .p2atvgabnumletraitem{}
@@ -120,6 +128,10 @@ p3intermediariogabitemcont
 p3intermediariogabsemrecuo
 p3intermediariogabsemrecuoitem
 p3intermediariogabsemrecuoitemcont
+p3intermediariogabsemrecuonumero
+p3intermediariogabsemrecuonumerocont
+p3intermediariogabsemrecuoletra
+p3intermediariogabsemrecuoletracont
 */
 .p3intermediariogabtit{}
 .p3intermediariogab{}
@@ -128,6 +140,10 @@ p3intermediariogabsemrecuoitemcont
 .p3intermediariogabsemrecuo{}
 .p3intermediariogabsemrecuoitem{}
 .p3intermediariogabsemrecuoitemcont{}
+.p3intermediariogabsemrecuonumero{}
+.p3intermediariogabsemrecuonumerocont{}
+.p3intermediariogabsemrecuoletra{}
+.p3intermediariogabsemrecuoletracont{}
 
 
 /*👉------- SEÇÃO -------👈*/ 
