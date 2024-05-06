@@ -118,12 +118,12 @@ box_professor_mp
 caracterizada
 descaracterizada
 ajustepronuncia
-conteudoOriginal
-conteudoAdaptado
-creditoimagemOED
+conteudooriginal
+conteudoadaptado
+creditoimagemoed
 creditoimagem
-creditoimagemResposta
-creditoimagemPage
+creditoimagemresposta
+creditoimagempage
 orienta
 orientatx
 ocultatx
@@ -335,20 +335,20 @@ p1sumariooedpeso2
 /*👉=================== ESTILOS MIOLO ================================👈*/
 /* TÍTULOS  */
 /* 
-.p0tit1
-.p0tit1numpv
-.p0tit1pv
-.p0tit2
-.p0tit2numpv
-.p0tit2pv
-.p0tit3
-.p0tit4
-.p0tit5
-.p0tit6
-.p0tit3negativo
-.p0tit4negativo
-.p0tit5negativo
-.p0tit6negativo
+p0tit1
+p0tit1numpv
+p0tit1pv
+p0tit2
+p0tit2numpv
+p0tit2pv
+p0tit3
+p0tit4
+p0tit5
+p0tit6
+p0tit3negativo
+p0tit4negativo
+p0tit5negativo
+p0tit6negativo
 */
 .p0tit1{}
 .p0tit1numpv{}
@@ -440,75 +440,100 @@ p1box3tit
 
 /* TÍTULO SEÇÃO */
 /* 
-.p1sec1tit1
-.p1sec1tit2
-.p1sec1tit3
-.p1sec2tit1
-.p1sec2tit2
-.p1sec2tit3
-.p1sec3tit1
-.p1sec3tit2
-.p1sec3tit3
-.p1sec4tit1
-.p1sec4tit2
-.p1sec4tit3
-.p1sec5tit1
-.p1sec5tit2
-.p1sec5tit3
-.p1sec6tit1
-.p1sec6tit2
-.p1sec6tit3
-.p1sec7tit1
-.p1sec7tit2
-.p1sec7tit3
+p1sec1tit1
+p1sec1tit2
+p1sec1tit3
+p1sec1tit4
+p1sec2tit1
+p1sec2tit2
+p1sec2tit3
+p1sec2tit4
+p1sec3tit1
+p1sec3tit2
+p1sec3tit3
+p1sec3tit4
+p1sec4tit1
+p1sec4tit2
+p1sec4tit3
+p1sec4tit4
+p1sec5tit1
+p1sec5tit2
+p1sec5tit3
+p1sec5tit4
+p1sec6tit1
+p1sec6tit2
+p1sec6tit3
+p1sec6tit4
+p1sec7tit1
+p1sec7tit2
+p1sec7tit3
+p1sec7tit4
 */
 .p1sec1tit1{}
 .p1sec1tit2{}
 .p1sec1tit3{}
+.p1sec1tit4{}
 
 .p1sec2tit1{}
 .p1sec2tit2{}
 .p1sec2tit3{}
+.p1sec2tit4{}
 
 .p1sec3tit1{}
 .p1sec3tit2{}
 .p1sec3tit3{}
+.p1sec3tit4{}
 
 .p1sec4tit1{}
 .p1sec4tit2{}
 .p1sec4tit3{}
+.p1sec4tit4{}
 
 .p1sec5tit1{}
 .p1sec5tit2{}
 .p1sec5tit3{}
+.p1sec5tit4{}
 
 .p1sec6tit1{}
 .p1sec6tit2{}
 .p1sec6tit3{}
+.p1sec6tit4{}
 
 .p1sec7tit1{}
 .p1sec7tit2{}
 .p1sec7tit3{}
+.p1sec7tit4{}
 
 /*👉 SUGESTÕES COMPLEMENTARES 👈*/
 /* 
 p1sugestcomptit1
 p1sugestcomptit2
+p1sugestcomptit3
+p2sugestcomp
+p2sugestcompitem
+p2sugestcompcoment
 */
 .p1sugestcomptit1{}
 .p1sugestcomptit2{}
+.p1sugestcomptit3{}
+.p2sugestcomp{}
+.p2sugestcompitem{}
+.p2sugestcompcoment{}
+
+
 
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
 /* 
 p1referenciasbibliotit1
 p1referenciasbibliotit2
+p1referenciasbibliotit3
 p2referenciasbiblio
 p2referenciasbiblioitem
 p2referenciasbibliocoment
 */
 .p1referenciasbibliotit1{}
 .p1referenciasbibliotit2{}
-
+.p1referenciasbibliotit3{}
 .p2referenciasbiblio{}
 .p2referenciasbiblioitem{}
 .p2referenciasbibliocoment{}
@@ -522,6 +547,8 @@ p2textosemrecuoitemcont
 p2textonumsemrecuo
 p2textomarcadorsemrecuo
 p2textomarcadorsemrecuocont
+p2textomarcadorsemrecuoromano
+p2textosemrecuonum
 p2textosemrecuonumcont
 p2textosemrecuonumitem
 p2textosemrecuonumitemcont
@@ -535,6 +562,8 @@ p2textosemrecuoletra
 .p2textonumsemrecuo{}
 .p2textomarcadorsemrecuo{}
 .p2textomarcadorsemrecuocont{}
+.p2textomarcadorsemrecuoromano{}
+.p2textosemrecuonum{}
 .p2textosemrecuonumcont{}
 .p2textosemrecuonumitem{}
 .p2textosemrecuonumitemcont{}
@@ -557,6 +586,7 @@ p2textoletracont
 p2textoletraitem
 p2textoletraitemcont
 p2textomarcador
+p2textomarcadorromano
 p2textomarcadorletra
 p2textomarcadorletracont
 p2textomarcadoritem
@@ -581,6 +611,7 @@ p2textomarcadorsubitemcont
 .p2textoletraitemcont{}
 
 .p2textomarcador{}
+.p2textomarcadorromano{}
 
 .p2textomarcadorletra{}
 .p2textomarcadorletracont{}
@@ -632,33 +663,40 @@ p.p2questaosubitem{}
 
 /* ATIVIDADES */
 /*
-.p2atv
-.p2atvcont
-.p2atvromano
-.p2atvromanocont
-.p2atvitem
-.p2atvitemcont
-.p2atvsubitem
-.p2atvsubitemcont
-.p2atvitemletra
-.p2atvitemletracont
-.p2atvletra
-.p2atvletracont
-.p2atvletraromano
-.p2atvletraromanocont
-.p2atvletraitem
-.p2atvletraitemcont
-.p2atvletrasubitem
-.p2atvletrasubitemcont
-.p2atvletraitemromano
-.p2atvletraitemromanocont
-.p2atvmarcador
-.p2atvmarcadorcont
-.p2atvsomatoria
-.p2atvsomatoriacont
+p2atv
+p2atvcont
+p2atvromano
+p2atvromanocont
+p2atvitem
+p2atvitemcont
+p2atvsubitem
+p2atvsubitemcont
+p2atvitemletra
+p2atvitemletracont
+p2atvletra
+p2atvletracont
+p2atvletramarcador
+p2atvletramarcadorromano
+p2atvletraromano
+p2atvletraromanocont
+p2atvletraitem
+p2atvletraitemcont
+p2atvletrasubitem
+p2atvletrasubitemcont
+p2atvletraitemromano
+p2atvletraitemromanocont
+p2atvmarcador
+p2atvmarcadorcont
+p2atvmarcadorromano
+p2atvmarcadoritem
+p2atvmarcadoritemcont
+p2atvsomatoria
+p2atvsomatoriacont
 */
 .p2atv{}
 .p2atvcont{}
+.p2atvletramarcador{}
+.p2atvletramarcadorromano{}
 .p2atvromano{}
 .p2atvromanocont{}
 
@@ -691,7 +729,11 @@ p.p2atvletrasubitem{}
 .p2atvletraitemromanocont{}
 
 .p2atvmarcador{}
-.p2atvmarcadorcont{}/*TODO: Aguardando de definição de uso*/
+.p2atvmarcadorcont{}
+.p2atvmarcadorromano{}
+.p2atvmarcadoritem{}
+.p2atvmarcadoritemcont{}
+
 .p2atvsomatoria{}
 .p2atvsomatoriacont{}
 
@@ -700,23 +742,27 @@ p.p2atvletrasubitem{}
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
 /* TEXTOS INTERMEDIÁRIOS */
 /*
-.p3intermediariotit
-.p3intermediario
-.p3intermediarioitem
-.p3intermediarioitemcont
-.p3intermediarioitemletra
-.p3intermediarioitemletracont
-.p3intermediarioletra
-.p3intermediarioletracont
-.p3intermediarionumero
-.p3intermediarionumerocont
-.p3intermediariomarcador
-.p3intermediariomarcadorcont
-.p3intermediariosemrecuo
-.p3intermediariosemrecuoitem
-.p3intermediariosemrecuoitemcont
-.p3intermediariosemrecuoletra
-.p3intermediariosemrecuoletracont
+p3intermediariotit
+p3intermediario
+p3intermediarioitem
+p3intermediarioitemcont
+p3intermediarioitemletra
+p3intermediarioitemletracont
+p3intermediarioletra
+p3intermediarioletracont
+p3intermediarionumero
+p3intermediarionumerocont
+p3intermediariomarcador
+p3intermediariomarcadorcont
+p3intermediariomarcadoritem
+p3intermediariomarcadoritemcont
+p3intermediariosemrecuo
+p3intermediariosemrecuoitem
+p3intermediariosemrecuoitemcont
+p3intermediariosemrecuoletra
+p3intermediariosemrecuoletracont
+p3intermediariosemrecuonumero
+p3intermediariosemrecuonumerocont
 */
 .p3intermediariotit{}
 .p3intermediario{}
@@ -735,13 +781,20 @@ p.p2atvletrasubitem{}
 .p3intermediariomarcador{}
 .p3intermediariomarcadorcont{}
 
+.p3intermediariomarcadoritem{}
+.p3intermediariomarcadoritemcont{}
+
 /* TEXTOS INTERMEDIÁRIOS SEM RECUO */
+
 .p3intermediariosemrecuo{}
 .p3intermediariosemrecuoitem{}
 .p3intermediariosemrecuoitemcont{}
 
 .p3intermediariosemrecuoletra{}
 .p3intermediariosemrecuoletracont{}
+
+.p3intermediariosemrecuonumero{}
+.p3intermediariosemrecuonumerocont{}
 
 
 /* TEXTOS CITADOS - CITAÇÃO */
@@ -809,6 +862,7 @@ blockquote.p3citacaoitem{}
 
 /* Crédito Imagem*/
 .p4credimagem{}
+.p4credimagemresposta{}
 
 /* Cuidado dica */
 .p4cuidadodica{}
@@ -843,6 +897,7 @@ p5marcadorcaixa2negativo
 p5marcadorcaixa3
 p5marcadorcaixa3negativo
 p5marcadorromano
+p5marcadorquestao
 */
 .p5marcador{}
 .p5marcadornegativo{}
@@ -861,6 +916,8 @@ p5marcadorromano
 
 .p5marcadorromano{}  
 
+.p5marcadorquestao{}
+
 /* ABERTURA DE CAPITULO */
 /* 
 p5aberturaobjtit
@@ -873,18 +930,57 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
+d0boxabertura
+d0boxabertura2
+d0imgabertura
+d0tit1
+d0tit2
+d0boxaberturatit
 d0materiaistit
-d0atividade
-d0atv
+d0secatividade
+d0secatividadetit
 d0anote
 d0estrategiastit
+d0ods
+d0atvanote
+
+d0perfil
+d0chat
+d0conversa1 
+d0conversa2
+d0fotoperfil
+d0mensagem
+d0name 
+d0texto
+d0hora
+d0textarea
+d0input 
 */
+.d0boxabertura{}
+.d0boxabertura2{}
+.d0imgabertura{}
+.d0tit1{}
+.d0tit2{}
+.d0boxaberturatit{}
 .d0materiaistit{}
-.d0sectitatv{}
-.d0atv{}
+.d0secatividade{}
+.d0secatividadetit{}
 .d0anote{}
 .d0estrategiastit{}
+.d0ods{}
+.d0atvanote{}
 
+.d0perfil{}
+.d0chat{}
+.d0conversa1{} 
+.d0conversa2{}
+.d0fotoperfil{}
+.d0mensagem{}
+.d0name{} 
+.d0texto{}
+.d0hora{}
+.d0textarea{}
+.d0input{} 
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
 /* Sumário */
@@ -1027,10 +1123,6 @@ c4glossariodestaqueitalico
 
 /*👉O0: Estilos “reservados” (Essenciais em todo projeto)👈*/
 
-/* Abertura  estilos esclusivos do digital*/
-.boxabertura
-.imgAbertura
-/* Abertura  estilos esclusivos do digital*/
 
 /* Estilos de objeto: APRESENTAÇÃO E CONHEÇA */
 /* 
@@ -1044,6 +1136,7 @@ o0aberturaatvbox
 o0aberturaobjbox
 o0aberturalegenda
 o0aberturaimgmini
+o0aberturarespostas
 o0sec1
 o0sec2
 o0sec3
@@ -1083,6 +1176,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0aberturaobjbox{}
 .o0aberturalegenda{}
 .o0aberturaimgmini{}
+.o0aberturarespostas{o0aberturarespostas}
 .o0sec1{}
 .o0sec2{}
 .o0sec3{}
@@ -1250,6 +1344,7 @@ o5nota2
 o5nota3
 o5postit1
 o5postit2
+o5postit3
 o5papeleta1
 o5papeleta2
 o5passoapasso
@@ -1265,6 +1360,11 @@ o5verbetedicionario
 o5curriculo
 o5email
 o5email2
+o5trechopeca
+o5revista
+o5socialinsta
+o5redesocial
+o5redesocial2
 */
 .o5bilhete1{}
 .o5bilhete2{}
@@ -1273,6 +1373,7 @@ o5email2
 .o5nota3{}
 .o5postit1{}
 .o5postit2{}
+.o5postit3{}
 .o5papeleta1{}
 .o5papeleta2{}
 .o5passoapasso{}
@@ -1288,6 +1389,11 @@ o5email2
 .o5curriculo{}
 .o5email{}
 .o5email2{}
+.o5trechopeca{}
+.o5revista{}
+.o5socialinsta{}
+.o5redesocial{}
+.o5redesocial2{}
 
 
 /*👉06: Estilos para Fluxograma👈*/
