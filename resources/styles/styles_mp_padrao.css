@@ -240,9 +240,11 @@ p.p2atvmpletraitembullet{}
 /* 
 p2referenciasbibliomp
 p2referenciasbibliompcoment
+p2referenciasbibliompitem
 */
 .p2referenciasbibliomp{}
 .p2referenciasbibliompcoment{}
+.p2referenciasbibliompitem{}
 
 /*👉TEXTOS INTERMEDIÁRIOS👈*/
 /* 
@@ -254,8 +256,22 @@ p3intermediariompitemletra
 p3intermediariompitemletracont
 p3intermediariompletra
 p3intermediariompletracont
+p3intermediariompletraromano
+p3intermediariompletraromanocont
 p3intermediariompnumero
 p3intermediariompnumerocont
+p3intermediariompnumeroletra
+p3intermediariompnumeroletracont
+p3intermediariompnumeroletraitembullet
+p3intermediariompnumeroletraitembulletcont
+p3intermediariompnumeroletraromano
+p3intermediariompnumeroletraromanocont
+p3intermediariompnumeroitem
+p3intermediariompnumeroitemcont
+p3intermediariompnumerosubitem
+p3intermediariompnumerosubitemcont
+p3intermediariompnumeroitemletra
+p3intermediariompnumeroitemletracont
 p3intermediariompmarcador
 p3intermediariompmarcadorcont
 p3intermediariompsemrecuo
@@ -271,8 +287,22 @@ p.p3intermediariompitem{}
 .p3intermediariompitemletracont{}
 .p3intermediariompletra{}
 .p3intermediariompletracont{}
+.p3intermediariompletraromano{}
+.p3intermediariompletraromanocont{}
 .p3intermediariompnumero{}
 .p3intermediariompnumerocont{}
+.p3intermediariompnumeroletra{}
+.p3intermediariompnumeroletracont{}
+.p3intermediariompnumeroletraitembullet{}
+.p3intermediariompnumeroletraitembulletcont{}
+.p3intermediariompnumeroletraromano{}
+.p3intermediariompnumeroletraromanocont{}
+.p3intermediariompnumeroitem{}
+.p3intermediariompnumeroitemcont{}
+.p3intermediariompnumerosubitem{}
+.p3intermediariompnumerosubitemcont{}
+.p3intermediariompnumeroitemletra{}
+.p3intermediariompnumeroitemletracont{}
 .p3intermediariompmarcador{}
 .p3intermediariompmarcadorcont{}
 .p3intermediariompsemrecuo{}
