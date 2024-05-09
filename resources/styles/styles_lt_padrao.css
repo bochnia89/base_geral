@@ -154,6 +154,20 @@ hifen_ano
 .hifen_ano{}
 
 
+/* Visual do número da página */
+header .pag {
+    align-self: flex-end;
+}
+.pag {
+    color: #000;
+    font-family: var(--titulo);
+    font-size: var(--pesoPadrao);
+    font-weight: bold;
+    padding: 4px 8px;
+    page-break-before: always;
+    page-break-after: avoid;
+    width: max-content;
+}
 
 /*👉CLASSES PARA DIAGRAMAR👈*/
 /* COLUNAS E ALINHAMENTO */
@@ -246,8 +260,10 @@ hifen_ano
 
 
 /*👉ESTILOS CONSUMIVEL👈*/
-.linharesposta1, .linharesposta2,
-.linharesposta3, .linharesposta4,
+.linharesposta1, 
+.linharesposta2,
+.linharesposta3, 
+.linharesposta4,
 .linharesposta5{
     background: url(../images/linha_resposta.svg) ;
     width: 100%;
@@ -270,7 +286,8 @@ hifen_ano
    
 }
 
-.lacunarespostap, .lacunarespostam,
+.lacunarespostap, 
+.lacunarespostam,
 .lacunarespostag{
     background: url(../images/linha_resposta.svg) ;
     background-position-y:20px ;
