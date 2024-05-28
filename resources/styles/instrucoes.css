@@ -12,6 +12,9 @@
   s{
     color: #7b7b7b;
   }
+  .desabilitasemuso{
+    opacity: 0.2;
+  }
   #back-to-top{
     position: fixed;
     z-index: 20;
