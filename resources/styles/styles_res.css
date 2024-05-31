@@ -333,7 +333,10 @@ p1sec6tit3
 .p1sec6tit2{}
 .p1sec6tit3{}
 
-
+.p5separadorreso{
+    border-bottom: 1px solid var(--preto);
+    margin: 1em 0;
+}
 
 /*👉---- ESTILOS DE CARACTERES ---👈*/
 

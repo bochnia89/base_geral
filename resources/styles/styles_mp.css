@@ -1,8 +1,12 @@
 
 /*👉TÍTULOS 👈*/
 /* 
+p0tit1mppv
+p0tit1mpnumpv
 p0tit1mp
 p0tit1mpnegativo
+p0tit2mppv
+p0tit2mpnumpv
 p0tit2mp
 p0tit2mpnegativo
 p0tit3mp
@@ -14,6 +18,8 @@ p0tit5mpnegativo
 p0tit6mp
 p0tit6mpnegativo
 */
+.p0tit1mppv{}
+.p0tit1mpnumpv{}
 .p0tit1mp{
     font-family: var(--titulo);
     font-size: var(--peso1);
@@ -23,7 +29,8 @@ p0tit6mpnegativo
     margin: 1em 0 0.5em 0;
 }
 .p0tit1mpnegativo{}
-
+.p0tit2mppv{}
+.p0tit2mpnumpv{}
 .p0tit2mp{
     font-family: var(--titulo);
     font-size: var(--peso2);
@@ -694,6 +701,8 @@ p3intermediariompletraromano
 p3intermediariompletraromanocont
 p3intermediariompnumero
 p3intermediariompnumerocont
+p3intermediariompnumeroromano
+p3intermediariompnumeroromanocont
 p3intermediariompnumeroletra
 p3intermediariompnumeroletracont
 p3intermediariompnumeroletraitembullet
@@ -725,6 +734,8 @@ p3intermediariompsemrecuoitemcont
 .p3intermediariompletraromanocont,
 .p3intermediariompnumero,
 .p3intermediariompnumerocont,
+.p3intermediariompnumeroromano,
+.p3intermediariompnumeroromanocont,
 .p3intermediariompnumeroletra,
 .p3intermediariompnumeroletracont,
 .p3intermediariompnumeroletraitembullet,
@@ -796,6 +807,12 @@ margin: 0 0 0 -26px;
 }
 .p3intermediariompnumerocont{
     margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariompnumeroromano{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p3intermediariompnumeroromanocont{
+    margin: 0.5em 0 0.5em 4em;
 }
 
 .p3intermediariompnumeroletra{
@@ -1003,11 +1020,11 @@ p4iconeoedmp
 .p1graficotit{}
 .p1mapatit{}
 
-.box_geral_mp > .p1box1tit{}
-.box_geral_mp >	.p1box2tit{}
+.d0box_geralmp > .p1box1tit{}
+.d0box_geralmp >	.p1box2tit{}
 
-.box_professor_mp > .p1box1tit{}
-.box_professor_mp > .p1box2tit{}
+.d0box_especificompu > .p1box1tit{}
+.d0box_especificompu > .p1box2tit{}
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 
@@ -1020,6 +1037,9 @@ c0destaquequestaonumeromp
 c0destaquesomatoriamp
 c0bulletnumitemmp
 c0bulletsubitemmp
+c0destaquecapmp
+c0destaquesecaomp
+c0destquecapsummp
 */
 
 
@@ -1085,9 +1105,10 @@ c0bulletsubitemmp
 .c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
 
 .c0destquecapsummp{}
-
-.c0destquecapmp{} /* Especifico do resolução */
+.c0destaquecapmp{}/* Especifico do resolução */
 .c0destaquesecaomp{}/* Especifico do resolução */
+
+
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/

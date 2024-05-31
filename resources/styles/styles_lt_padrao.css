@@ -109,12 +109,16 @@ dd sup{}
 
 /*👉 CLASSES RESERVADAS DIGITAL 👈*/
 /* 
+d0box_aluno
+d0box_geralmp
+d0box_especificompu
+d0box_resolucoesmp
+d0box_respostas
+
 aluno
 professor
 url_para_encurta
 pag
-box_aluno
-box_professor_mp
 caracterizada
 descaracterizada
 ajustepronuncia
@@ -130,12 +134,16 @@ ocultatx
 ocultamn
 hifen_ano
 */
+.d0box_aluno{}
+.d0box_geralmp{}
+.d0box_especificompu{}
+.d0box_resolucoesmp{}
+.d0box_respostas{}
+
 .aluno{}
 .professor{}
 .url_para_encurta{}
 .pag{}
-.box_aluno{}
-.box_professor_mp{}
 .caracterizada{}
 .descaracterizada{}
 .ajustepronuncia{}
@@ -282,8 +290,7 @@ header .pag {
     height: 60px;   
 }
 .linharesposta5{    
-    height: 80px;
-   
+    height: 80px;   
 }
 
 .lacunarespostap, 
@@ -390,7 +397,7 @@ p0tit6negativo
 
 /* TÍTULOS DE ELEMENTOS */
 
-/* Tabelas e Quadros */
+/* TABELAS E QUADROS */
 /* 
 p1tabelatit
 p1tabelatitcoluna
@@ -952,6 +959,13 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
+
+d0grouptit
+d0icoatencao
+d0sumariosecinicial
+d0boxsumariotit
+d0semfundo
+d0bgbranco
 d0boxabertura
 d0boxabertura2
 d0imgabertura
@@ -977,7 +991,17 @@ d0texto
 d0hora
 d0textarea
 d0input 
+d0carimbo
+d0linha
+d0boxpoema
+d0separabloco
 */
+.d0grouptit{}
+.d0icoatencao{}
+.d0sumariosecinicial{}
+.d0boxsumariotit{}
+.d0semfundo{}
+.d0bgbranco{}
 .d0boxabertura{}
 .d0boxabertura2{}
 .d0imgabertura{}
@@ -1003,9 +1027,37 @@ d0input
 .d0hora{}
 .d0textarea{}
 .d0input{} 
+.d0carimbo{}
+.d0linha{}
+.d0boxpoema{}
+.d0separabloco{}
+
+
+/*👉ESTILOS DIGITAL: página crédito👈*/
+/* 
+d1pagecreditos
+d1nomeautor
+d1cargoresponsavel1
+d1cargoresponsavel2
+d1fichacatalografica
+d1infoeditora
+d1infoimpressao
+*/
+.d1pagecreditos{}
+.d1nomeautor{}
+.d1cargoresponsavel1{}
+.d1cargoresponsavel2{}
+.d1fichacatalografica{}
+.d1infoeditora{}
+.d1infoimpressao{}
+
+
+/* d2hyperlinkoed */
+.d2hyperlinkoed{}
+
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
-/* Sumário */
+/* SUMÁRIO */
 /* 
 c0sumariosecao1
 c0sumariosecao2
@@ -1020,7 +1072,7 @@ c0sumariosecao5
 .c0sumariosecao5{}
 
 
-/* Geral */
+/* GERAL */
 /* 
 c0destaqueletra
 c0destaqueletracitacao
@@ -1084,11 +1136,13 @@ c3idioma
 c3idiomabold
 c3idiomaitalico
 c3idiomabolditalico
+c3idiomasimuladorhiperlink
 */
 .c3idioma{}
 .c3idiomabold{}
 .c3idiomaitalico{}
 .c3idiomabolditalico{}
+.c3idiomasimuladorhiperlink{}
 
 /* (exceção no INDD - overprint) */ 
 /* 
@@ -1122,6 +1176,7 @@ c4vocabulariodestaque
 c4vocabulariodestaqueitalico
 c4glossariodestaque
 c4glossariodestaqueitalico
+c4textotachado
 */
 .c4lacuna{}
 .c4ordinal{}
@@ -1133,9 +1188,10 @@ c4glossariodestaqueitalico
 .c4vocabulariodestaqueitalico{}
 .c4glossariodestaque{}
 .c4glossariodestaqueitalico{}
+.c4textotachado{}
 
 
-/*👉C4: Estilos de  👈*/
+/*👉C5: Estilos de  👈*/
 .c5destaqueverbetedicionario{}
 
 

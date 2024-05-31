@@ -129,12 +129,16 @@ dd sup {
 
 /*👉 CLASSES RESERVADAS DIGITAL 👈*/
 /* 
+d0box_aluno
+d0box_geralmp
+d0box_especificompu
+d0box_resolucoesmp
+d0box_respostas
+
 aluno
 professor
 url_para_encurta
 pag
-box_aluno
-box_professor_mp
 caracterizada
 descaracterizada
 ajustepronuncia
@@ -154,13 +158,15 @@ hifen_ano
 .professor{}
 .url_para_encurta{}
 .pag{}
-.box_aluno{
+.d0box_aluno{
     padding: 0.5em 0 1em 0;
 }
-.box_professor_mp{
+.d0box_especificompu{
     background: var(--manualu);
     padding: 0 1em 1em 1em;
 }
+.d0box_geralmp{}
+
 .caracterizada{}
 .descaracterizada{}
 .ajustepronuncia{}
@@ -197,7 +203,6 @@ hifen_ano
 .hifen_ano{
     margin-left: -8px;
 }
-
 
 
 /* Visual do número da página */
@@ -1670,7 +1675,9 @@ p5balao
 /* 
 p5figuraespacamentogabreso
 */
-.p5figuraespacamentogabreso{}
+.p5figuraespacamentogabreso{
+    margin: 0.5em 0;
+}
 
 /* MARCADORES */
 /* 
@@ -1774,6 +1781,11 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
+d0grouptit
+d0icoatencao
+d0sumariosecinicial
+d0semfundo
+d0bgbranco
 d0boxabertura
 d0boxabertura2
 d0imgabertura
@@ -1797,8 +1809,20 @@ d0name
 d0texto
 d0hora
 d0textarea
-d0input 
+d0input
+d0carimbo 
+d0linha
+d0boxpoema
+d0separabloco
 */
+.d0grouptit{}
+.d0icoatencao{}
+.d0sumariosecinicial{}
+.d0boxsumariotit{}
+.d0semfundo{}
+.d0bgbranco{
+    background: var(--branco);
+}
 .d0boxabertura{}
 .d0boxabertura2{}
 .d0imgabertura{}
@@ -1823,7 +1847,77 @@ d0input
 .d0texto{}
 .d0hora{}
 .d0textarea{}
-.d0input{} 
+.d0input{}
+.d0carimbo::after{
+    background: url(../images/pv_modelo.svg) no-repeat;
+    content: '';
+    background-size: 100%;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    margin: 0 0 0 0;
+    z-index: 10;
+}
+.d0linha{
+    border-bottom: 1px solid black;
+    width: 50%;
+    display: inline-block;
+    max-width: 100%;
+}
+.d0boxpoema{
+    padding: 1em 3em !important;    
+ }
+.d0separabloco{
+    margin: 2em 0 0 0 !important;
+}
+.d0boxpoema>blockquote{
+    line-height: 2em;
+}
+
+
+/*👉ESTILOS DIGITAL: página crédito👈*/
+/* 
+d1pagecreditos
+d1nomeautor
+d1cargoresponsavel1
+d1cargoresponsavel2
+d1fichacatalografica
+d1infoeditora
+d1infoimpressao
+*/
+
+.d1pagecreditos{
+    border: 1px solid var(--preto);
+    padding: 1em 1.5em;
+}
+.d1nomeautor{
+    margin: 1em 0 0.5em 0;
+}
+.d1cargoresponsavel1{
+    margin: 1.5em 0;
+}
+.d1cargoresponsavel2{
+    margin: 1.5em 0;
+}
+.d1fichacatalografica{}
+.d1infoeditora{
+    text-align: center;
+    margin: 1.5em 0;
+}
+.d1infoimpressao{
+    text-align: center;
+    margin: 1.5em 0;
+}
+.d1infoimpressao>p:first-child{
+    border: 1px solid var(--preto);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+/* d2hyperlinkoed */
+.d2hyperlinkoed{}
+
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
 /* Sumário */
@@ -1984,6 +2078,7 @@ c3idioma
 c3idiomabold
 c3idiomaitalico
 c3idiomabolditalico
+c3idiomasimuladorhiperlink
 */
 .c3idioma{
     background: var(--vermelho2);
@@ -1997,6 +2092,11 @@ c3idiomabolditalico
 .c3idiomabolditalico{
     font-weight: bold;
     font-style: italic;
+}
+.c3idiomasimuladorhiperlink{
+    color: var(--link);
+    font-size: var(--pesoPadrao);
+    text-decoration: underline;
 }
 
 /* (exceção no INDD - overprint) */ 
@@ -2044,6 +2144,7 @@ c4vocabulariodestaque
 c4vocabulariodestaqueitalico
 c4glossariodestaque
 c4glossariodestaqueitalico
+c4textotachado
 */
 .c4lacuna{}
 .c4ordinal{
@@ -2069,8 +2170,11 @@ c4glossariodestaqueitalico
 .c4glossariodestaque{}
 .c4glossariodestaqueitalico{}
 
+.c4textotachado{
+    text-decoration: line-through;
+}
 
-/*👉C4: Estilos de  👈*/
+/*👉C5: Estilos de  👈*/
 .c5destaqueverbetedicionario{
     color: var(--link);
 }
