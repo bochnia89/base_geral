@@ -2678,8 +2678,59 @@ oemamplieseurepertoriobox
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
 @media screen and (min-width: 300px) and (max-width: 700px) {
-    main{
+     main {
         max-width: 100%;
+        margin: 0 10px;
+    }
+
+      /* COLUNAS E ALINHAMENTO */
+      .col2 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .col2c {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 16px;
+        max-width: 100%;
+    }
+
+    .col2s {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 16px;
+    }
+
+    .largura25 {
+        width: 100% !important;
+    }
+
+    .largura45 {
+        width: 100% !important;
+    }
+
+    .largura33 {
+        width: 100% !important;
+    }
+
+    .d0box_aluno {
+        padding: 0.5em 0 1em 0;
+    }
+    .alinhamarcador{
+        max-width: 81% !important;
+        margin-left:3em !important;
+    } 
+    .alinhapalavras{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 6 colunas de tamanho igual */
+        gap: 10px; /* Espaçamento entre os itens */
     }
 }
 

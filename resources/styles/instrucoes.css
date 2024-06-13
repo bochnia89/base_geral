@@ -12,6 +12,11 @@
   s{
     color: #7b7b7b;
   }
+
+  ul.tem_lista_com_1_item > li{
+    background: #ffa600;
+  }
+
   .desabilitasemuso{
     opacity: 0.2;
   }
