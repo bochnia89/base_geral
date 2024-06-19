@@ -245,6 +245,7 @@ header .pag {
 
 .col2d{}
 
+
 /* Alinhamento vertical */
 .coltop {
     align-items: flex-start;
@@ -271,6 +272,26 @@ header .pag {
 .imgmiddle {
     vertical-align: middle;
 }
+/* ALINHA REPERTÓRIO E MARCADOR */
+
+.alinhamarcador2{
+    width: calc(100% - 3em) !important; 
+    margin-left:3em !important;
+} 
+.alinhamarcador{
+    max-width: 90% !important;
+    margin-left:3em !important;
+} 
+
+.alinhapalavras{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 colunas de tamanho igual */
+    gap: 10px; /* Espaçamento entre os itens */
+}
+
+.semalinha{
+    margin-left: 0 !important;
+}
 
 /* ALINHAMENTO DE TEXTO  */
 .esquerda tr td,
@@ -296,6 +317,7 @@ header .pag {
 .justificado {
     text-align: justify;
 }
+
 
 .largura25 {
     width: 25% !important;
@@ -492,6 +514,17 @@ p1tabelatextoitemcont
     height: 40px;
 }
 
+/* ESQUEMA */
+/* 
+p1esquematit
+o2esquemabox
+*/
+.p1esquematit{
+    font-family: var(--titulo);
+    font-size: var(--peso7);
+    font-weight: bold;
+}
+.o2esquemabox{}
 
 /* GRÁFICOS */
 /* 
@@ -2136,8 +2169,10 @@ c3idiomavocabulariodestaqueitalico
 /* 
 c4lacuna
 c4ordinal
+c4ordinalbold
 c4ordinalnegativo
 c4ordinalresposta
+c4ordinalrespostabold
 c4simuladorhiperlink
 c4linhalacunaresposta
 c4vocabulariodestaque
@@ -2146,12 +2181,30 @@ c4glossariodestaque
 c4glossariodestaqueitalico
 c4textotachado
 */
-.c4lacuna{}
+.c4lacuna{
+    font-family: var(--ordinal);
+    font-size: 1.4em;
+    vertical-align: baseline;
+}
 .c4ordinal{
     font-family: var(--ordinal);
 }
-.c4ordinalnegativo{}
-.c4ordinalresposta{}
+.c4ordinalbold{
+    font-family: var(--ordinal);
+    font-weight: bold;
+}
+.c4ordinalnegativo{
+    font-family: var(--ordinal);
+}
+.c4ordinalresposta{
+    color: var(--corprof);
+    font-family: var(--ordinal);
+}
+.c4ordinalrespostabold{
+    color: var(--corprof);
+    font-family: var(--ordinal);
+    font-weight: bold;
+}
 .c4simuladorhiperlink{
     color: var(--link);
     font-size: var(--pesoPadrao);
@@ -2340,7 +2393,9 @@ o1zoomcontorno
 .o1contornoimagem{
     border: 1px solid var(--preto);
 }
-.o1acabamentoimagem{}
+.o1acabamentoimagem{
+    border-radius: 1em;
+}
 .o1contornoimagembranco{}
 .o1zoomcontorno{}
 
@@ -2674,6 +2729,10 @@ oemamplieseurepertoriobox
 .oemestrategias2{}
 .oemamplieseurepertoriobox{}
 
+/* ESTILOS ESPECIFICOS */
+.e0altura{
+    min-height: 50px;
+}
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
