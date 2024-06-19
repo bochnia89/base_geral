@@ -8,18 +8,41 @@
   }
   mark{
     word-break: break-all;
-  }  
+  }
   s{
-    color: #7b7b7b;
+    color: none;
+  }
+  math{
+    border: 1px solid red;
   }
 
   ul.tem_lista_com_1_item > li{
     background: #ffa600;
   }
 
-  .desabilitasemuso{
-    opacity: 0.2;
-  }
+  /*👉VISUALIZAÇÃO AJUSTE DE PRONUNCIA👈*/
+  .ajustepronuncia {
+    background: #80ecff;
+}
+
+  /*👉VISUALIZAÇÃO DO IDIOMA👈*/
+    .c3idioma, 
+    .c3idiomabold, 
+    .c3idiomaitalico,
+    .c3idiomabolditalico,
+    .c3idiomasimuladorhiperlink,
+    .c3idiomaresposta,
+    .c3idiomaboldresposta,
+    .c3idiomaitalicoresposta,
+    .c3idiomabolditalicoresposta,
+    .c3idiomavocabulariodestaque,
+    .c3idiomavocabulariodestaqueitalico{
+        background: #EDAAA0;
+    }
+
+    .desabilitasemuso{
+        opacity: 0.2;
+      }
   #back-to-top{
     position: fixed;
     z-index: 20;
