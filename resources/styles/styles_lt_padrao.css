@@ -431,6 +431,13 @@ p1tabelatextoitemcont
     border-right: none;
 }
 
+/* ESQUEMA */
+/* 
+p1esquematit
+o2esquemabox
+*/
+.p1esquematit{}
+.o2esquemabox{}
 
 /* GRÁFICOS */
 /* 
@@ -1168,8 +1175,10 @@ c3idiomavocabulariodestaqueitalico
 /* 
 c4lacuna
 c4ordinal
+c4ordinalbold
 c4ordinalnegativo
 c4ordinalresposta
+c4ordinalrespostabold
 c4simuladorhiperlink
 c4linhalacunaresposta
 c4vocabulariodestaque
@@ -1180,8 +1189,10 @@ c4textotachado
 */
 .c4lacuna{}
 .c4ordinal{}
+.c4ordinalbold{}
 .c4ordinalnegativo{}
 .c4ordinalresposta{}
+.c4ordinalrespostabold{}
 .c4simuladorhiperlink{}
 .c4linhalacunaresposta{}
 .c4vocabulariodestaque{}
