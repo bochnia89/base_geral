@@ -598,6 +598,18 @@ p1sec7tit1
 p1sec7tit2
 p1sec7tit3
 p1sec7tit4
+p1sec8tit1
+p1sec8tit2
+p1sec8tit3
+p1sec8tit4
+p1sec9tit1
+p1sec9tit2
+p1sec9tit3
+p1sec9tit4
+p1sec10tit1
+p1sec10tit2
+p1sec10tit3
+p1sec10tit4
 */
 .p1sec1tit1{}
 .p1sec1tit2{}
@@ -633,6 +645,21 @@ p1sec7tit4
 .p1sec7tit2{}
 .p1sec7tit3{}
 .p1sec7tit4{}
+
+.p1sec8tit1{}
+.p1sec8tit2{}
+.p1sec8tit3{}
+.p1sec8tit4{}
+
+.p1sec9tit1{}
+.p1sec9tit2{}
+.p1sec9tit3{}
+.p1sec9tit4{}
+
+.p1sec10tit1{}
+.p1sec10tit2{}
+.p1sec10tit3{}
+.p1sec10tit4{}
 
 /*👉 SUGESTÕES COMPLEMENTARES 👈*/
 /* 
@@ -1616,8 +1643,9 @@ blockquote.p3citacaoitem::before {
 .p4iconeoed{}
 
 /* Legenda */
-.p4legenda{
-    
+.p4legenda{}
+.p4legendanegativo{
+    color: var(--corprof);
 }
 
 /* Crédito geral */
@@ -1716,15 +1744,16 @@ p5figuraespacamentogabreso
 /* 
 p5marcador
 p5marcadornegativo
+p5marcadorromano
 p5marcador2
 p5marcador2negativo
+p5marcador2romano
 p5marcadorcaixa
 p5marcadorcaixanegativo
 p5marcadorcaixa2
 p5marcadorcaixa2negativo
 p5marcadorcaixa3
 p5marcadorcaixa3negativo
-p5marcadorromano
 p5marcadorquestao
 */
 .p5marcador{
@@ -1738,6 +1767,17 @@ p5marcadorquestao
     width: 25px;
 }
 .p5marcadornegativo{}
+.p5marcadorromano{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    height: 25px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -40px;
+    width: 35px;
+    padding: 0 4px;
+}
 
 .p5marcador2{
     background: var(--preto);
@@ -1749,7 +1789,19 @@ p5marcadorquestao
     margin: 0 0 0 -30px;
     width: 25px;
 }
-
+.p5marcador2negativo{}
+.p5marcador2romano{
+    background: var(--amarelo3);
+    border-radius: 0.4em;
+    color: var(--preto);
+    font-weight: bold;
+    height: 28px;
+    position: absolute;
+    text-align: center;
+    margin: 0 0 0 -40px;
+    width: 35px;
+    padding: 4px 0px 0 0px;
+}
 figure>.p5marcador {
     background: var(--preto);
     color: var(--branco);
@@ -1760,10 +1812,6 @@ figure>.p5marcador {
     position: static;
     width: 25px;
 }
-
-
-.p5marcador2negativo{}
-
 .p5marcadorcaixa{
     background: var(--verde1);
     border-radius: 0em 0 0 0;
@@ -1792,14 +1840,13 @@ figure>.p5marcador {
 .p5marcadorcaixa3{}
 .p5marcadorcaixa3negativo{}
 
-.p5marcadorromano{}  
+
 .p5marcadorquestao{
     background: var(--preto);
     color: var(--branco);
     font-weight: bold;
     text-align: center;
     padding: 2px;
- 
 }
 
 /* ABERTURA DE CAPITULO */
@@ -1979,6 +2026,7 @@ c0destaquequestaonumero
 c0destaquesomatoria
 c0bulletnumitem
 c0bulletsubitem  👉Estilo de caracter utilizado no manual em U 
+c0destaqueuni
 c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
 */
@@ -2045,7 +2093,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
   text-align: center;
 }
 .c0bulletsubitem{} /* Estilo de caracter utilizado no manual em U */ 
-
+.c0destaqueuni{}
 .c0destaquecap{}/* Estilo de caracter utilizado no sumário mp */ 
 .c0destaquesecao{}/* Estilo de caracter utilizado no sumário mp */ 
 
@@ -2167,6 +2215,7 @@ c3idiomavocabulariodestaqueitalico
 
 /*👉C4: Estilos de Suporte👈*/
 /* 
+c4fonema
 c4lacuna
 c4ordinal
 c4ordinalbold
@@ -2181,6 +2230,9 @@ c4glossariodestaque
 c4glossariodestaqueitalico
 c4textotachado
 */
+.c4fonema{
+    font-family: var(--fonema);
+}
 .c4lacuna{
     font-family: var(--ordinal);
     font-size: 1.4em;
@@ -2262,8 +2314,11 @@ o0sec2
 o0sec3
 o0sec4
 o0sec5
-o0sec6  👉 Cynthia: atualizar lista de stilos 
+o0sec6 
 o0sec7
+o0sec8
+o0sec9
+o0sec10
 o0sec1a
 O0Sec2a
 o0sec3a
@@ -2271,15 +2326,32 @@ o0sec4a
 o0sec5a
 o0sec6a
 o0sec7a
+o0sec8a
+o0sec9a
+o0sec10a
 o0sec1box
+o0sec1box2
 o0sec2box
+o0sec2box2
 o0sec3box
+o0sec3box2
 o0sec4box
+o0sec4box2
 o0sec5box
+o0sec5box2
 o0sec6box
+o0sec6box2
 o0sec7box
+o0sec7box2
+o0sec8box
+o0sec8box2
+o0sec9box
+o0sec9box2
+o0sec10box
+o0sec10box2
 o0parasabermais
 o0referencias
+o0pronuncia
 o0sugestcomp
 o0recadoimagembox
 o0medidaanimalbox
@@ -2304,6 +2376,9 @@ o0pronunciation 👉 Especifico de inglês
 .o0sec5{}
 .o0sec6{}  
 .o0sec7{}
+.o0sec8{}
+.o0sec9{}
+.o0sec10{}
 .o0sec1a{}
 .o0sec2a{}
 .o0sec3a{}
@@ -2311,15 +2386,32 @@ o0pronunciation 👉 Especifico de inglês
 .o0sec5a{}
 .o0sec6a{}  
 .o0sec7a{}
+.o0sec8a{}
+.o0sec9a{}
+.o0sec10a{}
 .o0sec1box{}
+.o0sec1box2{}
 .o0sec2box{}
+.o0sec2box2{}
 .o0sec3box{}
+.o0sec3box2{}
 .o0sec4box{}
+.o0sec4box2{}
 .o0sec5box{}
-.o0sec6box{}  
+.o0sec5box2{}
+.o0sec6box{}
+.o0sec6box2{}
 .o0sec7box{}
+.o0sec7box2{}
+.o0sec8box{}
+.o0sec8box2{}
+.o0sec9box{}
+.o0sec9box2{}
+.o0sec10box{}
+.o0sec10box2{}
 .o0parasabermais{}
 .o0referencias{}
+.o0pronuncia{}
 .o0sugestcomp{}
 .o0recadoimagembox{}
 .o0medidaanimalbox{}
