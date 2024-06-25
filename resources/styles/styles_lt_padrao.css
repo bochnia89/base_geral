@@ -1385,8 +1385,10 @@ o1boxfundoturquesa2
 o1fioindicacaoroxo1
 o1fioindicacaoverde1
 o1boxfioroxo1
+o1boxfioazul1
 o1fiocotapreto
 o1setaroxo1
+o1setaazul1
 o1setaverde1
 o1contornoimagem  👉 Cynthia: atualizar lista de stilos
 o1acabamentoimagem
@@ -1408,8 +1410,10 @@ o1zoomcontorno
 .o1fioindicacaoroxo1{}
 .o1fioindicacaoverde1{}
 .o1boxfioroxo1{}
+.o1boxfioazul1{}
 .o1fiocotapreto{}
 .o1setaroxo1{}
+.o1setaazul1{}
 .o1setaverde1{}
 .o1contornoimagem{}
 .o1acabamentoimagem{}
@@ -1466,9 +1470,10 @@ o4exemplobox
 o4intermediariobox
 o4destaquepalavrabox
 o4destaquepalavrafio
-o4recadoimagemcinza
-o4recadoimagembranco
-o4recadoimagemvermelho
+o4recadoimagem1
+o4recadoimagem2
+o4recadoimagem3
+o4recadoimagem4
 */
 .o4questaobox{}
 .o4ficha{}
@@ -1492,9 +1497,10 @@ o4recadoimagemvermelho
 .o4intermediariobox{}
 .o4destaquepalavrabox{}
 .o4destaquepalavrafio{}
-.o4recadoimagemcinza{}
-.o4recadoimagembranco{}
-.o4recadoimagemvermelho{}
+.o4recadoimagem1{}
+.o4recadoimagem2{}
+.o4recadoimagem3{}
+.o4recadoimagem4{}
 
 
 /*👉O5: Papeletas e papelaria👈*/

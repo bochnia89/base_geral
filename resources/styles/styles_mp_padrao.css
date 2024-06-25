@@ -386,6 +386,8 @@ p4iconeoedmp
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 
+c5indicacaomp
+c0destaqueagrupadamp
 c0destaqueletramp
 c0destaqueletracitacaomp
 c0destaquenumeromp
@@ -399,7 +401,8 @@ c0destaquecapmp
 c0destaquesecaomp
 c0destquecapsummp
 */
-
+.c5indicacaomp{}
+.c0destaqueagrupadamp{}
 .c0destaqueletramp{}
 .c0destaqueletracitacaomp{}
 .c0destaquenumeromp{}

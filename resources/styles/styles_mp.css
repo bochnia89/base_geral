@@ -505,6 +505,7 @@ p.p2questaompsubitem::before{
 
 /*👉RESPOSTA E COMENTÁRIOS - ATIVIDADES👈*/
 /* 
+p2atvmpagrupada
 p2atvmp
 p2atvmpcont
 p2atvmpromano
@@ -528,6 +529,7 @@ p2atvmpletraitem
 p2atvmpnumromano
 p2atvmpsomatoria
 */
+.p2atvmpagrupada,
 .p2atvmp,
 .p2atvmpcont,
 .p2atvmpromano,
@@ -553,6 +555,9 @@ p2atvmpsomatoria
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
+}
+.p2atvmpagrupada{
+    margin: 0.5em 0 0.5em 4.8em;
 }
 
 .p2atvmp{
@@ -1028,6 +1033,8 @@ p4iconeoedmp
 
 /*👉=========== ESTILOS DE CARACTER =============👈*/
 /* 
+c5indicacaomp
+c0destaqueagrupadamp
 c0destaqueletramp
 c0destaqueletracitacaomp
 c0destaquenumeromp
@@ -1043,7 +1050,20 @@ c0destquecapsummp
 */
 
 
-
+.c5indicacaomp{
+    background: var(--preto);
+    color: var(--branco);
+    font-weight: bold;
+    padding: 0.1em;
+}
+.c0destaqueagrupadamp{
+    font-weight: bold; 
+    width:80px;
+    height: 24px;
+    margin: 0 0 0 -82px;
+    position: absolute;    
+    text-align: right;
+}
 .c0destaqueletramp{
     font-weight: bold; 
     width: 30px;
