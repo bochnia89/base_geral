@@ -94,10 +94,7 @@ p1sumariompextrapeso1
 p1sumariompextrapeso2
 p1sumariompextrapeso3
 
-p1sec1mptit1
-p1sec1mptit2
-p1sec2mptit1
-p1sec2mptit2
+
 */
 .p1sumariomppeso1{}
 .p1sumariomppeso2{}
@@ -110,12 +107,101 @@ p1sec2mptit2
 
 .p1sumariompfinais{}
 
+
 /*👉SEÇÃO👈*/
+/* 
+p1sec1mptit1
+p1sec1mptit2
+p1sec1mptit3
+p1sec1mptit4
+p1sec2mptit1
+p1sec2mptit2
+p1sec2mptit3
+p1sec2mptit4
+p1sec3mptit1
+p1sec3mptit2
+p1sec3mptit3
+p1sec3mptit4
+p1sec4mptit1
+p1sec4mptit2
+p1sec4mptit3
+p1sec4mptit4
+p1sec5mptit1
+p1sec5mptit2
+p1sec5mptit3
+p1sec5mptit4
+p1sec6mptit1
+p1sec6mptit2
+p1sec6mptit3
+p1sec6mptit4
+p1sec7mptit1
+p1sec7mptit2
+p1sec7mptit3
+p1sec7mptit4
+p1sec8mptit1
+p1sec8mptit2
+p1sec8mptit3
+p1sec8mptit4
+p1sec9mptit1
+p1sec9mptit2
+p1sec9mptit3
+p1sec9mptit4
+p1sec10mptit1
+p1sec10mptit2
+p1sec10mptit3
+p1sec10mptit4
+*/
+
+
 .p1sec1mptit1{}
 .p1sec1mptit2{}
+.p1sec1mptit3{}
+.p1sec1mptit4{}
 
 .p1sec2mptit1{}
 .p1sec2mptit2{}
+.p1sec2mptit3{}
+.p1sec2mptit4{}
+
+.p1sec3mptit1{}
+.p1sec3mptit2{}
+.p1sec3mptit3{}
+.p1sec3mptit4{}
+
+.p1sec4mptit1{}
+.p1sec4mptit2{}
+.p1sec4mptit3{}
+.p1sec4mptit4{}
+
+.p1sec5mptit1{}
+.p1sec5mptit2{}
+.p1sec5mptit3{}
+.p1sec5mptit4{}
+
+.p1sec6mptit1{}
+.p1sec6mptit2{}
+.p1sec6mptit3{}
+.p1sec6mptit4{}
+
+.p1sec7mptit1{}
+.p1sec7mptit2{}
+.p1sec7mptit3{}
+.p1sec7mptit4{}
+
+.p1sec8mptit1{}
+.p1sec8mptit2{}
+.p1sec8mptit3{}
+.p1sec8mptit4{}
+
+.p1sec9mptit1{}
+.p1sec9mptit2{}
+.p1sec9mptit3{}
+.p1sec9mptit4{}
+
+.p1sec10mptit1{}
+.p1sec10mptit2{}
+.p1sec10mptit3{}
+.p1sec10mptit4{}
 
 
 
@@ -695,6 +781,7 @@ p.p2referenciasbibliompitem{
 /*👉TEXTOS INTERMEDIÁRIOS👈*/
 /* 
 p3intermediariomptit
+p3intermediariomptitnegativo
 p3intermediariomp
 p3intermediariompitem
 p3intermediariompitemcont
@@ -728,6 +815,7 @@ p3intermediariompsemrecuoitemcont
 */
 
 .p3intermediariomptit,
+.p3intermediariomptitnegativo,
 .p3intermediariomp,
 .p3intermediariompitem,
 .p3intermediariompitemcont,
@@ -768,6 +856,7 @@ p3intermediariompsemrecuoitemcont
     font-weight: bold;
     margin: 0.5em 0 0.5em 0;
 }
+.p3intermediariomptitnegativo{}
 .p3intermediariomp{
     margin: 0.5em 0 0.5em 0;
     text-indent: 1.5em;
@@ -903,6 +992,7 @@ p3citacaomptit1
 p3citacaomptit2
 p3citacaompolho
 p3citacaomp
+p3citacaomppoema
 p3citacaompitem
 p3citacaompitemcont
 p3citacaompletra
@@ -918,6 +1008,7 @@ p3citacaompsemrecuoitem
 .p3citacaomptit2,
 .p3citacaompolho,
 .p3citacaomp,
+.p3citacaomppoema,
 .p3citacaompitem,
 .p3citacaompitemcont,
 .p3citacaompletra,
@@ -953,6 +1044,7 @@ p3citacaompsemrecuoitem
     margin: 0.5em 0 0.5em 0;
     text-indent: 1.5em;
 }
+.p3citacaomppoema{}
 ul.p3citacaompitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 2.5em;
@@ -1008,9 +1100,16 @@ margin:0 0 0 -26px ;
 /* 
 p4respostamp
 p4iconeoedmp
+p4cuidadodicamp
+p4cuidadodicampitem
+p4cuidadodicampitemcont
 */
 .p4respostamp{}
 .p4iconeoedmp{}
+.p4cuidadodicamp{}
+.p4cuidadodicampitem{}
+.p4cuidadodicampitemcont{}
+
 
 /* VISUAL BASEADO NO LT */
 .tb_mpg
@@ -1129,6 +1228,29 @@ c0destquecapsummp
 .c0destaquesecaomp{}/* Especifico do resolução */
 
 
+/*👉ESTILOS DE OBJETO👈*/
+/* 
+o0sec1mp
+o0sec2mp
+o0sec3mp
+o0sec4mp
+o0sec5mp
+o0sec6mp
+o0sec7mp
+o0sec8mp
+o0sec9mp
+o0sec10mp
+*/
+.o0sec1mp{}
+.o0sec2mp{}
+.o0sec3mp{}
+.o0sec4mp{}
+.o0sec5mp{}
+.o0sec6mp{}
+.o0sec7mp{}
+.o0sec8mp{}
+.o0sec9mp{}
+.o0sec10mp{}
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/

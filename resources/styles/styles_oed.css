@@ -321,6 +321,48 @@ strong em {
     /*👉 color: #007db8;👈*/
 }
 
+
+/*👉ESTILOS DIGITAL: OED Objetos Digitais👈*/
+/* 
+d3boxoed
+d3btnvoltaroed
+d3conteudooed
+d3credito
+d3descricaolongaoed
+d3fontepesquisa
+d3hyperlinkoed
+d3instrucaooed
+d3legendaoed
+d3oedaudio
+d3rubricatranscricao
+d3tit1oed
+d3tit2oed
+d3topooed
+d3txinstrucaooed
+d3txtoed
+d3txtoedmapitem
+d3txtranscricao
+*/
+.d3boxoed{}
+.d3btnvoltaroed{}
+.d3conteudooed{}
+.d3credito{}
+.d3descricaolongaoed{}
+.d3fontepesquisa{}
+.d3hyperlinkoed{}
+.d3instrucaooed{}
+.d3legendaoed{}
+.d3oedaudio{}
+.d3rubricatranscricao{}
+.d3tit1oed{}
+.d3tit2oed{}
+.d3topooed{}
+.d3txinstrucaooed{}
+.d3txtoed{}
+.d3txtoedmapitem{}
+.d3txtranscricao{}
+
+
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
 @media screen and (min-width: 300px) and (max-width: 700px) {

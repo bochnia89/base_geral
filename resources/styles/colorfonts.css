@@ -1,51 +1,525 @@
 /* CSS Document */
 /* Padrões de Fontes no projeto
-// Títulos: ;
-// Citações: 
-// Texto: 'Arial' ;
+// Títulos: 'Barlow' ;
+// Citações: 'Cormorant Garamond';
+// Texto: 'Work Sans' ;
 // Ordinal / químico: 'Calibri' ;
 */
 
 /*👉 -------------- TÍTULOS --------------👈*/
-@font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
-    font-display: swap;
+/*👉@font-face {
+    font-family: 'Barlow';
+    font-style: normal ;
+    font-weight: 100;
+    src: 
+        url(../fonts/Barlow-Thin.woff2) format("woff2"),
+        url(../fonts/Barlow-Thin.woff) format("woff"),
+        url(../fonts/Barlow-Thin.otf) format("opentype"),
+        url(../fonts/Barlow-Thin.ttf) format("truetype");
+        font-display: swap;
 }
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic ;
+    font-weight: 100;
+    src: 
+        url(../fonts/Barlow-ThinItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-ThinItalic.woff) format("woff"),
+        url(../fonts/Barlow-ThinItalic.otf) format("opentype"),
+        url(../fonts/Barlow-ThinItalic.ttf) format("truetype");            
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal ;
+    font-weight: 200;
+    src: 
+        url(../fonts/Barlow-ExtraLight.woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraLight.woff) format("woff"),
+        url(../fonts/Barlow-ExtraLight.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraLight.ttf) format("truetype");      
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:  italic;
+    font-weight: 200 ;
+    src: 
+        url(../fonts/Barlow-ExtraLightItalic..woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraLightItalic..woff) format("woff"),
+        url(../fonts/Barlow-ExtraLightItalic.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraLightItalic..ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:normal ;
+    font-weight: 300 ;
+    src: 
+        url(../fonts/Barlow-Light.woff2) format("woff2"),
+        url(../fonts/Barlow-Light.woff) format("woff"),
+        url(../fonts/Barlow-Light.otf) format("opentype"),
+        url(../fonts/Barlow-Light.ttf) format("truetype");    
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 300;
+    src: 
+        url(../fonts/Barlow-LightItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-LightItalic.woff) format("woff"),    
+        url(../fonts/Barlow-LightItalic.otf) format("opentype"),
+        url(../fonts/Barlow-LightItalic.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal ;
+    font-weight: 400;
+    src: 
+        url(../fonts/Barlow-Regular.woff2) format("woff2"),
+        url(../fonts/Barlow-Regular.woff) format("woff"),
+        url(../fonts/Barlow-Regular.otf) format("opentype"),
+        url(../fonts/Barlow-Regular.ttf) format("truetype");        
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight:400 ;
+    src: 
+        url(../fonts/Barlow-Italic.woff2) format("woff2"),
+        url(../fonts/Barlow-Italic.woff) format("woff"),
+        url(../fonts/Barlow-Italic.otf) format("opentype"),
+        url(../fonts/Barlow-Italic.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal ;
+    font-weight:500 ;
+    src: 
+        url(../fonts/Barlow-Medium.woff2) format("woff2"),
+        url(../fonts/Barlow-Medium.woff) format("woff"),
+        url(../fonts/Barlow-Medium.otf) format("opentype"),
+        url(../fonts/Barlow-Medium.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 500;
+    src: 
+        url(../fonts/Barlow-Medium.woff2) format("woff2"),
+        url(../fonts/Barlow-Medium.woff) format("woff"),
+        url(../fonts/Barlow-Medium.otf) format("opentype"),
+        url(../fonts/Barlow-Medium.ttf) format("truetype");        
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    src: 
+        url(../fonts/Barlow-SemiBold.woff2) format("woff2"),
+        url(../fonts/Barlow-SemiBold.woff) format("woff"),
+        url(../fonts/Barlow-SemiBold.otf) format("opentype"),
+        url(../fonts/Barlow-SemiBold.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic ;
+    font-weight: 600;
+    src: 
+        url(../fonts/Barlow-SemiBoldItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-SemiBoldItalic.woff) format("woff"),
+        url(../fonts/Barlow-SemiBoldItalic.otf) format("opentype"),
+        url(../fonts/Barlow-SemiBoldItalic.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight:700 ;
+    src: 
+        url(../fonts/Barlow-Bold.woff2) format("woff2"),
+        url(../fonts/Barlow-Bold.woff) format("woff"),
+        url(../fonts/Barlow-Bold.otf) format("opentype"),
+        url(../fonts/Barlow-Bold.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:italic ;
+    font-weight: 700;
+    src: 
+        url(../fonts/Barlow-BoldItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-BoldItalic.woff) format("woff"),
+        url(../fonts/Barlow-BoldItalic.otf) format("opentype"),
+        url(../fonts/Barlow-BoldItalic.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:normal ;
+    font-weight: 800 ;
+    src: 
+        url(../fonts/Barlow-ExtraBold.woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraBold.woff) format("woff"),
+        url(../fonts/Barlow-ExtraBold.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraBold.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style:italic ;
+    font-weight: 800;
+    src: 
+        url(../fonts/Barlow-ExtraBoldItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-ExtraBoldItalic.woff) format("woff"),
+        url(../fonts/Barlow-ExtraBoldItalic.otf) format("opentype"),
+        url(../fonts/Barlow-ExtraBoldItalic.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: 
+        url(../fonts/Barlow-Black.woff2) format("woff2"),
+        url(../fonts/Barlow-Black.woff) format("woff"),
+        url(../fonts/Barlow-Black.otf) format("opentype"),
+        url(../fonts/Barlow-Black.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Barlow';
+    font-style: italic ;
+    font-weight: 900 ;
+    src:url(../fonts/Barlow-BlackItalic.otf) format("opentype"),
+        url(../fonts/Barlow-BlackItalic.ttf) format("truetype"),
+        url(../fonts/Barlow-BlackItalic.woff2) format("woff2"),
+        url(../fonts/Barlow-BlackItalic.woff) format("woff");
+        font-display: swap;
+}👈*/
+
 
 /*👉 -------------- CITAÇÕES --------------👈*/
-@font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
+/*👉@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight:300 ;
+    src: 
+        url(../fonts/CormorantGaramond-Light.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-Light.woff) format("woff"),
+        url(../fonts/CormorantGaramond-Light.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-Light.ttf) format("truetype");
     font-display: swap;
 }
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic ;
+    font-weight: 300;
+    src: 
+        url(../fonts/CormorantGaramond-LightItalic.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-LightItalic.woff) format("woff"),
+        url(../fonts/CormorantGaramond-LightItalic.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-LightItalic.ttf) format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+        url(../fonts/CormorantGaramond-Regular.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-Regular.woff) format("woff"),
+        url(../fonts/CormorantGaramond-Regular.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-Regular.ttf) format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style:italic ;
+    font-weight: 400;
+    src: 
+        url(../fonts/CormorantGaramond-Italic.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-Italic.woff) format("woff"),
+        url(../fonts/CormorantGaramond-Italic.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-Italic.ttf) format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    src: 
+        url(../fonts/CormorantGaramond-Medium.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-Medium.woff) format("woff"),
+        url(../fonts/CormorantGaramond-Medium.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-Medium.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic ;
+    font-weight:500 ;
+    src: 
+        url(../fonts/CormorantGaramond-MediumItalic.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-MediumItalic.woff) format("woff"),
+        url(../fonts/CormorantGaramond-MediumItalic.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-MediumItalic.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style:normal ;
+    font-weight: 600;
+    src: 
+        url(../fonts/CormorantGaramond-SemiBold.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-SemiBold.woff) format("woff"),
+        url(../fonts/CormorantGaramond-SemiBold.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-SemiBold.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style:italic ;
+    font-weight:600 ;
+    src: 
+        url(../fonts/CormorantGaramond-SemiBoldItalic.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-SemiBoldItalic.woff) format("woff"),
+        url(../fonts/CormorantGaramond-SemiBoldItalic.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-SemiBoldItalic.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight:700 ;
+    src: 
+        url(../fonts/CormorantGaramond-Bold.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-Bold.woff) format("woff"),
+        url(../fonts/CormorantGaramond-Bold.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-Bold.ttf) format("truetype");
+        font-display: swap;
+}
+@font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: italic;
+    font-weight:700 ;
+    src: 
+        url(../fonts/CormorantGaramond-BoldItalic.woff2) format("woff2"),
+        url(../fonts/CormorantGaramond-BoldItalic.woff) format("woff"),
+        url(../fonts/CormorantGaramond-BoldItalic.otf) format("opentype"),
+        url(../fonts/CormorantGaramond-BoldItalic.ttf) format("truetype");
+        font-display: swap;
+}👈*/
 
 /*👉 -------------- TEXTO --------------👈*/
+/*👉@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight:100 ;
+    src: url(../fonts/WorkSans-Thin.otf) format("opentype"),
+        url(../fonts/WorkSans-Thin.ttf) format("truetype"),
+        url(../fonts/WorkSans-Thin.woff2) format("woff2"),
+        url(../fonts/WorkSans-Thin.woff) format("woff");
+    font-display: swap;
+}
 @font-face {
-    font-family: '';
-    font-style: ;
-    font-weight: ;
-    src: url(../fonts/.otf) format("opentype"),
-        url(../fonts/.ttf) format("truetype"),
-        url(../fonts/.woff2) format("woff2"),
-        url(../fonts/.woff) format("woff");
+    font-family: 'Work Sans';
+    font-style: italic ;
+    font-weight: 100;
+    src: url(../fonts/WorkSans-ThinItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-ThinItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-ThinItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-ThinItalic.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight:200 ;
+    src: url(../fonts/WorkSans-ExtraLight.otf) format("opentype"),
+        url(../fonts/WorkSans-ExtraLight.ttf) format("truetype"),
+        url(../fonts/WorkSans-ExtraLight.woff2) format("woff2"),
+        url(../fonts/WorkSans-ExtraLight.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic ;
+    font-weight: 200;
+    src: url(../fonts/WorkSans-ExtraLightItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-ExtraLightItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-ExtraLightItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-ExtraLightItalic.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight:300 ;
+    src: url(../fonts/WorkSans-Light.otf) format("opentype"),
+        url(../fonts/WorkSans-Light.ttf) format("truetype"),
+        url(../fonts/WorkSans-Light.woff2) format("woff2"),
+        url(../fonts/WorkSans-Light.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic ;
+    font-weight: 300;
+    src: url(../fonts/WorkSans-LightItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-LightItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-LightItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-LightItalic.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal ;
+    font-weight: 400;
+    src: url(../fonts/WorkSans-Regular.otf) format("opentype"),
+        url(../fonts/WorkSans-Regular.ttf) format("truetype"),
+        url(../fonts/WorkSans-Regular.woff2) format("woff2"),
+        url(../fonts/WorkSans-Regular.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/WorkSans-Italic.otf) format("opentype"),
+        url(../fonts/WorkSans-Italic.ttf) format("truetype"),
+        url(../fonts/WorkSans-Italic.woff2) format("woff2"),
+        url(../fonts/WorkSans-Italic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style:normal ;
+    font-weight:500 ;
+    src: url(../fonts/WorkSans-Medium.otf) format("opentype"),
+        url(../fonts/WorkSans-Medium.ttf) format("truetype"),
+        url(../fonts/WorkSans-Medium.woff2) format("woff2"),
+        url(../fonts/WorkSans-Medium.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style:italic ;
+    font-weight: 500;
+    src: url(../fonts/WorkSans-MediumItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-MediumItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-MediumItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-MediumItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style:normal ;
+    font-weight: 600;
+    src: url(../fonts/WorkSans-SemiBold.otf) format("opentype"),
+        url(../fonts/WorkSans-SemiBold.ttf) format("truetype"),
+        url(../fonts/WorkSans-SemiBold.woff2) format("woff2"),
+        url(../fonts/WorkSans-SemiBold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url(../fonts/WorkSans-SemiBoldItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-SemiBoldItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-SemiBoldItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-SemiBoldItalic.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/WorkSans-Bold.otf) format("opentype"),
+        url(../fonts/WorkSans-Bold.ttf) format("truetype"),
+        url(../fonts/WorkSans-Bold.woff2) format("woff2"),
+        url(../fonts/WorkSans-Bold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 700;
+    src: url(../fonts/WorkSans-BoldItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-BoldItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-BoldItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-BoldItalic.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url(../fonts/WorkSans-ExtraBold.otf) format("opentype"),
+        url(../fonts/WorkSans-ExtraBold.ttf) format("truetype"),
+        url(../fonts/WorkSans-ExtraBold.woff2) format("woff2"),
+        url(../fonts/WorkSans-ExtraBold.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 800;
+    src: url(../fonts/WorkSans-ExtraBoldItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-ExtraBoldItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-ExtraBoldItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-ExtraBoldItalic.woff) format("woff");
     font-display: swap;
 }
 
 
+@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/WorkSans-Black.otf) format("opentype"),
+        url(../fonts/WorkSans-Black.ttf) format("truetype"),
+        url(../fonts/WorkSans-Black.woff2) format("woff2"),
+        url(../fonts/WorkSans-Black.woff) format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 900;
+    src: url(../fonts/WorkSans-BlackItalic.otf) format("opentype"),
+        url(../fonts/WorkSans-BlackItalic.ttf) format("truetype"),
+        url(../fonts/WorkSans-BlackItalic.woff2) format("woff2"),
+        url(../fonts/WorkSans-BlackItalic.woff) format("woff");
+    font-display: swap;
+}👈*/
+
+/*👉@font-face {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 900;
+    src: 
+        url(../fonts/WorkSans-Black.otf) format("opentype"),
+        url(../fonts/WorkSans-Black.ttf) format("truetype"),
+        url(../fonts/WorkSans-Black.woff2) format("woff2"),
+        url(../fonts/WorkSans-Black.woff) format("woff");
+        font-display: swap;
+}👈*/
 
 /*👉 -------------- ORDINAL --------------👈*/
-@font-face {
+/*👉@font-face {
     font-family: '';
     font-style: ;
     font-weight: ;
@@ -55,7 +529,7 @@
         url(../fonts/.woff) format("woff");
     font-display: swap;
 }
-
+👈*/
 /*👉 -------------- QUIMICO --------------👈*/
 @font-face {
     font-family: '';
@@ -71,9 +545,9 @@
 
 :root {
     /* Fontes */
-    --titulo:  ;
-    --citacao: ;
-    --texto:   ;
+    --titulo: 'Barlow' ;
+    --citacao: 'Cormorant Garamond' ;
+    --texto:  'Work Sans' ;
     --ordinal: ;
     --quimico: ;
     --fonema: ;

@@ -727,6 +727,8 @@ p2referenciasbibliocoment
 p2textosemrecuo
 p2textosemrecuoitem
 p2textosemrecuoitemcont
+p2textosemrecuosubitem
+p2textosemrecuosubitemcont
 p2textonumsemrecuo
 p2textomarcadorsemrecuo
 p2textomarcadorsemrecuocont
@@ -738,10 +740,13 @@ p2textosemrecuonumitemcont
 p2textosemrecuonumletra
 p2textosemrecuonumletracont
 p2textosemrecuoletra
+p2textosemrecuoletracont
 */
 .p2textosemrecuo,
 .p2textosemrecuoitem,
 .p2textosemrecuoitemcont,
+.p2textosemrecuosubitem,
+.p2textosemrecuosubitemcont,
 .p2textonumsemrecuo,
 .p2textomarcadorsemrecuo,
 .p2textomarcadorsemrecuocont,
@@ -751,7 +756,9 @@ p2textosemrecuoletra
 .p2textosemrecuonumitem,
 .p2textosemrecuonumitemcont,
 .p2textosemrecuonumletra,
-.p2textosemrecuonumletracont{
+.p2textosemrecuonumletracont,
+.p2textosemrecuoletra,
+.p2textosemrecuoletracont{
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -775,6 +782,23 @@ p.p2textosemrecuoitem::before {
 .p2textosemrecuoitemcont{
     margin: 0.5em 0 0.5em 1em;
 }
+ul.p2textosemrecuosubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2textosemrecuosubitem{
+    margin: 0.5em 0 0.5em 2em;
+}
+p.p2textosemrecuosubitem::before {
+    content: ''; /*content: '•';*/
+    font-size: 1.2em;
+    margin: 0 0 0 -0.8em;
+    position: absolute;
+}
+.p2textosemrecuosubitemcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+
 .p2textonumsemrecuo{
     margin: 0.5em 0 0.5em 2em;
 }
@@ -821,7 +845,9 @@ p.p2textosemrecuonumitem::before{
 .p2textosemrecuoletra {
     margin: 0.5em 0 0.5em 2em;
 }
-
+.p2textosemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /* TEXTO PRINCIPAL */
 /* 
@@ -837,6 +863,7 @@ p2textoletracont
 p2textoletraitem
 p2textoletraitemcont
 p2textomarcador
+p2textomarcadorcont
 p2textomarcadorromano
 p2textomarcadorletra
 p2textomarcadorletracont
@@ -857,6 +884,7 @@ p2textomarcadorsubitemcont
 .p2textoletraitem,
 .p2textoletraitemcont,
 .p2textomarcador,
+.p2textomarcadorcont,
 .p2textomarcadorromano,
 .p2textomarcadorletra,
 .p2textomarcadorletracont,
@@ -949,6 +977,9 @@ p.p2textoletraitem::before {
 }
 
 .p2textomarcador{
+    margin: 0.5em 0 0.5em 50px;
+}
+.p2textomarcadorcont{
     margin: 0.5em 0 0.5em 50px;
 }
 .p2textomarcadorromano{
@@ -1378,9 +1409,13 @@ p3intermediarionumero
 p3intermediarionumerocont
 p3intermediariomarcador
 p3intermediariomarcadorcont
+p3intermediariomarcadorromano
 p3intermediariomarcadoritem
 p3intermediariomarcadoritemcont
 p3intermediariosemrecuo
+p3intermediariosemrecuomarcador
+p3intermediariosemrecuomarcadorcont
+p3intermediariosemrecuomarcadorromano
 p3intermediariosemrecuoitem
 p3intermediariosemrecuoitemcont
 p3intermediariosemrecuoletra
@@ -1400,9 +1435,13 @@ p3intermediariosemrecuonumerocont
 .p3intermediarionumerocont,
 .p3intermediariomarcador,
 .p3intermediariomarcadorcont,
+.p3intermediariomarcadorromano,
 .p3intermediariomarcadoritem,
 .p3intermediariomarcadoritemcont,
 .p3intermediariosemrecuo,
+.p3intermediariosemrecuomarcador,
+.p3intermediariosemrecuomarcadorcont,
+.p3intermediariosemrecuomarcadorromano,
 .p3intermediariosemrecuoitem,
 .p3intermediariosemrecuoitemcont,
 .p3intermediariosemrecuoletra,
@@ -1469,6 +1508,7 @@ p.p3intermediarioitem::before{
 .p3intermediariomarcadorcont{
     margin: 0.5em 0 0.5em 2em;
 }
+.p3intermediariomarcadorromano{}
 ul.p3intermediariomarcadoritem{
     list-style: disc;
     margin: 0.5em 0 0.5em 3em;
@@ -1484,6 +1524,11 @@ p.p3intermediariomarcadoritem{
 .p3intermediariosemrecuo{
     margin: 0.5em 0;
 }
+.p3intermediariosemrecuomarcador{}
+.p3intermediariosemrecuomarcadorcont{}
+.p3intermediariosemrecuomarcadorromano{}
+
+
 ul.p3intermediariosemrecuoitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 1.5em;
@@ -1526,6 +1571,7 @@ p3citacaotit2
 p3citacaoolho
 p3citacaosemrecuo
 p3citacao
+p3citacaopoema
 p3citacaoitem
 p3citacaoitemcont
 p3citacaoletra
@@ -1539,6 +1585,7 @@ p3citacaonumerocont
 .p3citacaoolho,
 .p3citacaosemrecuo,
 .p3citacao,
+.p3citacaopoema,
 .p3citacaoitem,
 .p3citacaoitemcont,
 .p3citacaoletra,
@@ -1546,7 +1593,7 @@ p3citacaonumerocont
 .p3citacaonumero,
 .p3citacaonumerocont{
     font-family: var(--citacao);
-    font-size: var(--pesoPadrao);
+    font-size: var(--peso7);
 }
 
 .p3citacaomanchete{
@@ -1579,7 +1626,6 @@ p3citacaonumerocont
 
 .p3citacaoolho{
     font-style: italic;
-    font-weight: 200;
     text-align: center;
     margin: 0.5em 0;
 }
@@ -1589,7 +1635,8 @@ p3citacaonumerocont
     font-family: var(--citacao);
     text-align: justify;
     margin: 0.5em 0;
-} /* TODO: ELEMENTO NOVO */
+} 
+/* TODO: ELEMENTO NOVO */
 
 .p3citacao{
     font-family: var(--pesoPadrao);
@@ -1599,6 +1646,9 @@ p3citacaonumerocont
     margin: 0.5em 0;
 }
 
+.p3citacaopoema{
+    margin: 0.5em 0 0.5em 1em;
+}
 ul.p3citacaoitem{
     list-style: disc;
     margin: 0.5em 0 0.5em 1em;
@@ -1640,7 +1690,12 @@ blockquote.p3citacaoitem::before {
 
 /*👉==================== TEXTOS PESO: menor ===========================👈*/
 /* Ícone OED */
+/* 
+p4iconeoed
+p4iconeoed2
+*/
 .p4iconeoed{}
+.p4iconeoed2{}
 
 /* Legenda */
 .p4legenda{}
@@ -1721,6 +1776,14 @@ p4resposta
     margin: 0.2em 0;
 }
 
+/* Página */
+/* 
+p5paginacao
+p5paginacaoextenso
+*/
+.p5paginacao{}
+.p5paginacaoextenso{}
+
 /*👉TEXTOS SUPORTE👈*/
 /* Balão de fala */
 /* 
@@ -1758,6 +1821,7 @@ p5marcadorquestao
 */
 .p5marcador{
     background: var(--preto);
+    font-family: var(--texto);
     color: var(--branco);
     font-weight: bold;
     height: 25px;
@@ -1861,6 +1925,12 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
+d0secsumario
+d0sumariosecinicial
+d0navsumario
+
+d0orientacaousooed
+d0groupline
 d0grouptit
 d0icoatencao
 d0sumariosecinicial
@@ -1894,7 +1964,14 @@ d0carimbo
 d0linha
 d0boxpoema
 d0separabloco
+d0tabuleiro
 */
+.d0secsumario{}
+.d0sumariosecinicial{}
+.d0navsumario{}
+
+.d0orientacaousooed{}
+.d0groupline{}
 .d0grouptit{}
 .d0icoatencao{}
 .d0sumariosecinicial{}
@@ -1947,12 +2024,13 @@ d0separabloco
 .d0boxpoema{
     padding: 1em 3em !important;    
  }
-.d0separabloco{
-    margin: 2em 0 0 0 !important;
-}
 .d0boxpoema>blockquote{
     line-height: 2em;
 }
+.d0separabloco{
+    margin: 2em 0 0 0 !important;
+}
+.d0tabuleiro{}
 
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
@@ -1969,6 +2047,11 @@ d1infoimpressao
 .d1pagecreditos{
     border: 1px solid var(--preto);
     padding: 1em 1.5em;
+}
+.d1pagecreditos+.descaracterizada{
+    border: 1px solid var(--preto);
+    padding: 1em 1.5em;
+    min-height: 800px;
 }
 .d1nomeautor{
     margin: 1em 0 0.5em 0;
@@ -1995,8 +2078,18 @@ d1infoimpressao
     margin: 1em;
 }
 
-/* d2hyperlinkoed */
-.d2hyperlinkoed{}
+/*👉ESTILOS DIGITAL: atividades adaptadas👈*/
+/* 
+d2boxadaptacaoconteudo
+d2boxadaptaprof
+d2boxadaptaaluno
+d2adaptadatit
+*/
+.d2boxadaptacaoconteudo{}
+.d2boxadaptaprof{}
+.d2boxadaptaaluno{}
+.d2adaptadatit{}
+
 
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
@@ -2017,6 +2110,8 @@ c0sumariosecao5
 
 /* Geral */
 /* 
+c0destaqueoed
+c0destaqueoed2
 c0destaqueletra
 c0destaqueletracitacao
 c0destaquenumero
@@ -2030,7 +2125,8 @@ c0destaqueuni
 c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
 */
-
+.c0destaqueoed{}
+.c0destaqueoed2{}
 
 .c0destaqueletra{
     font-weight: bold;
@@ -2120,14 +2216,11 @@ c1citacaobolditalico
 
 .c1citacaobold{
     font-weight: bold;
-    color: var(--corprof);
 }
 .c1citacaoitalico{
-    color: var(--corprof);
     font-style: italic;
 }
 .c1citacaobolditalico{
-    color: var(--corprof);
     font-style: italic;
     font-weight: bold;
 }
@@ -2215,6 +2308,7 @@ c3idiomavocabulariodestaqueitalico
 
 /*👉C4: Estilos de Suporte👈*/
 /* 
+c4cifrao
 c4fonema
 c4lacuna
 c4ordinal
@@ -2230,6 +2324,7 @@ c4glossariodestaque
 c4glossariodestaqueitalico
 c4textotachado
 */
+.c4cifrao{}
 .c4fonema{
     font-family: var(--fonema);
 }
@@ -2301,8 +2396,9 @@ c4textotachado
 o0mpg
 o0facsimile
 o0secconheca
-o0secapresentacao
 o0secconheca2
+o0secconheca3
+o0secapresentacao
 o0aberturabox
 o0aberturaatvbox
 o0aberturaobjbox
@@ -2361,8 +2457,9 @@ o0pronunciation 👉 Especifico de inglês
 .o0mpg{}
 .o0facsimile{}
 .o0secconheca{}
-.o0secapresentacao{}
 .o0secconheca2{}
+.o0secconheca3{}
+.o0secapresentacao{}
 .o0aberturabox{}
 .o0aberturaatvbox{}
 .o0aberturaobjbox{}
@@ -2457,6 +2554,7 @@ o1fioindicacaoroxo1
 o1fioindicacaoverde1
 o1boxfioroxo1
 o1boxfioazul1
+o1boxfioverde1
 o1fiocotapreto
 o1setaroxo1
 o1setaazul1
@@ -2482,6 +2580,7 @@ o1zoomcontorno
 .o1fioindicacaoverde1{}
 .o1boxfioroxo1{}
 .o1boxfioazul1{}
+.o1boxfioverde1{}
 .o1fiocotapreto{}
 .o1setaroxo1{}
 .o1setaazul1{}
@@ -2554,6 +2653,9 @@ o4recadoimagem1
 o4recadoimagem2
 o4recadoimagem3
 o4recadoimagem4
+o4tipofrase1
+o4tipofrase2
+o4tipofrase3
 */
 .o4questaobox{}
 .o4ficha{}
@@ -2743,6 +2845,9 @@ span.o4ficha2 {
 .o4recadoimagem2{}
 .o4recadoimagem3{}
 .o4recadoimagem4{}
+.o4tipofrase1{}
+.o4tipofrase2{}
+.o4tipofrase3{}
 
 /*👉O5: Papeletas e papelaria👈*/
 /* 
@@ -2763,6 +2868,7 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
+o5navegadorfundobranco
 o5navegadorbarra
 o5navegadorfundo
 o5verbetedicionario
@@ -2792,6 +2898,7 @@ o5redesocial2
 .o5lousa{}
 .o5quadrobranco{}
 .o5moldura{}
+.o5navegadorfundobranco{}
 .o5navegadorbarra{}
 .o5navegadorfundo{}
 .o5verbetedicionario{}
@@ -2821,10 +2928,12 @@ o6fluxogramadecisao
 /* 
 oemestrategias
 oemestrategias2
+oemestrategias3
 oemamplieseurepertoriobox
 */
 .oemestrategias{}
 .oemestrategias2{}
+.oemestrategias3{}
 .oemamplieseurepertoriobox{}
 
 /* ESTILOS ESPECIFICOS */
@@ -2888,6 +2997,11 @@ oemamplieseurepertoriobox
         display: grid;
         grid-template-columns: repeat(4, 1fr); /* 6 colunas de tamanho igual */
         gap: 10px; /* Espaçamento entre os itens */
+    }
+
+    /*👉TABELA MOBILE 👈*/
+    table, thead, tbody, th, td, tr{
+        display: block;
     }
 }
 

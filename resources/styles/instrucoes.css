@@ -15,6 +15,9 @@
   math{
     border: 1px solid red;
   }
+  .hifen_ano{
+    border:1px solid #8400ff;
+  }
 
   ul.tem_lista_com_1_item > li{
     background: #ffa600;

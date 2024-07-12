@@ -602,6 +602,8 @@ p2referenciasbibliocoment
 p2textosemrecuo
 p2textosemrecuoitem
 p2textosemrecuoitemcont
+p2textosemrecuosubitem
+p2textosemrecuosubitemcont
 p2textonumsemrecuo
 p2textomarcadorsemrecuo
 p2textomarcadorsemrecuocont
@@ -613,10 +615,13 @@ p2textosemrecuonumitemcont
 p2textosemrecuonumletra
 p2textosemrecuonumletracont
 p2textosemrecuoletra
+p2textosemrecuoletracont
 */
 .p2textosemrecuo{}
 .p2textosemrecuoitem{}
 .p2textosemrecuoitemcont{}
+.p2textosemrecuosubitem{}
+.p2textosemrecuosubitemcont{}
 .p2textonumsemrecuo{}
 .p2textomarcadorsemrecuo{}
 .p2textomarcadorsemrecuocont{}
@@ -627,7 +632,8 @@ p2textosemrecuoletra
 .p2textosemrecuonumitemcont{}
 .p2textosemrecuonumletra{}
 .p2textosemrecuonumletracont{}
-.p2textosemrecuoletra
+.p2textosemrecuoletra{}
+.p2textosemrecuoletracont{}
 
 
 /* TEXTO PRINCIPAL */
@@ -644,6 +650,7 @@ p2textoletracont
 p2textoletraitem
 p2textoletraitemcont
 p2textomarcador
+p2textomarcadorcont
 p2textomarcadorromano
 p2textomarcadorletra
 p2textomarcadorletracont
@@ -669,6 +676,7 @@ p2textomarcadorsubitemcont
 .p2textoletraitemcont{}
 
 .p2textomarcador{}
+.p2textomarcadorcont{}
 .p2textomarcadorromano{}
 
 .p2textomarcadorletra{}
@@ -812,9 +820,13 @@ p3intermediarionumero
 p3intermediarionumerocont
 p3intermediariomarcador
 p3intermediariomarcadorcont
+p3intermediariomarcadorromano
 p3intermediariomarcadoritem
 p3intermediariomarcadoritemcont
 p3intermediariosemrecuo
+p3intermediariosemrecuomarcador
+p3intermediariosemrecuomarcadorcont
+p3intermediariosemrecuomarcadorromano
 p3intermediariosemrecuoitem
 p3intermediariosemrecuoitemcont
 p3intermediariosemrecuoletra
@@ -838,6 +850,7 @@ p3intermediariosemrecuonumerocont
 
 .p3intermediariomarcador{}
 .p3intermediariomarcadorcont{}
+.p3intermediariomarcadorromano{}
 
 .p3intermediariomarcadoritem{}
 .p3intermediariomarcadoritemcont{}
@@ -845,6 +858,9 @@ p3intermediariosemrecuonumerocont
 /* TEXTOS INTERMEDIÁRIOS SEM RECUO */
 
 .p3intermediariosemrecuo{}
+.p3intermediariosemrecuomarcador{}
+.p3intermediariosemrecuomarcadorcont{}
+.p3intermediariosemrecuomarcadorromano{}
 .p3intermediariosemrecuoitem{}
 .p3intermediariosemrecuoitemcont{}
 
@@ -863,6 +879,7 @@ p3citacaotit2
 p3citacaoolho
 p3citacaosemrecuo
 p3citacao
+p3citacaopoema
 p3citacaoitem
 p3citacaoitemcont
 p3citacaoletra
@@ -883,6 +900,8 @@ p3citacaonumerocont
 
 .p3citacao{}
 
+.p3citacaopoema{}
+
 ul.p3citacaoitem{}
 blockquote.p3citacaoitem{}
 .p3citacaoitemcont{}
@@ -897,7 +916,12 @@ blockquote.p3citacaoitem{}
 
 /*👉==================== TEXTOS PESO: menor ===========================👈*/
 /* Ícone OED */
+/* 
+p4iconeoed
+p4iconeoed2
+*/
 .p4iconeoed{}
+.p4iconeoed2{}
 
 /* Legenda */
 .p4legenda{}
@@ -934,6 +958,10 @@ p.p4cuidadodicaitem{}
 p4resposta
 */
 .p4resposta{}
+
+/* Página */
+.p5paginacao{}
+.p5paginacaoextenso{}
 
 /*👉TEXTOS SUPORTE👈*/
 /* Balão de fala */
@@ -995,7 +1023,11 @@ p5aberturaobjtexto
 
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
-
+d0secsumario
+d0sumariosecinicial
+d0navsumario
+d0orientacaousooed
+d0groupline
 d0grouptit
 d0icoatencao
 d0sumariosecinicial
@@ -1015,7 +1047,6 @@ d0anote
 d0estrategiastit
 d0ods
 d0atvanote
-
 d0perfil
 d0chat
 d0conversa1 
@@ -1031,7 +1062,10 @@ d0carimbo
 d0linha
 d0boxpoema
 d0separabloco
+d0tabuleiro
 */
+.d0orientacaousooed{}
+.d0groupline{}
 .d0grouptit{}
 .d0icoatencao{}
 .d0sumariosecinicial{}
@@ -1051,7 +1085,6 @@ d0separabloco
 .d0estrategiastit{}
 .d0ods{}
 .d0atvanote{}
-
 .d0perfil{}
 .d0chat{}
 .d0conversa1{} 
@@ -1067,6 +1100,7 @@ d0separabloco
 .d0linha{}
 .d0boxpoema{}
 .d0separabloco{}
+.d0tabuleiro{}
 
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
@@ -1087,9 +1121,19 @@ d1infoimpressao
 .d1infoeditora{}
 .d1infoimpressao{}
 
+/*👉ESTILOS DIGITAL: atividades adaptadas👈*/
+/* 
+d2boxadaptacaoconteudo
+d2boxadaptaprof
+d2boxadaptaaluno
+d2adaptadatit
+*/
+.d2boxadaptacaoconteudo{}
+.d2boxadaptaprof{}
+.d2boxadaptaaluno{}
+.d2adaptadatit{}
 
-/* d2hyperlinkoed */
-.d2hyperlinkoed{}
+
 
 /*👉ESTILOS DE CARACTER👈*/
 /*👉C0: Estilos “reservados” (uso em Nested Styles)👈*/
@@ -1110,6 +1154,8 @@ c0sumariosecao5
 
 /* GERAL */
 /* 
+c0destaqueoed
+c0destaqueoed2
 c0destaqueletra
 c0destaqueletracitacao
 c0destaquenumero
@@ -1123,7 +1169,8 @@ c0destaqueuni
 c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
 */
-
+.c0destaqueoed{}
+.c0destaqueoed2{}
 .c0destaqueletra{}
 .c0destaqueletracitacao{}
 .c0destaquenumero{}
@@ -1204,6 +1251,7 @@ c3idiomavocabulariodestaqueitalico
 
 /*👉C4: Estilos de Suporte👈*/
 /* 
+c4cifrao
 c4fonema
 c4lacuna
 c4ordinal
@@ -1219,6 +1267,7 @@ c4glossariodestaque
 c4glossariodestaqueitalico
 c4textotachado
 */
+.c4cifrao{}
 .c4fonema{}
 .c4lacuna{}
 .c4ordinal{}
@@ -1251,8 +1300,9 @@ c4textotachado
 o0mpg
 o0facsimile
 o0secconheca
-o0secapresentacao
 o0secconheca2
+o0secconheca3
+o0secapresentacao
 o0aberturabox
 o0aberturaatvbox
 o0aberturaobjbox
@@ -1311,8 +1361,9 @@ o0pronunciation 👉 Especifico de inglês
 .o0mpg{}
 .o0facsimile{}
 .o0secconheca{}
-.o0secapresentacao{}
 .o0secconheca2{}
+.o0secconheca3{}
+.o0secapresentacao{}
 .o0aberturabox{}
 .o0aberturaatvbox{}
 .o0aberturaobjbox{}
@@ -1386,6 +1437,7 @@ o1fioindicacaoroxo1
 o1fioindicacaoverde1
 o1boxfioroxo1
 o1boxfioazul1
+o1boxfioverde1
 o1fiocotapreto
 o1setaroxo1
 o1setaazul1
@@ -1411,6 +1463,7 @@ o1zoomcontorno
 .o1fioindicacaoverde1{}
 .o1boxfioroxo1{}
 .o1boxfioazul1{}
+.o1boxfioverde1{}
 .o1fiocotapreto{}
 .o1setaroxo1{}
 .o1setaazul1{}
@@ -1474,6 +1527,9 @@ o4recadoimagem1
 o4recadoimagem2
 o4recadoimagem3
 o4recadoimagem4
+o4tipofrase1
+o4tipofrase2
+o4tipofrase3
 */
 .o4questaobox{}
 .o4ficha{}
@@ -1501,6 +1557,9 @@ o4recadoimagem4
 .o4recadoimagem2{}
 .o4recadoimagem3{}
 .o4recadoimagem4{}
+.o4tipofrase1{}
+.o4tipofrase2{}
+.o4tipofrase3{}
 
 
 /*👉O5: Papeletas e papelaria👈*/
@@ -1522,6 +1581,7 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
+o5navegadorfundobranco
 o5navegadorbarra
 o5navegadorfundo
 o5verbetedicionario
@@ -1551,6 +1611,7 @@ o5redesocial2
 .o5lousa{}
 .o5quadrobranco{}
 .o5moldura{}
+.o5navegadorfundobranco{}
 .o5navegadorbarra{}
 .o5navegadorfundo{}
 .o5verbetedicionario{}
@@ -1580,10 +1641,12 @@ o6fluxogramadecisao
 /* 
 oemestrategias
 oemestrategias2
+oemestrategias3
 oemamplieseurepertoriobox
 */
 .oemestrategias{}
 .oemestrategias2{}
+.oemestrategias3{}
 .oemamplieseurepertoriobox{}
 
 
