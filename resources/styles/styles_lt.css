@@ -161,11 +161,15 @@ hifen_ano
 .d0box_aluno{
     padding: 0.5em 0 1em 0;
 }
+.d0box_geralmp{}
 .d0box_especificompu{
     background: var(--manualu);
     padding: 0 1em 1em 1em;
 }
-.d0box_geralmp{}
+.d0box_resolucoesmp{}
+.d0box_respostas{}
+
+
 
 .caracterizada{}
 .descaracterizada{}
@@ -375,10 +379,6 @@ header .pag {
 
 /*👉 ================ SUMÁRIO / APRESENTAÇÃO E CONHEÇA LT ==================👈*/
 /* 
-secsumario
-sumariosecinicial
-navsumario
-
 p1sumariopv
 p1seciniciaistit1
 p1seciniciaistit2
@@ -398,7 +398,7 @@ p1sumariooedpeso1
 p1sumariooedpeso2
 
 */
-
+.p1sumariopv{}
 .p1seciniciaistit1{}
 .p1seciniciaistit2{}
 .p1sumariopeso1pv{}
@@ -1737,6 +1737,7 @@ p4iconeoed2
     font-size: var(--pesoMenor);
     text-align: right;
 }
+.p4credimagemresposta{}
 
 /* Cuidado dica */
 .p4cuidadodica{
@@ -1964,7 +1965,7 @@ d0carimbo
 d0linha
 d0boxpoema
 d0separabloco
-d0tabuleiro
+
 */
 .d0secsumario{}
 .d0sumariosecinicial{}
@@ -2005,6 +2006,7 @@ d0tabuleiro
 .d0hora{}
 .d0textarea{}
 .d0input{}
+.d0carimbo{}
 .d0carimbo::after{
     background: url(../images/pv_modelo.svg) no-repeat;
     content: '';
@@ -2030,7 +2032,7 @@ d0tabuleiro
 .d0separabloco{
     margin: 2em 0 0 0 !important;
 }
-.d0tabuleiro{}
+
 
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
@@ -2378,6 +2380,7 @@ c4textotachado
 .c5destaqueverbetedicionario{
     color: var(--link);
 }
+.c5indicacao{}
 
 
 
@@ -2404,13 +2407,13 @@ o0aberturaatvbox
 o0aberturaobjbox
 o0aberturalegenda
 o0aberturaimgmini
-o0aberturarespostas
+o0secrespostas
 o0sec1
 o0sec2
 o0sec3
 o0sec4
 o0sec5
-o0sec6 
+o0sec6
 o0sec7
 o0sec8
 o0sec9
@@ -2449,8 +2452,7 @@ o0parasabermais
 o0referencias
 o0pronuncia
 o0sugestcomp
-o0recadoimagembox
-o0medidaanimalbox
+o4medidaanimalbox
 o0boxpalavra
 o0pronunciation 👉 Especifico de inglês
 */
@@ -2465,7 +2467,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0aberturaobjbox{}
 .o0aberturalegenda{}
 .o0aberturaimgmini{}
-.o0aberturarespostas{}
+.o0secrespostas{}
 .o0sec1{}
 .o0sec2{}
 .o0sec3{}
@@ -2510,8 +2512,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0referencias{}
 .o0pronuncia{}
 .o0sugestcomp{}
-.o0recadoimagembox{}
-.o0medidaanimalbox{}
+.o4medidaanimalbox{}
 .o0boxpalavra{
     display: flex;
     flex-direction: row;
@@ -2644,6 +2645,7 @@ o4atencaobox
 o4conceitobox
 o4avaliacaobox
 o4vocabulariobox
+o4glossariobox
 o4etapabox
 o4exemplobox
 o4intermediariobox
@@ -2724,6 +2726,7 @@ span.o4ficha2 {
 .o4boxmateriais{
     margin: 1em 0;
 }
+.o4balao{}
 .o4balao, .o4balaopensamento {
     background: var(--amarelo2);
     border-radius: 2em ;
@@ -2770,7 +2773,7 @@ span.o4ficha2 {
     position: absolute;
     margin: 15px 0 0 40px;
 }
-
+.o4balaobranco{}
 .o4balaobranco, .o4balaopensamentobranco  {
     background: var(--branco);
     border-radius: 2em ;
@@ -2836,6 +2839,7 @@ span.o4ficha2 {
 }
 .o4avaliacaobox{}
 .o4vocabulariobox{}
+.o4glossariobox{}
 .o4etapabox{}
 .o4exemplobox{}
 .o4intermediariobox{}

@@ -312,8 +312,8 @@ header .pag {
 
 /*👉 ================ SUMÁRIO / APRESENTAÇÃO E CONHEÇA LT ==================👈*/
 /* 
-secsumario
-sumariosecinicial
+
+
 navsumario
 
 p1sumariopv
@@ -336,7 +336,7 @@ p1sumariooedpeso1
 p1sumariooedpeso2
 
 */
-
+.p1sumariopv{}
 .p1seciniciaistit1{}
 .p1seciniciaistit2{}
 .p1sumariopeso1pv{}
@@ -1030,7 +1030,6 @@ d0orientacaousooed
 d0groupline
 d0grouptit
 d0icoatencao
-d0sumariosecinicial
 d0boxsumariotit
 d0semfundo
 d0bgbranco
@@ -1062,13 +1061,16 @@ d0carimbo
 d0linha
 d0boxpoema
 d0separabloco
-d0tabuleiro
+
 */
+
+.d0secsumario{}
+.d0sumariosecinicial{}
+.d0navsumario{}
 .d0orientacaousooed{}
 .d0groupline{}
 .d0grouptit{}
 .d0icoatencao{}
-.d0sumariosecinicial{}
 .d0boxsumariotit{}
 .d0semfundo{}
 .d0bgbranco{}
@@ -1100,7 +1102,7 @@ d0tabuleiro
 .d0linha{}
 .d0boxpoema{}
 .d0separabloco{}
-.d0tabuleiro{}
+
 
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
@@ -1286,7 +1288,7 @@ c4textotachado
 
 /*👉C5: Estilos de  👈*/
 .c5destaqueverbetedicionario{}
-
+.c5indicacao{}
 
 
 
@@ -1308,7 +1310,7 @@ o0aberturaatvbox
 o0aberturaobjbox
 o0aberturalegenda
 o0aberturaimgmini
-o0aberturarespostas
+o0secrespostas
 o0sec1
 o0sec2
 o0sec3
@@ -1353,8 +1355,7 @@ o0parasabermais
 o0referencias
 o0pronuncia
 o0sugestcomp
-o0recadoimagembox
-o0medidaanimalbox
+o4medidaanimalbox
 o0boxpalavra
 o0pronunciation 👉 Especifico de inglês
 */
@@ -1369,7 +1370,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0aberturaobjbox{}
 .o0aberturalegenda{}
 .o0aberturaimgmini{}
-.o0aberturarespostas{}
+.o0secrespostas{}
 .o0sec1{}
 .o0sec2{}
 .o0sec3{}
@@ -1414,8 +1415,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0referencias{}
 .o0pronuncia{}
 .o0sugestcomp{}
-.o0recadoimagembox{}
-.o0medidaanimalbox{}
+.o4medidaanimalbox{}
 .o0boxpalavra{}
 .o0pronunciation
 
@@ -1518,6 +1518,7 @@ o4atencaobox
 o4conceitobox
 o4avaliacaobox
 o4vocabulariobox
+o4glossariobox
 o4etapabox
 o4exemplobox
 o4intermediariobox
@@ -1548,6 +1549,7 @@ o4tipofrase3
 .o4conceitobox{}
 .o4avaliacaobox{}
 .o4vocabulariobox{}
+.o4glossariobox{}
 .o4etapabox{}
 .o4exemplobox{}
 .o4intermediariobox{}

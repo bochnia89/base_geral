@@ -66,6 +66,7 @@ p1sec2mptit2
 
 .p1sumariompextrapeso1{}
 .p1sumariompextrapeso2{}
+.p1sumariompextrapeso3{}
 
 .p1sumariompfinais{}
 
@@ -247,6 +248,7 @@ p.p2textompmarcadoritem{}
 
 /*👉RESPOSTA E COMENTÁRIOS - QUESTÃO TEORIA👈*/
 /* 
+p2atvmpagrupada
 p2questaomp
 p2questaompcont
 p2questaompletra
@@ -261,6 +263,7 @@ p2questaompnumitem
 p2questaompnumletra
 p2questaompnumletraitem
 */
+.p2atvmpagrupada{}
 .p2questaomp{}
 .p2questaompcont{}
 .p2questaompletra{}
@@ -420,6 +423,7 @@ p3citacaomptit1
 p3citacaomptit2
 p3citacaompolho
 p3citacaomp
+p3citacaomppoema
 p3citacaompitem
 p3citacaompitemcont
 p3citacaompletra
@@ -434,6 +438,7 @@ p3citacaompsemrecuoitem
 .p3citacaomptit2{}
 .p3citacaompolho{}
 .p3citacaomp{}
+.p3citacaomppoema{}
 ul.p3citacaompitem{}
 blockquote.p3citacaompitem{}
 .p3citacaompitemcont{}
@@ -495,7 +500,7 @@ c0bulletnumitemmp
 c0bulletsubitemmp
 c0destaquecapmp
 c0destaquesecaomp
-c0destquecapsummp
+c0destaquecapsummp
 */
 .c5indicacaomp{}
 .c0destaqueagrupadamp{}
@@ -509,7 +514,7 @@ c0destquecapsummp
 .c0bulletnumitemmp{}
 .c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
 
-.c0destquecapsummp{}
+.c0destaquecapsummp{}
 .c0destaquecapmp{} /* Especifico do resolução */
 .c0destaquesecaomp{}/* Especifico do resolução */
 

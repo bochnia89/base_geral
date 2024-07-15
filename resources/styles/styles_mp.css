@@ -104,6 +104,7 @@ p1sumariompextrapeso3
 
 .p1sumariompextrapeso1{}
 .p1sumariompextrapeso2{}
+.p1sumariompextrapeso3{}
 
 .p1sumariompfinais{}
 
@@ -380,6 +381,7 @@ p2textompmarcadorsemrecuo
 .p2textompsubitemcont,
 .p2textompsubitemcont,
 .p2textompitemletra,
+.p2textompitemletracont,
 .p2textompletra,
 .p2textompletracont,
 .p2textompletraitem,
@@ -431,6 +433,7 @@ p.p2textompsubitem::before{
 }
 .p2textompsubitemcont{}
 .p2textompitemletra{}
+.p2textompitemletracont{}
 .p2textompletra{
     margin: 0.5em 0 0.5em 2.8em;
 }
@@ -1145,7 +1148,7 @@ c0bulletnumitemmp
 c0bulletsubitemmp
 c0destaquecapmp
 c0destaquesecaomp
-c0destquecapsummp
+c0destaquecapsummp
 */
 
 
@@ -1223,9 +1226,10 @@ c0destquecapsummp
 }
 .c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
 
-.c0destquecapsummp{}
+.c0destaquecapsummp{}
 .c0destaquecapmp{}/* Especifico do resolução */
 .c0destaquesecaomp{}/* Especifico do resolução */
+
 
 
 /*👉ESTILOS DE OBJETO👈*/
