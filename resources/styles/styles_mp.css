@@ -399,10 +399,10 @@ p2textompmarcadorsemrecuo
 }
 ul.p2textompitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2.5em;
 }
 p.p2textompitem{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2.5em;
 }
 p.p2textompitem::before{
 content: ''; /*content: '';*/
@@ -412,14 +412,14 @@ position: absolute;
 margin: 0 0 0 -26px;
 }
 .p2textompitemcont{
-    margin: 0.5em 0 0.5em 1.5em;
+    margin: 0.5em 0 0.5em 2.5em;
 }
 ul.p2textompsubitem{
     list-style: disc;
-    margin: 0.5em 0 0.5em 2.8em;
+    margin: 0.5em 0 0.5em 3.8em;
 }
 p.p2textompsubitem{
-    margin: 0.5em 0 0.5em 2.8em;
+    margin: 0.5em 0 0.5em 3.8em;
 }
 p.p2textompsubitem::before{
     content: ''; /*content: '';*/
@@ -429,11 +429,15 @@ p.p2textompsubitem::before{
     margin: 0 0 0 -26px;
     }
 .p2textompsubitemcont{
-    margin: 0.5em 0 0.5em 2.8em;
+    margin: 0.5em 0 0.5em 3.8em;
 }
-.p2textompsubitemcont{}
-.p2textompitemletra{}
-.p2textompitemletracont{}
+
+.p2textompitemletra{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2textompitemletracont{
+    margin: 0.5em 0 0.5em 4em;
+}
 .p2textompletra{
     margin: 0.5em 0 0.5em 2.8em;
 }

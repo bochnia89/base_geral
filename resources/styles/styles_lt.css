@@ -1508,7 +1508,9 @@ p.p3intermediarioitem::before{
 .p3intermediariomarcadorcont{
     margin: 0.5em 0 0.5em 2em;
 }
-.p3intermediariomarcadorromano{}
+.p3intermediariomarcadorromano{
+    margin: 0.5em 0 0.5em 2.8em;
+}
 ul.p3intermediariomarcadoritem{
     list-style: disc;
     margin: 0.5em 0 0.5em 3em;
@@ -1524,9 +1526,15 @@ p.p3intermediariomarcadoritem{
 .p3intermediariosemrecuo{
     margin: 0.5em 0;
 }
-.p3intermediariosemrecuomarcador{}
-.p3intermediariosemrecuomarcadorcont{}
-.p3intermediariosemrecuomarcadorromano{}
+.p3intermediariosemrecuomarcador{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariosemrecuomarcadorcont{
+    margin: 0.5em 0 0.5em 2.5em;
+}
+.p3intermediariosemrecuomarcadorromano{
+    margin: 0.5em 0 0.5em 3em;
+}
 
 
 ul.p3intermediariosemrecuoitem{
@@ -2431,25 +2439,34 @@ o0sec9a
 o0sec10a
 o0sec1box
 o0sec1box2
+o0sec1box3
 o0sec2box
 o0sec2box2
+o0sec2box3
 o0sec3box
 o0sec3box2
+o0sec3box3
 o0sec4box
 o0sec4box2
+o0sec4box3
 o0sec5box
 o0sec5box2
+o0sec5box3
 o0sec6box
 o0sec6box2
+o0sec6box3
 o0sec7box
 o0sec7box2
+o0sec7box3
 o0sec8box
 o0sec8box2
+o0sec8box3
 o0sec9box
 o0sec9box2
 o0sec9box3
 o0sec10box
 o0sec10box2
+o0sec10box3
 o0parasabermais
 o0referencias
 o0pronuncia
@@ -2492,25 +2509,34 @@ o0pronunciation 👉 Especifico de inglês
 .o0sec10a{}
 .o0sec1box{}
 .o0sec1box2{}
+.o0sec1box3{}
 .o0sec2box{}
 .o0sec2box2{}
+.o0sec2box3{}
 .o0sec3box{}
 .o0sec3box2{}
+.o0sec3box3{}
 .o0sec4box{}
 .o0sec4box2{}
+.o0sec4box3{}
 .o0sec5box{}
 .o0sec5box2{}
+.o0sec5box3{}
 .o0sec6box{}
 .o0sec6box2{}
+.o0sec6box3{}
 .o0sec7box{}
 .o0sec7box2{}
+.o0sec7box3{}
 .o0sec8box{}
 .o0sec8box2{}
+.o0sec8box3{}
 .o0sec9box{}
 .o0sec9box2{}
 .o0sec9box3{}
 .o0sec10box{}
 .o0sec10box2{}
+.o0sec10box3{}
 .o0parasabermais{}
 .o0referencias{}
 .o0pronuncia{}
@@ -2944,9 +2970,7 @@ oemamplieseurepertoriobox
 .oemamplieseurepertoriobox{}
 
 /* ESTILOS ESPECIFICOS */
-.e0altura{
-    min-height: 50px;
-}
+
 
 /*MEDIA QUERY*/
 /*👉Versão Mobile Cel👈*/
