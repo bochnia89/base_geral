@@ -1965,6 +1965,7 @@ d0carimbo
 d0linha
 d0boxpoema
 d0separabloco
+d0selotema
 
 */
 .d0secsumario{}
@@ -2032,7 +2033,7 @@ d0separabloco
 .d0separabloco{
     margin: 2em 0 0 0 !important;
 }
-
+.d0selotema{}
 
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
@@ -2446,6 +2447,7 @@ o0sec8box
 o0sec8box2
 o0sec9box
 o0sec9box2
+o0sec9box3
 o0sec10box
 o0sec10box2
 o0parasabermais
@@ -2506,6 +2508,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0sec8box2{}
 .o0sec9box{}
 .o0sec9box2{}
+.o0sec9box3{}
 .o0sec10box{}
 .o0sec10box2{}
 .o0parasabermais{}

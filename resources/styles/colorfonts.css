@@ -4,7 +4,8 @@
 // Citações: 'Cormorant Garamond';
 // Texto: 'Work Sans' ;
 // Ordinal / químico: 'Calibri' ;
-*/
+
+
 
 /*👉 -------------- TÍTULOS --------------👈*/
 /*👉@font-face {
@@ -551,6 +552,11 @@
     --ordinal: ;
     --quimico: ;
     --fonema: ;
+
+    --oedtitulo:;
+    --oedtexto:;
+    --oedcitacao:;
+    --oedinstrucao:;
 
     /* Tamanhos */
     --peso1: 1.8em;
