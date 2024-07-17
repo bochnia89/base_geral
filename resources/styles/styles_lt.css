@@ -1755,8 +1755,12 @@ p4iconeoed2
 }
 
 /* Cotas */
-.p4cota{}
-.p4cotamarcador{}
+.p4cota{
+    margin: 0.5em 0 0.5em 0;
+}
+.p4cotamarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /* Vocabulário */
 .p4vocabulario{
