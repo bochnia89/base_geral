@@ -436,26 +436,61 @@ p0tit4negativo
 p0tit5negativo
 p0tit6negativo
 */
-.p0tit1{}
+
+.p0tit1,
+.p0tit2,
+.p0tit3,
+.p0tit4,
+.p0tit5,
+.p0tit6,
+.p0tit3negativo,
+.p0tit4negativo,
+.p0tit5negativo,
+.p0tit6negativo{
+    font-family: var(--titulo);
+    font-weight: bold;
+    line-height: 1.5em;
+}
+.p0tit1{
+    font-size: var(--peso1);
+}
 .p0tit1numpv{}
 .p0tit1pv{}
 
 
-.p0tit2{}
+.p0tit2{
+    font-size: var(--peso2);
+}
 .p0tit2numpv{}
 .p0tit2pv{}
 
 
-.p0tit3{}
-.p0tit4{}
-.p0tit5{}
-.p0tit6{}
+.p0tit3{
+    font-size: var(--peso3);
+}
+.p0tit4{
+    font-size: var(--peso4);
+}
+.p0tit5{
+    font-size: var(--peso5);
+}
+.p0tit6{
+    font-size: var(--peso6);
+}
 
 
-.p0tit3negativo{}
-.p0tit4negativo{}
-.p0tit5negativo{}
-.p0tit6negativo{}
+.p0tit3negativo{
+    font-size: var(--peso3);
+}
+.p0tit4negativo{
+    font-size: var(--peso4);
+}
+.p0tit5negativo{
+    font-size: var(--peso5);
+}
+.p0tit6negativo{
+    font-size: var(--peso6);
+}
 
 /* TÍTULOS DE ELEMENTOS */
 
@@ -1601,7 +1636,7 @@ p3citacaonumerocont
 .p3citacaonumero,
 .p3citacaonumerocont{
     font-family: var(--citacao);
-    font-size: var(--peso7);
+    font-size: var(--pesoPadrao);
 }
 
 .p3citacaomanchete{
@@ -2172,7 +2207,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 } /* Estilo de caracter utilizado na citacao */ 
 .c0destaqueromano{
     font-weight: bold;
-    width: 36px;
+    width: 38px;
     height: 36px;
     position: absolute;
     margin: 0 0 0 -40px;
