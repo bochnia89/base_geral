@@ -1306,6 +1306,7 @@ o0secconheca2
 o0secconheca3
 o0secapresentacao
 o0aberturabox
+o0aberturaintrobox
 o0aberturaatvbox
 o0aberturaobjbox
 o0aberturalegenda
@@ -1376,6 +1377,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0secconheca3{}
 .o0secapresentacao{}
 .o0aberturabox{}
+.o0aberturaintrobox{}
 .o0aberturaatvbox{}
 .o0aberturaobjbox{}
 .o0aberturalegenda{}
@@ -1551,6 +1553,7 @@ o4recadoimagem4
 o4tipofrase1
 o4tipofrase2
 o4tipofrase3
+o4ideiabox
 */
 .o4questaobox{}
 .o4ficha{}
@@ -1582,6 +1585,7 @@ o4tipofrase3
 .o4tipofrase1{}
 .o4tipofrase2{}
 .o4tipofrase3{}
+.o4ideiabox{}
 
 
 /*👉O5: Papeletas e papelaria👈*/
