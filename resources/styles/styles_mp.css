@@ -218,6 +218,7 @@ p2textompsemrecuonumcont  👉Caso de uso no eja
 p2textompnumsemrecuo   👉Caso de uso no ensino médio 
 p2textompnumsemrecuocont  👉Caso de uso no ensino médio 
 p2textompsemrecuoletra
+p2textompsemrecuoletraitem
 p2textompsemrecuoitem
 p2textompsemrecuosubitem
 p2textompsemrecuonumletra
@@ -235,6 +236,7 @@ p2textompsemrecuonumromanoitem
 .p2textompnumsemrecuo,   
 .p2textompnumsemrecuocont,  
 .p2textompsemrecuoletra,
+.p2textompsemrecuoletraitem,
 .p2textompsemrecuoitem,
 .p2textompsemrecuosubitem,
 .p2textompsemrecuonumletra,
@@ -292,6 +294,9 @@ p.p2textompsemrecuoitem::before{
 .p2textompsemrecuoletra{
     margin: 0.5em 0 0.5em 2em ;
 }
+
+ul.p2textompsemrecuoletraitem{}
+p.p2textompsemrecuoletraitem{}  
 ul.p2textompsemrecuoitem{}
 p.p2textompsemrecuoitem{}
 ul.p2textompsemrecuosubitem{
