@@ -179,10 +179,12 @@ p2textompsemrecuonumcont
 p2textompnumsemrecuo  
 p2textompnumsemrecuocont 
 p2textompsemrecuoletra
+p2textompsemrecuoletracont
 p2textompsemrecuoletraitem
 p2textompsemrecuoitem
 p2textompsemrecuosubitem
 p2textompsemrecuonumletra
+p2textompsemrecuonumletracont
 p2textompsemrecuonumitem
 p2textompsemrecuonumletraitem
 p2textompsemrecuoromano
@@ -198,6 +200,7 @@ p.p2textompsemrecuoitem{}
 .p2textompnumsemrecuo{}  /* Caso de uso no ensino médio */
 .p2textompnumsemrecuocont{} /* Caso de uso no ensino médio */
 .p2textompsemrecuoletra{}
+.p2textompsemrecuoletracont{}
 ul.p2textompsemrecuoletraitem{}
 p.p2textompsemrecuoletraitem{}
 ul.p2textompsemrecuoitem{}
@@ -205,6 +208,7 @@ p.p2textompsemrecuoitem{}
 ul.p2textompsemrecuosubitem{}
 li.p2textompsemrecuosubitem{}
 .p2textompsemrecuonumletra{}
+.p2textompsemrecuonumletracont{}
 .p2textompsemrecuonumitem{}
 .p2textompsemrecuonumitem{}
 .p2textompsemrecuonumletraitem{}
@@ -226,8 +230,10 @@ p2textompletracont
 p2textompletraitem
 p2textompletraitemcont
 p2textompmarcador
+p2textompmarcadorcont
 p2textompmarcadoritem
 p2textompmarcadorsemrecuo
+p2textompmarcadorsemrecuocont
 */
 .p2textomp{}
 ul.p2textompitem{}
@@ -244,9 +250,11 @@ ul.p2textompletraitem{}
 p.p2textompletraitem{}
 .p2textompletraitemcont{}
 .p2textompmarcador{}
+.p2textompmarcadorcont{}
 ul.p2textompmarcadoritem{}
 p.p2textompmarcadoritem{}
 .p2textompmarcadorsemrecuo{}
+.p2textompmarcadorsemrecuocont{}
 
 
 /*👉RESPOSTA E COMENTÁRIOS - QUESTÃO TEORIA👈*/
@@ -306,7 +314,8 @@ p2atvmpletraromano
 p2atvmpletraromanocont
 p2atvmpnumitem
 p2atvmpnumletra
-p2atvmpnumletraitem  
+p2atvmpnumletraitem
+p2atvmpnumletraitemcont  
 p2atvmpletraitem
 p2atvmpnumromano
 p2atvmpsomatoria
@@ -333,6 +342,7 @@ p.p2atvmpletraitembullet{}
 .p2atvmpnumitem{}
 .p2atvmpnumletra{}
 .p2atvmpnumletraitem{}
+.p2atvmpnumletraitemcont{}
 .p2atvmpletraitem{}
 .p2atvmpnumromano{}
 .p2atvmpsomatoria{}
@@ -435,7 +445,9 @@ p3citacaompnumero
 p3citacaompnumerocont
 p3citacaompsemrecuo
 p3citacaompsemrecuoletra
+p3citacaompsemrecuoletracont
 p3citacaompsemrecuoitem
+p3citacaompsemrecuoitemcont
 */
 .p3citacaomptit1{}
 .p3citacaomptit2{}
@@ -451,8 +463,10 @@ blockquote.p3citacaompitem{}
 .p3citacaompnumerocont{}
 .p3citacaompsemrecuo{}
 .p3citacaompsemrecuoletra{}
+.p3citacaompsemrecuoletracont{}
 ul.p3citacaompsemrecuoitem{}
 blockquote.p3citacaompsemrecuoitem{}
+blockquote.p3citacaompsemrecuoitemcont{}
 
 
 /*👉RESPOSTAS DE ATIVIDADES PROPOSTAS NO MANUAL👈*/
