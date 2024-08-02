@@ -1224,6 +1224,9 @@ p2atvmarcadoritem
 p2atvmarcadoritemcont
 p2atvsomatoria
 p2atvsomatoriacont
+p2atvsemrecuomarcador
+p2atvsemrecuomarcadorcont
+p2atvsemrecuomarcadorromano
 */
 .p2atv,
 .p2atvcont,
@@ -1253,7 +1256,10 @@ p2atvsomatoriacont
 .p2atvmarcadoritem,
 .p2atvmarcadoritemcont,
 .p2atvsomatoria,
-.p2atvsomatoriacont{
+.p2atvsomatoriacont,
+.p2atvsemrecuomarcador,
+.p2atvsemrecuomarcadorcont,
+.p2atvsemrecuomarcadorromano,{
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
@@ -1429,6 +1435,9 @@ p.p2atvmarcadoritem::before {
     margin: 0.5em 0 0.5em 5em;
 }
 
+.p2atvsemrecuomarcador{}
+.p2atvsemrecuomarcadorcont{}
+.p2atvsemrecuomarcadorromano{}
 
 
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
