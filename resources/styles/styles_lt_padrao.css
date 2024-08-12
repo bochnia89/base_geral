@@ -941,6 +941,7 @@ p4iconeoed2
 
 /* Cotas */
 .p4cota{}
+.p4cotanegativo{}
 .p4cotamarcador{}
 
 /* Vocabulário */
@@ -1179,6 +1180,7 @@ c0bulletsubitem  👉Estilo de caracter utilizado no manual em U
 c0destaqueuni
 c0destaquecap 👉Estilo de caracter utilizado no sumário mp  
 c0destaquesecao 👉Estilo de caracter utilizado no sumário mp 
+c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bullet para azul
 */
 .c0destaqueoed{}
 .c0destaqueoed2{}
@@ -1196,6 +1198,7 @@ c0destaquesecao 👉Estilo de caracter utilizado no sumário mp
 .c0destaqueuni{}
 .c0destaquecap{}/* Estilo de caracter utilizado no sumário mp */ 
 .c0destaquesecao{}/* Estilo de caracter utilizado no sumário mp */ 
+.c0destaquebullet{} /*Demanda surgiu no G26 física E002: para trocar cor de bullet para azul */
 
 
 /*👉C1: Estilos de bold e itálico👈*/
@@ -1305,7 +1308,13 @@ c4textotachado
 .c5destaqueverbetedicionario{}
 .c5indicacao{}
 
-
+/*👉 Troca de caractere 👈*/
+/*
+trocacaracter1
+trocacaracter2
+*/
+.trocacaracter1{}
+.trocacaracter2{}
 
 /* ESTILO DE OBJETO */
 
@@ -1555,6 +1564,7 @@ o4atencaobox
 o4conceitobox
 o4avaliacaobox
 o4vocabulariobox
+o4vocabularioboxbranco
 o4glossariobox
 o4etapabox
 o4exemplobox
@@ -1587,6 +1597,7 @@ o4ideiabox
 .o4conceitobox{}
 .o4avaliacaobox{}
 .o4vocabulariobox{}
+.o4vocabularioboxbranco{}
 .o4glossariobox{}
 .o4etapabox{}
 .o4exemplobox{}
@@ -1622,9 +1633,9 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
-o5navegadorfundobranco
 o5navegadorbarra
 o5navegadorfundo
+o5navegadorfundobranco
 o5verbetedicionario
 o5curriculo
 o5email
@@ -1653,9 +1664,9 @@ o5redesocial2
 .o5lousa{}
 .o5quadrobranco{}
 .o5moldura{}
-.o5navegadorfundobranco{}
 .o5navegadorbarra{}
 .o5navegadorfundo{}
+.o5navegadorfundobranco{}
 .o5verbetedicionario{}
 .o5curriculo{}
 .o5email{}
@@ -1679,6 +1690,36 @@ o6fluxogramadecisao
 .o6fluxogramainiciofim{}
 .o6fluxogramaacao{}
 .o6fluxogramadecisao{}
+
+/*👉07: Estilos para Linha do tempo👈*/
+/* TODO: novos estilos 
+o7linhatempocaixatexto
+o7linhatempodestaquedata
+o7linhatempolinhaeixo
+o7linhatempolinha1
+o7linhatempolinha2
+o7linhatempolinha3
+o7linhatempolinha4
+o7linhatempolinha5
+o7linhatempoperiodo1
+o7linhatempoperiodo2
+o7linhatempoperiodo3
+o7linhatempoperiodo4
+o7linhatempoperiodo5
+*/
+.o7linhatempocaixatexto{}
+.o7linhatempodestaquedata{}
+.o7linhatempolinhaeixo{}
+.o7linhatempolinha1{}
+.o7linhatempolinha2{}
+.o7linhatempolinha3{}
+.o7linhatempolinha4{}
+.o7linhatempolinha5{}
+.o7linhatempoperiodo1{}
+.o7linhatempoperiodo2{}
+.o7linhatempoperiodo3{}
+.o7linhatempoperiodo4{}
+.o7linhatempoperiodo5{}
 
 /*👉OE: Elementos vindos da editora👈*/
 /* 
