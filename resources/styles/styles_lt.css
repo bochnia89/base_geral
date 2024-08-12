@@ -758,6 +758,8 @@ p2referenciasbibliocoment
     margin: 0 0 0.5em 0;
 }
 
+/* TODO: Bruna, desativar estilo p2textonumsemrecuo, nome fora do padrão, estilo válido  p2textosemrecuonum*/
+
 /*👉======= TEXTOS PESO: principal =======👈*/
 /* TEXTO SEM RECUO PRINCIPAL */
 /* 
@@ -766,7 +768,7 @@ p2textosemrecuoitem
 p2textosemrecuoitemcont
 p2textosemrecuosubitem
 p2textosemrecuosubitemcont
-p2textonumsemrecuo
+p2textonumsemrecuo 👉nome do estilo fora do padrão, desativar, válido p2textosemrecuonum👈
 p2textomarcadorsemrecuo
 p2textomarcadorsemrecuocont
 p2textomarcadorsemrecuoromano
@@ -2333,6 +2335,12 @@ c3idiomasimuladorhiperlink
     text-decoration: underline;
 }
 
+/* idioma citação */
+/* 
+c3idiomacitacaoitalico
+ */
+.c3idiomacitacaoitalico{}
+
 /* (exceção no INDD - overprint) */ 
 /* 
 c3idiomaresposta
@@ -2920,6 +2928,7 @@ span.o4ficha2 {
 }
 .o4avaliacaobox{}
 .o4vocabulariobox{}
+.o4vocabularioboxbranco{}
 .o4glossariobox{}
 .o4etapabox{}
 .o4exemplobox{}
@@ -2954,9 +2963,9 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
-o5navegadorfundobranco
 o5navegadorbarra
 o5navegadorfundo
+o5navegadorfundobranco
 o5verbetedicionario
 o5curriculo
 o5email

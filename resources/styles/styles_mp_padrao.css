@@ -167,7 +167,7 @@ p1sec10mptit4
 
 
 
-
+/* TODO: Bruna, desativar classes p2textompnumsemrecuo e  p2textompnumsemrecuocont, estão fora do padrão */
 
 /*👉TEXTO PRINCIPAL SEM RECUO 👈*/
 /* 
@@ -176,8 +176,8 @@ p2textompsemrecuoitem
 p2textompsemrecuoitemcont
 p2textompsemrecuonum 
 p2textompsemrecuonumcont 
-p2textompnumsemrecuo  
-p2textompnumsemrecuocont 
+p2textompnumsemrecuo  👉desativar, nome do estilo fora do padrão
+p2textompnumsemrecuocont 👉desativar,nome do estilo fora do padrão
 p2textompsemrecuoletra
 p2textompsemrecuoletracont
 p2textompsemrecuoletraitem

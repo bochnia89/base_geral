@@ -207,7 +207,7 @@ p1sec10mptit4
 
 
 
-
+/* TODO: Bruna, desativar classes p2textompnumsemrecuo e  p2textompnumsemrecuocont, estão fora do padrão */
 /*👉TEXTO PRINCIPAL SEM RECUO 👈*/
 /* 
 p2textompsemrecuo
@@ -217,6 +217,7 @@ p2textompsemrecuonum  👉Caso de uso no eja
 p2textompsemrecuonumcont  👉Caso de uso no eja 
 p2textompnumsemrecuo   👉Caso de uso no ensino médio 
 p2textompnumsemrecuocont  👉Caso de uso no ensino médio 
+p2textompsemrecuonum
 p2textompsemrecuoletra
 p2textompsemrecuoletracont
 p2textompsemrecuoletraitem
