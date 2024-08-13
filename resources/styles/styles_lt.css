@@ -1749,9 +1749,11 @@ blockquote.p3citacaoitem::before {
 /* 
 p4iconeoed
 p4iconeoed2
+p4iconeoed3
 */
 .p4iconeoed{}
 .p4iconeoed2{}
+.p4iconeoed3{}
 
 /* Legenda */
 .p4legenda{}
@@ -2175,6 +2177,7 @@ c0sumariosecao5
 /* 
 c0destaqueoed
 c0destaqueoed2
+c0destaqueoed3
 c0destaqueletra
 c0destaqueletracitacao
 c0destaquenumero
@@ -2191,6 +2194,7 @@ c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bulle
 */
 .c0destaqueoed{}
 .c0destaqueoed2{}
+.c0destaqueoed3{}
 
 .c0destaqueletra{
     font-weight: bold;
