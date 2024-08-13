@@ -278,7 +278,7 @@ p.p2textompsemrecuoitem::before{
     font-size: 1.2em;
     width: 10px;
     height: 10px;
-    margin: 0 5px 0 0 ;
+    margin: 0 0 0 0 ;
 }
 .p2textompsemrecuoitemcont{
     margin: 0.5em 0 0.5em 2em ;
@@ -301,10 +301,23 @@ p.p2textompsemrecuoitem::before{
 }
 
 .p2textompsemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em ;
 }
 
-ul.p2textompsemrecuoletraitem{}
-p.p2textompsemrecuoletraitem{}  
+ul.p2textompsemrecuoletraitem{
+    margin: 0.5em 0 0.5em 3em ;
+}
+ul.p2textompsemrecuoletraitem li::before{
+    content: '•';
+    font-size: 1.2em;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px 0 -18px;
+    position: absolute;
+}
+p.p2textompsemrecuoletraitem{
+    margin: 0.5em 0 0.5em 3em ;
+}  
 ul.p2textompsemrecuoitem{}
 p.p2textompsemrecuoitem{}
 ul.p2textompsemrecuosubitem{
@@ -324,11 +337,14 @@ p.p2textompsemrecuosubitem{
 .p2textompsemrecuonumletra{
     margin: 0.5em 0 0.5em 3.6em ;
 }
+
 .p2textompsemrecuonumletra>.c0destaquenumeromp {  
     margin: 0 0 0 -58px;
   }
 
-.p2textompsemrecuonumletracont{}
+.p2textompsemrecuonumletracont{
+    margin: 0.5em 0 0.5em 3.6em ;
+}
 
 .p2textompsemrecuonumitem{
     margin: 0.5em 0 0.5em 3.6em ;
@@ -483,7 +499,9 @@ p.p2textompletraitem::before{
 .p2textompmarcador{
     margin: 0.5em 0 0.5em 2.8em;
 }
-.p2textompmarcadorcont{}
+.p2textompmarcadorcont{
+    margin: 0.5em 0 0.5em 2.8em;
+}
 
 ul.p2textompmarcadoritem{
     list-style: disc;
@@ -496,7 +514,9 @@ p.p2textompmarcadoritem{
     margin: 0.5em 0 0.5em 2em;
 }
 
-.p2textompmarcadorsemrecuocont{}
+.p2textompmarcadorsemrecuocont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 
 /*👉RESPOSTA E COMENTÁRIOS - QUESTÃO TEORIA👈*/
@@ -767,7 +787,9 @@ p.p2atvmpletraitembullet{
 .p2atvmpnumletraitem{
     margin: 0.5em 0 0.5em 5.4em;
 }
-.p2atvmpnumletraitemcont{}
+.p2atvmpnumletraitemcont{
+    margin: 0.5em 0 0.5em 5.4em
+}
 .p2atvmpnumletraitem>.c0destaquenumeromp {
     margin: 0 0 0 -87px;
   }
@@ -1117,6 +1139,7 @@ margin:0 0 0 -26px ;
     margin: 0.5em 0 0.5em 2em;
 }
 .p3citacaompsemrecuoletracont{
+    margin: 0.5em 0 0.5em 2em;
 }
 ul.p3citacaompsemrecuoitem{
     list-style: disc;
@@ -1133,7 +1156,9 @@ height:24px ;
 position: absolute;
 margin:0 0 0 -26px ;
 }
-blockquote.p3citacaompsemrecuoitemcont{}
+blockquote.p3citacaompsemrecuoitemcont{
+    margin: 0.5em 0 0.5em 2em;
+}
 
 /*👉RESPOSTAS DE ATIVIDADES PROPOSTAS NO MANUAL👈*/
 /* 
