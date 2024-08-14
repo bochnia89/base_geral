@@ -155,6 +155,8 @@ orientatx
 ocultatx
 ocultamn
 hifen_ano
+trocacaracter1
+trocacaracter2
 */
 .aluno{}
 .professor{}
@@ -209,6 +211,8 @@ hifen_ano
 .hifen_ano{
     margin-left: -8px;
 }
+.trocacaracter1{}
+.trocacaracter2{}
 
 
 /* Visual do número da página */
@@ -398,6 +402,11 @@ p1sumariopeso2numero
 p1sumariooedpv
 p1sumariooedpeso1
 p1sumariooedpeso2
+p1sumariooedpeso3
+p1sumarioaudiospeso1
+p1sumarioaudiospeso2
+p1sumarioaudiospeso3
+
 
 */
 .p1sumariopv{}
@@ -419,6 +428,11 @@ p1sumariooedpeso2
 .p1sumariooedpv{}
 .p1sumariooedpeso1{}
 .p1sumariooedpeso2{}
+.p1sumariooedpeso3{}
+
+.p1sumarioaudiospeso1{}
+.p1sumarioaudiospeso2{}
+.p1sumarioaudiospeso3{}
 
 /*👉=================== ESTILOS MIOLO ================================👈*/
 /* TÍTULOS  */
