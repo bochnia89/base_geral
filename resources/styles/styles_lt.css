@@ -772,6 +772,16 @@ p2referenciasbibliocoment
     margin: 0 0 0.5em 0;
 }
 
+/*👉GLOSSÁRIO👈*/
+/*
+p2glossario
+p2glossarioitem
+p2glossariocoment
+*/
+.p2glossario{}
+.p2glossarioitem{}
+.p2glossariocoment{}
+
 /* TODO: Bruna, desativar estilo p2textonumsemrecuo, nome fora do padrão, estilo válido  p2textosemrecuonum*/
 
 /*👉======= TEXTOS PESO: principal =======👈*/
@@ -2990,6 +3000,7 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
+o5navegador
 o5navegadorbarra
 o5navegadorfundo
 o5navegadorfundobranco
@@ -3021,9 +3032,10 @@ o5redesocial2
 .o5lousa{}
 .o5quadrobranco{}
 .o5moldura{}
-.o5navegadorfundobranco{}
+.o5navegador{}
 .o5navegadorbarra{}
 .o5navegadorfundo{}
+.o5navegadorfundobranco{}
 .o5verbetedicionario{}
 .o5curriculo{}
 .o5email{}

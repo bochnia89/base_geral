@@ -608,6 +608,16 @@ p2referenciasbibliocoment
 .p2referenciasbiblioitem{}
 .p2referenciasbibliocoment{}
 
+/*👉GLOSSÁRIO👈*/
+/*
+p2glossario
+p2glossarioitem
+p2glossariocoment
+*/
+.p2glossario{}
+.p2glossarioitem{}
+.p2glossariocoment{}
+
 /* TODO: Bruna, desativar estilo p2textonumsemrecuo, nome fora do padrão, estilo válido  p2textosemrecuonum*/
 
 /*👉======= TEXTOS PESO: principal =======👈*/
