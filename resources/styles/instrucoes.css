@@ -39,7 +39,9 @@
     .c3idiomaitalicoresposta,
     .c3idiomabolditalicoresposta,
     .c3idiomavocabulariodestaque,
-    .c3idiomavocabulariodestaqueitalico{
+    .c3idiomavocabulariodestaqueitalico,
+    .c5extraitalicoidioma,
+    .c4textosublinhadoidioma{
         background: #EDAAA0;
     }
 

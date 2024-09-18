@@ -590,7 +590,13 @@ p2sugestcompcoment
 .p2sugestcompitem{}
 .p2sugestcompcoment{}
 
-
+/*👉TRANSCRIÇÃO👈*/
+/* 
+p1transcricaotit1
+p1transcricaotit2
+*/
+.p1transcricaotit1{}
+.p1transcricaotit2{}
 
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
 /* 
@@ -610,10 +616,14 @@ p2referenciasbibliocoment
 
 /*👉GLOSSÁRIO👈*/
 /*
+p1glossariotit1
+p1glossariotit2
 p2glossario
 p2glossarioitem
 p2glossariocoment
 */
+.p1glossariotit1{}
+.p1glossariotit2{}
 .p2glossario{}
 .p2glossarioitem{}
 .p2glossariocoment{}
@@ -1096,6 +1106,7 @@ d0linha
 d0boxpoema
 d0separabloco
 d0selotema
+d0fracao
 */
 
 .d0secsumario{}
@@ -1137,6 +1148,7 @@ d0selotema
 .d0boxpoema{}
 .d0separabloco{}
 .d0selotema{}
+.d0fracao{}
 
 
 /*👉ESTILOS DIGITAL: página crédito👈*/
@@ -1180,12 +1192,30 @@ c0sumariosecao2
 c0sumariosecao3
 c0sumariosecao4
 c0sumariosecao5
+c0sumdestaque1
+c0sumdestaque2
+c0sumdestaque3
+c0sumdestaque4
+c0sumdestaque5
+c0sumdestaquecap
+c0sumdestaqueuni
+c0sumpagina
+c0sumpontilhado
 */
 .c0sumariosecao1{}
 .c0sumariosecao2{}
 .c0sumariosecao3{}
 .c0sumariosecao4{}
 .c0sumariosecao5{}
+.c0sumdestaque1{}
+.c0sumdestaque2{}
+.c0sumdestaque3{}
+.c0sumdestaque4{}
+.c0sumdestaque5{}
+.c0sumdestaquecap{}
+.c0sumdestaqueuni{}
+.c0sumpagina{}
+.c0sumpontilhado{}
 
 
 /* GERAL */
@@ -1262,12 +1292,18 @@ c3idiomabold
 c3idiomaitalico
 c3idiomabolditalico
 c3idiomasimuladorhiperlink
+c3idiomaglossariodestaque
+c3idiomaglossariodestaqueitalico
+
 */
 .c3idioma{}
 .c3idiomabold{}
 .c3idiomaitalico{}
 .c3idiomabolditalico{}
 .c3idiomasimuladorhiperlink{}
+.c3idiomaglossariodestaque{}
+.c3idiomaglossariodestaqueitalico{}
+
 
 /* idioma citação */
 /* 
@@ -1305,6 +1341,7 @@ c4ordinalbold
 c4ordinalnegativo
 c4ordinalresposta
 c4ordinalrespostabold
+c4ordinalsobrescrito
 c4simuladorhiperlink
 c4linhalacunaresposta
 c4vocabulariodestaque
@@ -1312,6 +1349,8 @@ c4vocabulariodestaqueitalico
 c4glossariodestaque
 c4glossariodestaqueitalico
 c4textotachado
+c4textosublinhadoidioma
+c4textosublinhado
 */
 .c4cifrao{}
 .c4fonema{}
@@ -1321,6 +1360,7 @@ c4textotachado
 .c4ordinalnegativo{}
 .c4ordinalresposta{}
 .c4ordinalrespostabold{}
+.c4ordinalsobrescrito{}
 .c4simuladorhiperlink{}
 .c4linhalacunaresposta{}
 .c4vocabulariodestaque{}
@@ -1328,11 +1368,25 @@ c4textotachado
 .c4glossariodestaque{}
 .c4glossariodestaqueitalico{}
 .c4textotachado{}
+.c4textosublinhadoidioma{}
+.c4textosublinhado{}
+
 
 
 /*👉C5: Estilos de  👈*/
+/* 
+c5destaqueverbetedicionario
+c5indicacao
+c5extradestaque
+c5extraitalico
+c5extraitalicoidioma
+*/
 .c5destaqueverbetedicionario{}
 .c5indicacao{}
+.c5extradestaque{}
+.c5extraitalico{}
+.c5extraitalicoidioma{}
+
 
 /*👉 Troca de caractere 👈*/
 /*
@@ -1355,6 +1409,7 @@ o0secconheca
 o0secconheca2
 o0secconheca3
 o0secapresentacao
+o0sumariobox1
 o0aberturabox
 o0aberturaintrobox
 o0aberturaatvbox
@@ -1419,6 +1474,7 @@ o0sugestcomp
 o4medidaanimalbox
 o0boxpalavra
 o0pronunciation 👉 Especifico de inglês
+o0transcricao
 */
 .o0mpg{}
 .o0facsimile{}
@@ -1426,6 +1482,7 @@ o0pronunciation 👉 Especifico de inglês
 .o0secconheca2{}
 .o0secconheca3{}
 .o0secapresentacao{}
+.o0sumariobox1{}
 .o0aberturabox{}
 .o0aberturaintrobox{}
 .o0aberturaatvbox{}
@@ -1489,7 +1546,8 @@ o0pronunciation 👉 Especifico de inglês
 .o0sugestcomp{}
 .o4medidaanimalbox{}
 .o0boxpalavra{}
-.o0pronunciation
+.o0pronunciation{}
+.o0transcricao{}
 
 /*👉O1: Estilos para boxes genéricos, suportes e papeletas👈*/
 /* 
@@ -1498,6 +1556,8 @@ o1boxfundoazul1
 o1boxfundoazul2
 o1boxfundoroxo1
 o1boxfundoroxo2
+o1boxfundorosa1
+o1boxfundorosa2
 o1boxfundoamarelo1
 o1boxfundolaranja1
 o1boxfundolaranja2
@@ -1524,6 +1584,8 @@ o1zoomcontorno
 .o1boxfundoazul2{}
 .o1boxfundoroxo1{}
 .o1boxfundoroxo2{}
+.o1boxfundorosa1{}
+.o1boxfundorosa2{}
 .o1boxfundoamarelo1{}
 .o1boxfundolaranja1{}
 .o1boxfundolaranja2{}
@@ -1659,6 +1721,7 @@ o5prancheta
 o5lousa
 o5quadrobranco
 o5moldura
+o5navegador
 o5navegadorbarra
 o5navegadorfundo
 o5navegadorfundobranco
@@ -1690,6 +1753,7 @@ o5redesocial2
 .o5lousa{}
 .o5quadrobranco{}
 .o5moldura{}
+.o5navegador{}
 .o5navegadorbarra{}
 .o5navegadorfundo{}
 .o5navegadorfundobranco{}

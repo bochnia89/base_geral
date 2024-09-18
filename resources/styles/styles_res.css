@@ -292,6 +292,95 @@ p.p2atvresoletraitembullet::before{
     margin: 0.5em 0 0.5em 4em;
 }
 
+/*👉------- QUESTÃO -----------👈*/
+/* 
+p2questaoreso
+p2questaoresocont
+p2questaoresoitem
+p2questaoresoitemcont
+p2questaoresoletra
+p2questaoresoletracont
+p2questaoresoletraitem
+p2questaoresoletraitemcont
+p2questaoresomarcador
+p2questaoresomarcadorcont
+p2questaoresosubitem
+p2questaoresosubitemcont
+*/
+.p2questaoreso{
+    margin: 0.5em 0 0.5em 0;
+}
+.p2questaoresocont{
+    margin: 0.5em 0 0.5em 0;
+}
+ul.p2questaoresoitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p2questaoresoitem{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+p.p2questaoresoitem::before{
+content: '•';
+font-size: 1.2em;
+width:10px ;
+height:10px ;
+position: absolute;
+margin:0 0 0 -14px ;
+}
+.p2questaoresoitemcont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p2questaoresoletra{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p2questaoresoletracont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+ul.p2questaoresoletraitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2questaoresoletraitem{
+
+    margin: 0.5em 0 0.5em 3em;
+}
+p.p2questaoresoletraitem::before{
+    content: '•';
+    font-size: 1.2em;
+    width:10px ;
+    height:10px ;
+    position: absolute;
+    margin:0 0 0 -14px ;
+    }
+.p2questaoresoletraitemcont{
+    margin: 0.5em 0 0.5em 3em;
+}
+.p2questaoresomarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2questaoresomarcadorcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+ul.p2questaoresosubitem{
+    list-style: disc;
+    margin: 0.5em 0 0.5em 4.5em;
+}
+p.p2questaoresosubitem{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+p.p2questaoresosubitem::before{
+    content: '•';
+    font-size: 1.2em;
+    width:10px ;
+    height:10px ;
+    position: absolute;
+    margin:0 0 0 -14px ;
+    }
+.p2questaoresosubitemcont{
+    margin: 0.5em 0 0.5em 4.5em;
+}
+
 /*👉------- SEÇÕES ------------👈*/
 /* 
 p1sec1resotit1
