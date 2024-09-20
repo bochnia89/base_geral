@@ -33,7 +33,8 @@ section {
 section header {
     padding: 15px 0 0px 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 blockquote {
     font-size: 1em;
@@ -788,9 +789,33 @@ p2glossariocoment
 */
 .p1glossariotit1{}
 .p1glossariotit2{}
-.p2glossario{}
-.p2glossarioitem{}
-.p2glossariocoment{}
+.p2glossario{
+    margin: 0.5em 0 0.5em 0;
+}
+.p2glossario > dt {
+    display: inline;
+}
+.p2glossario > dd {
+    display: inline;
+}
+ul.p2glossarioitem{
+    list-style: disc;
+    margin: 0 0 0 1.5em;
+}
+p.p2glossarioitem{
+    margin: 0 0 0 1.5em;
+}
+p.p2glossarioitem::before{
+content: '•';
+font-size: 1.2em;
+width:10px ;
+height:10px ;
+position: absolute;
+margin:0 0 0 -14px ;
+}
+.p2glossariocoment{
+    margin: 0.5em 0 0.5em 0;
+}
 
 /* TODO: Bruna, desativar estilo p2textonumsemrecuo, nome fora do padrão, estilo válido  p2textosemrecuonum*/
 
@@ -1879,8 +1904,27 @@ p4resposta
 p5paginacao
 p5paginacaoextenso
 */
-.p5paginacao{}
-.p5paginacaoextenso{}
+.pag + .p5paginacaoextenso {
+    background: var(--amarelo2);
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 4px 6px 4px 4px;
+  }
+.p5paginacao{
+    background: var(--amarelo2);
+  border-radius: 0.5em 0 0 0.5em;
+  padding: 4px 4px 4px 6px;
+}
+.pag, .p5paginacaoextenso {
+    color: #000;
+    font-family: var(--titulo);
+    font-size: var(--pesoPadrao);
+    font-weight: bold;
+    page-break-before: always;
+    page-break-after: avoid;
+    width: max-content;
+  }
+
+
 
 /*👉TEXTOS SUPORTE👈*/
 /* Balão de fala */
@@ -2531,12 +2575,16 @@ c5extraitalicoidioma
     color: var(--link);
 }
 .c5indicacao{}
-.c5extradestaque{}
+.c5extradestaque{
+    color: #ae3cff;
+}
 .c5extraitalico{
     font-style: italic;
+    color: #ae3cff;
 }
 .c5extraitalicoidioma{
     font-style: italic;
+    color: #ae3cff;
 }
 
 /*👉 Troca de caractere 👈*/
