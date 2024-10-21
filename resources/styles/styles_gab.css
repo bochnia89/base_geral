@@ -11,13 +11,15 @@ p0tit2gab
 p0tit2gabnegativo
 p0tit3gab
 p0tit3gabnegativo
+p0tit4gab
 */
 .p0tit1gab,
 .p0tit1gabnegativo,
 .p0tit2gab,
 .p0tit2gabnegativo,
 .p0tit3gab,
-.p0tit3gabnegativo{
+.p0tit3gabnegativo,
+.p0tit4gab{
     font-family: var(--titulo);
     font-weight: bold;
     line-height: 1.5em;
@@ -38,7 +40,7 @@ p0tit3gabnegativo
     font-size: var(--peso3);
 }
 .p0tit3gabnegativo{}
-
+.p0tit4gab{}
 
 /*👉------- TEXTO PRINCIPAL  -------👈*/
 /* 

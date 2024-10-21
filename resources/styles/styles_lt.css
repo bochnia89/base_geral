@@ -731,9 +731,11 @@ p2sugestcompcoment
 /* 
 p1transcricaotit1
 p1transcricaotit2
+p1transcricaotit3
 */
 .p1transcricaotit1{}
 .p1transcricaotit2{}
+.p1transcricaotit3{}
 
 /*👉REFERÊNCIAS BIBLIOGRAFICAS👈*/
 /* 
@@ -2065,10 +2067,29 @@ p5aberturaobjtexto
 .p5aberturaobjtit{}
 .p5aberturaobjitem{}
 
+/*👉PÁGINA INFO👈*/
+/*
+p6infoautorformacao
+p6infoautornome
+p6infocargoresponsavel
+p6infoeditora
+p6infografica
+p6infolei
+*/
+.p6infoautorformacao{}
+.p6infoautornome{}
+.p6infocargoresponsavel{}
+.p6infoeditora{}
+.p6infografica{}
+.p6infolei{}
+
+
+
 /*👉ESTILOS EXCLUSIVOS DO DIGITAL (Link)👈*/
 /* 
 d0secsumario
 d0sumariosecinicial
+d0sumariooed
 d0navsumario
 d0orientacaousooed
 d0groupline
@@ -2111,6 +2132,7 @@ d0fracao
 */
 .d0secsumario{}
 .d0sumariosecinicial{}
+.d0sumariooed{}
 .d0navsumario{}
 
 .d0orientacaousooed{}
@@ -2608,6 +2630,7 @@ trocacaracter2
 /* Estilos de objeto: APRESENTAÇÃO E CONHEÇA */
 /* 
 o0mpg
+o0infofichacatalografica
 o0facsimile
 o0secconheca
 o0secconheca2
@@ -2681,6 +2704,7 @@ o0pronunciation 👉 Especifico de inglês
 o0transcricao
 */
 .o0mpg{}
+.o0infofichacatalografica{}
 .o0facsimile{}
 .o0secconheca{}
 .o0secconheca2{}
@@ -2784,6 +2808,7 @@ o1boxfundoroxo2
 o1boxfundorosa1
 o1boxfundorosa2
 o1boxfundoamarelo1
+o1boxfundoamarelo2
 o1boxfundolaranja1
 o1boxfundolaranja2
 o1boxfundoverde1
@@ -2812,6 +2837,7 @@ o1zoomcontorno
 .o1boxfundorosa1{}
 .o1boxfundorosa2{}
 .o1boxfundoamarelo1{}
+.o1boxfundoamarelo2{}
 .o1boxfundolaranja1{}
 .o1boxfundolaranja2{}
 .o1boxfundoverde1{}
