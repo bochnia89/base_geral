@@ -40,7 +40,9 @@ p0tit4gab
     font-size: var(--peso3);
 }
 .p0tit3gabnegativo{}
-.p0tit4gab{}
+.p0tit4gab{
+    font-size: var(--peso4);
+}
 
 /*👉------- TEXTO PRINCIPAL  -------👈*/
 /* 
