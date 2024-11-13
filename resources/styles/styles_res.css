@@ -381,6 +381,85 @@ p.p2questaoresosubitem::before{
     margin: 0.5em 0 0.5em 4.5em;
 }
 
+/*👉------ INTERMEDIÁRIO --------👈*/
+/* 
+p3intermediarioresotit
+p3intermediarioreso
+p3intermediarioresoitem
+p3intermediarioresoitemcont
+p3intermediarioresosemrecuo
+p3intermediarioresosemrecuoitem
+p3intermediarioresosemrecuoitemcont
+p3intermediarioresosemrecuoletra
+p3intermediarioresosemrecuoletracont
+p3intermediarioresosemrecuonumero
+p3intermediarioresosemrecuonumerocont
+
+*/
+.p3intermediarioresotit{
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: var(--peso4);
+    margin: 1em 0 0.5em 0;
+}
+.p3intermediarioreso{
+    margin: 0.5em 0 0.5em 0em;
+    text-indent: 1.5em;
+}
+
+ul.p3intermediarioresoitem{
+    margin: 0.5em 0 0.5em 2em;
+    list-style: disc;
+}
+p.p3intermediarioresoitem::before{
+content: '•';
+font-size: 1.2em;
+width:10px ;
+height:10px ;
+position: absolute;
+margin:0 0 0 -14px ;
+}
+p.p3intermediarioresoitem{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p3intermediarioresoitemcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+
+.p3intermediarioresosemrecuo{
+    margin: 0.5em 0 0.5em 0em;
+}
+ul.p3intermediarioresosemrecuoitem{
+    margin: 0.5em 0 0.5em 1em;
+    list-style: disc;
+}
+p.p3intermediarioresosemrecuoitem::before{
+    content: '•';
+    font-size: 1.2em;
+    width:10px ;
+    height:10px ;
+    position: absolute;
+    margin:0 0 0 -14px ;
+    }
+p.p3intermediarioresosemrecuoitem{
+    margin: 0.5em 0 0.5em 1em;
+}
+.p3intermediarioresosemrecuoitemcont{
+    margin: 0.5em 0 0.5em 1em;
+}
+.p3intermediarioresosemrecuoletra{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p3intermediarioresosemrecuoletracont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p3intermediarioresosemrecuonumero{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+.p3intermediarioresosemrecuonumerocont{
+    margin: 0.5em 0 0.5em 1.5em;
+}
+
 /*👉------- SEÇÕES ------------👈*/
 /* 
 p1sec1resotit1

@@ -520,6 +520,14 @@ c0bulletsubitemmp
 c0destaquecapmp
 c0destaquesecaomp
 c0destaquecapsummp
+
+c0destaqueunimp
+c0destaquebulletmp
+c0destaquepeso1summp
+c0destaquepeso2summp
+c0pontilhadosummp
+c0sumpaginamp
+
 */
 .c5indicacaomp{}
 .c0destaqueagrupadamp{}
@@ -531,7 +539,16 @@ c0destaquecapsummp
 .c0destaquequestaonumeromp{}
 .c0destaquesomatoriamp{}
 .c0bulletnumitemmp{}
-.c0bulletsubitemmp{} /* Estilo de caracter utilizado no manual em U */ 
+.c0bulletsubitemmp{} 
+
+.c0destaqueunimp{} 
+.c0destaquebulletmp{} 
+.c0destaquepeso1summp{} 
+.c0destaquepeso2summp{} 
+.c0pontilhadosummp{} 
+.c0sumpaginamp{} 
+
+/* Estilo de caracter utilizado no manual em U */ 
 
 .c0destaquecapsummp{}
 .c0destaquecapmp{} /* Especifico do resolução */

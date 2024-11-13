@@ -1212,6 +1212,14 @@ c0bulletsubitemmp
 c0destaquecapmp
 c0destaquesecaomp
 c0destaquecapsummp
+
+c0destaqueunimp
+c0destaquebulletmp
+c0destaquepeso1summp
+c0destaquepeso2summp
+c0pontilhadosummp
+c0sumpaginamp
+
 */
 
 
@@ -1293,6 +1301,12 @@ c0destaquecapsummp
 .c0destaquecapmp{}/* Especifico do resolução */
 .c0destaquesecaomp{}/* Especifico do resolução */
 
+.c0destaqueunimp{}
+.c0destaquebulletmp{}
+.c0destaquepeso1summp{}
+.c0destaquepeso2summp{}
+.c0pontilhadosummp{}
+.c0sumpaginamp{}
 
 
 /*👉ESTILOS DE OBJETO👈*/

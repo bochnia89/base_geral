@@ -389,6 +389,7 @@ header .pag {
 p1sumariopv
 p1seciniciaistit1
 p1seciniciaistit2
+p1seciniciaistit3
 p1sumariopeso1pv
 p1sumariopeso1
 p1sumariopeso2
@@ -411,6 +412,7 @@ p1sumarioaudiospeso3
 .p1sumariopv{}
 .p1seciniciaistit1{}
 .p1seciniciaistit2{}
+.p1seciniciaistit3{}
 .p1sumariopeso1pv{}
 
 .p1sumariopeso1{}
@@ -443,6 +445,7 @@ p0tit2
 p0tit2numpv
 p0tit2pv
 p0tit3
+p0tit3pv
 p0tit4
 p0tit5
 p0tit6
@@ -483,6 +486,7 @@ p0tit6negativo
 .p0tit3{
     font-size: var(--peso3);
 }
+.p0tit3pv{}
 .p0tit4{
     font-size: var(--peso4);
 }
@@ -1271,6 +1275,7 @@ p2atvitemletracont
 p2atvletra
 p2atvletracont
 p2atvletramarcador
+p2atvletramarcadorcont
 p2atvletramarcadorromano
 p2atvletraromano
 p2atvletraromanocont
@@ -1294,6 +1299,7 @@ p2atvsemrecuomarcadorromano
 .p2atv,
 .p2atvcont,
 .p2atvletramarcador,
+.p2atvletramarcadorcont,
 .p2atvletramarcadorromano,
 .p2atvromano,
 .p2atvromanocont,
@@ -1335,6 +1341,9 @@ p2atvsemrecuomarcadorromano
     margin: 0.5em 0 0.5em 30px;
 }
 .p2atvletramarcador{
+    margin: 0.5em 0 0.5em 4em;
+}
+.p2atvletramarcadorcont{
     margin: 0.5em 0 0.5em 4em;
 }
 .p2atvletramarcadorromano{
@@ -2276,6 +2285,8 @@ c0sumdestaquecap
 c0sumdestaqueuni
 c0sumpagina
 c0sumpontilhado
+c0sumarioaudio
+c0sumariooed
 */
 .c0sumariosecao1{}
 .c0sumariosecao2{}
@@ -2291,7 +2302,8 @@ c0sumpontilhado
 .c0sumdestaqueuni{}
 .c0sumpagina{}
 .c0sumpontilhado{}
-
+.c0sumarioaudio{}
+.c0sumariooed{}
 
 /* Geral */
 /* 
@@ -2635,6 +2647,10 @@ o0facsimile
 o0secconheca
 o0secconheca2
 o0secconheca3
+o0secconhecabox1
+o0secconhecabox2
+o0secconhecabox3
+o0secconhecabox4
 o0secapresentacao
 o0sumariobox1
 o0aberturabox
@@ -2691,6 +2707,7 @@ o0sec8box3
 o0sec9box
 o0sec9box2
 o0sec9box3
+o0sec9box4
 o0sec10box
 o0sec10box2
 o0sec10box3
@@ -2702,6 +2719,7 @@ o4medidaanimalbox
 o0boxpalavra
 o0pronunciation 👉 Especifico de inglês
 o0transcricao
+o0glossariobox
 */
 .o0mpg{}
 .o0infofichacatalografica{}
@@ -2709,6 +2727,10 @@ o0transcricao
 .o0secconheca{}
 .o0secconheca2{}
 .o0secconheca3{}
+.o0secconhecabox1{}
+.o0secconhecabox2{}
+.o0secconhecabox3{}
+.o0secconhecabox4{}
 .o0secapresentacao{}
 .o0sumariobox1{}
 .o0aberturabox{}
@@ -2765,6 +2787,7 @@ o0transcricao
 .o0sec9box{}
 .o0sec9box2{}
 .o0sec9box3{}
+.o0sec9box4{}
 .o0sec10box{}
 .o0sec10box2{}
 .o0sec10box3{}
@@ -2797,6 +2820,7 @@ o0transcricao
     content: '';
 }
 .o0transcricao{}
+.o0glossariobox{}
 
 /*👉O1: Estilos para boxes genéricos, suportes e papeletas👈*/
 /* 
@@ -2821,6 +2845,7 @@ o1boxfioroxo1
 o1boxfioazul1
 o1boxfioverde1
 o1fiocotapreto
+o1cotafiopreto
 o1setaroxo1
 o1setaazul1
 o1setaverde1
@@ -2850,6 +2875,7 @@ o1zoomcontorno
 .o1boxfioazul1{}
 .o1boxfioverde1{}
 .o1fiocotapreto{}
+.o1cotafiopreto{}
 .o1setaroxo1{}
 .o1setaazul1{}
 .o1setaverde1{}
