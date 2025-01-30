@@ -142,6 +142,7 @@ aluno
 professor
 url_para_encurta
 pag
+p5paginacao
 caracterizada
 descaracterizada
 ajustepronuncia
@@ -163,6 +164,7 @@ trocacaracter2
 .professor{}
 .url_para_encurta{}
 .pag{}
+.p5paginacao{}
 .d0box_aluno{
     padding: 0.5em 0 1em 0;
 }
@@ -231,6 +233,14 @@ header .pag {
     width: max-content;
 }
 
+.teste{
+    background: #EA4F3D;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: var(--peso1);
+    font-family: var(--titulo);
+    padding: 1em;
+}
 /*👉CLASSES PARA DIAGRAMAR👈*/
 /* COLUNAS E ALINHAMENTO */
 .col2 {
@@ -782,7 +792,7 @@ p2referenciasbibliocoment
 }
 .p2referenciasbiblioitem{}
 .p2referenciasbibliocoment{
-    margin: 0 0 0.C:\Users\bruna.germano\Desktop\RELATORIOS\fis_checklist5em 0;
+    margin: 0 0 0 0;
 }
 
 /*👉GLOSSÁRIO👈*/
@@ -1328,10 +1338,12 @@ p2atvsemrecuomarcadorromano
 .p2atvsomatoriacont,
 .p2atvsemrecuomarcador,
 .p2atvsemrecuomarcadorcont,
-.p2atvsemrecuomarcadorromano,{
+.p2atvsemrecuomarcadorromano{
     font-family: var(--texto);
     font-size: var(--pesoPadrao);
     text-align: justify;
+
+   
 }
 
 .p2atv{
@@ -1403,7 +1415,25 @@ p.p2atvsubitem::before {
 .p2atvitemletracont{
     margin: 0.5em 0 0.5em 4em;
 }
-
+.p2atvitemletraquadrinho, .p2atvitemletraquadrinho2 {
+    margin: 0.5em 0 0.5em 7.2em;
+}
+.p2atvitemletraquadrinho::before{
+    content: '';
+    width: 40px; 
+    height: 40px;
+    border: 1px solid black;
+    position: absolute;
+    margin: 0 0 0 -50px;
+}
+.p2atvitemletraquadrinho2 .c4quadrinho{
+    width: 40px; 
+    height: 40px;
+    border: 1px solid black;
+    display:inline-block;
+    position: absolute;
+    margin: 0 0 0 -50px;
+}
 .p2atvletra{
     margin: 0.5em 0 0.5em 3em;
 }
@@ -1507,9 +1537,15 @@ p.p2atvmarcadoritem::before {
     margin: 0.5em 0 0.5em 5em;
 }
 
-.p2atvsemrecuomarcador{}
-.p2atvsemrecuomarcadorcont{}
-.p2atvsemrecuomarcadorromano{}
+.p2atvsemrecuomarcador{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvsemrecuomarcadorcont{
+    margin: 0.5em 0 0.5em 2em;
+}
+.p2atvsemrecuomarcadorromano{
+    margin: 0.5em 0 0.5em 2.5em;
+}
 
 
 /*👉==================== TEXTOS PESO: intermediário ===================👈*/
@@ -2136,6 +2172,7 @@ d0linha
 d0boxpoema
 d0separabloco
 d0selotema
+d0selotema2
 d0fracao
 
 */
@@ -2206,6 +2243,7 @@ d0fracao
     margin: 2em 0 0 0 !important;
 }
 .d0selotema{}
+.d0selotema2{}
 .d0fracao{}
 
 
@@ -2477,7 +2515,9 @@ c3idiomaglossariodestaqueitalico
 }
 
 .c3idiomaglossariodestaque{}
-.c3idiomaglossariodestaqueitalico{}
+.c3idiomaglossariodestaqueitalico{
+    font-style: italic;
+}
 
 
 /* idioma citação */
@@ -2575,7 +2615,32 @@ c4textosublinhado
     font-size: var(--pesoPadrao);
     text-decoration: underline;
 }
-.c4linhalacunaresposta{}
+.c4linhalacunaresposta{
+    border-bottom: 1px solid black;
+    width: 200px ;
+    display: inline-block;
+}
+.c4linhalacunarespostap{
+    border-bottom: 1px solid black;
+    width:50px ;
+    display: inline-block;
+}
+.c4linhalacunarespostam{
+    border-bottom: 1px solid black;
+    width: 200px ;
+    display: inline-block;
+}
+.c4linhalacunarespostag{
+    border-bottom: 1px solid black;
+    width: 100% ;
+    display: inline-block;
+}
+.p2atvresposta{
+    border-bottom: 1px solid black;
+    width: calc(100% - 30px);
+    display: inline-block;
+    margin: 0.5em 0 0.5em 30px;
+}
 .c4vocabulariodestaque{
     border-bottom: 2px solid var(--verde1);
     font-weight: bold;
@@ -2875,7 +2940,6 @@ o1zoomcontorno
 .o1boxfioazul1{}
 .o1boxfioverde1{}
 .o1fiocotapreto{}
-.o1cotafiopreto{}
 .o1setaroxo1{}
 .o1setaazul1{}
 .o1setaverde1{}
@@ -3260,6 +3324,63 @@ o7linhatempoperiodo6
 .o7linhatempoperiodo4{}
 .o7linhatempoperiodo5{}
 .o7linhatempoperiodo6{}
+
+/*👉08: Estilos para CONSUMÍVEL QUADRO 👈*/
+/* o8quadroconsumivel */
+.o8quadroconsumivel{
+    border: 1px solid black;
+    width: 100%;
+    height: 250px;
+}
+.c4quadrinho{
+    width: 40px; 
+    height: 40px;
+    border: 1px solid black;
+    display:inline-block;
+}
+figure .p5marcador{
+    float: left;
+}
+
+/*👉08: Estilos para CONSUMÍVEL LINHA 👈*/
+p2textosemrecuolinha
+p2atvlinha
+p2atvitemletralinha
+p2atvitemlinha
+p2atvletraitemlinha
+p2atvletraitemromanolinha
+p2atvletralinha
+p2atvletraromanolinha
+p2atvmarcadorlinha
+p2atvromanolinha
+p2atvsubitemlinha
+p2questaoitemlinha
+p2questaoletraitemlinha
+p2questaoletralinha
+p2questaomarcadorlinha
+p2questaolinha
+p2questaosubitemlinha
+
+/*👉08: Estilos para CONSUMÍVEL QUADRINHO 👈*/
+p2atvitemletraquadrinho
+p2atvitemquadrinho
+p2atvletraitemquadrinho
+p2atvletraitemromanoquadrinho
+p2atvletraquadrinho
+p2atvletraromanoquadrinho
+p2atvmarcadorquadrinho
+p2atvquadrinho
+p2atvromanoquadrinho
+p2atvsubitemquadrinho
+p2questaoitemquadrinho
+p2questaoletraitemquadrinho
+p2questaoletraquadrinho
+p2questaomarcadorquadrinho
+p2questaoquadrinho
+p2questaosubitemquadrinho
+p2textoitemquadrinho
+p2textoquadrinho
+p2textosemrecuoquadrinho
 
 /*👉OE: Elementos vindos da editora👈*/
 /* 
