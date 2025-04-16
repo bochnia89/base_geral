@@ -130,6 +130,16 @@ dd sup {
 //list_id_gv2456551860w
 */
 
+/*👉 CLASSE PARA OCULTAR CONTEÚDO VISIVELMENTE, MAS MANTER ACESSÍVEL PARA LEITORES DE TELA 👈*/
+.sr_only{
+    clip-path: inset(50%);
+    position:absolute;
+    height:1px;
+    width:1px;
+    overflow:hidden; 
+    opacity: 0; 
+}
+
 /*👉 CLASSES RESERVADAS DIGITAL 👈*/
 /* 
 d0box_aluno
