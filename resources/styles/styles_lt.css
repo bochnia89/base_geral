@@ -2362,8 +2362,14 @@ c0destaqueletra
 c0destaqueletracitacao
 c0destaquenumero
 c0destaquenumerocitacao 👉Estilo de caracter utilizado na citacao 
+c0destaqueparentese 👉demanda surgiu no g27 fund1 E002, para alinhamento de parêntense devido a tipografia utilizada
 c0destaqueromano
 c0destaquequestaonumero
+c0destaquequestaoletra
+c0destaquequestaoparentese
+c0destaqueintermediarioletra
+c0destaqueintermediarionumero
+c0destaqueintermediarioparentese
 c0destaquesomatoria
 c0bulletnumitem
 c0bulletsubitem  👉Estilo de caracter utilizado no manual em U 
@@ -2407,6 +2413,9 @@ c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bulle
     height:20px;
     margin: 0 0 0 -40px;
 } /* Estilo de caracter utilizado na citacao */ 
+
+.c0destaqueparentese{}
+
 .c0destaqueromano{
     font-weight: bold;
     width: 38px;
@@ -2420,6 +2429,13 @@ c0destaquebullet 👉Demanda surgiu no G26 física E002 para trocar cor de bulle
     font-family: var(--titulo);
     font-weight: bold;
 }
+
+.c0destaquequestaoletra{}
+.c0destaquequestaoparentese{}
+.c0destaqueintermediarioletra{}
+.c0destaqueintermediarionumero{}
+.c0destaqueintermediarioparentese{}
+
 
 .c0destaquesomatoria{
     font-weight: 550;
@@ -2996,7 +3012,7 @@ o3fiovocabulario
 /*👉O4: Boxes específicos👈*/
 /* 
 o4questaobox
-o4ficha
+o4ficha1
 o4ficha2
 o4boxinfo
 o4boxmateriais
@@ -3029,8 +3045,8 @@ o4tipofrase3
 o4ideiabox
 */
 .o4questaobox{}
-.o4ficha{}
-p.o4ficha {
+.o4ficha1{}
+p.o4ficha1 {
     border: 3px solid var(--cinza);
     border-radius: 0.5em;
     line-height: 1.1em;
@@ -3038,21 +3054,21 @@ p.o4ficha {
     width: max-content;
     margin: 0.5em;
 }
-ul.o4ficha{
+ul.o4ficha1{
     display:  flex;
     justify-content: left;
     gap: 1em;
     flex-wrap: wrap;
     margin: 1em 0;
 }
-ul.o4ficha li{
+ul.o4ficha1 li{
     border: 3px solid var(--cinza);
     border-radius: 0.5em;
     line-height: 1.1em;
     padding: 0.4em 0.5em 0em 0.5em;
     width: max-content;
 }
-span.o4ficha {
+span.o4ficha1 {
     border: 3px solid var(--cinza);
     border-radius: 0.5em;
     padding: 0.2em 0.5em;
